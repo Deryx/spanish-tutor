@@ -1,0 +1,54 @@
+<!-- verbflash.html -->
+
+<div id="container">
+    <h2>Spanish Verb Conjugation Flashcard</h2>
+    <div class="verbs">
+        <div class="list">
+            <h3>Infinitives</h3>
+            <p data-ng-repeat="verb in verbList track by $index">
+                <a href ng-click="changeCard(verb)">{{ verb }}</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <fieldset>
+            <h1>{{ infinitive }}</h1>
+            <h2>{{ translation }}</h2>
+            <h2>Tenses</h2>
+            <h4>
+                <ul>
+                    <li><a href ng-click="showTense('present')">present</a></li>
+                    <li><a href ng-click="showTense('preterite')">preterite</a></li>
+                    <li><a href ng-click="showTense('imperfect')">imperfect</a></li>
+                    <li><a href ng-click="showTense('future')">future</a></li>
+                </ul>
+            </h4>
+            <dl>
+                <dt>Yo</dt>
+                <dd>{{ yo }}</dd>
+            </dl>
+            <dl>
+                <dt>Tu</dt>
+                <dd>{{ tu }}</dd>
+            </dl>
+            <dl>
+                <dt>El/Ella/Usted</dt>
+                <dd>{{ el }}</dd>
+            </dl>
+            <dl>
+                <dt>Nosotros/Nosotras</dt>
+                <dd>{{ nosotros }}</dd>
+            </dl>
+            <dl>
+                <dt>Ellos/Ellas/Ustedes</dt>
+                <dd>{{ ellos }}</dd>
+            </dl>
+        </fieldset>
+    </div>
+
+    <div class="button">
+        <button ng-click="clearCard()">reset card</button>
+    </div>
+
+</div>

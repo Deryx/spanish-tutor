@@ -1,0 +1,2066 @@
+{
+  "dictionary" : [
+    {
+      "category" : "clothes",
+      "words" : [
+        {
+          "word" : "ropa",
+          "translation" : "clothes",
+          "gender" : "f",
+          "image" : "images/clothes.png"
+        },
+        {
+          "word" : "abrigo",
+          "translation" : "coat",
+          "gender" : "m",
+          "image" : "images/coat.png"
+        },
+        {
+          "word" : "chaqueta",
+          "translation" : "jacket",
+          "gender" : "f",
+          "image" : "images/jacket.png"
+        },
+        {
+          "word" : "camisa",
+          "translation" : "shirt",
+          "gender" : "f",
+          "image" : "images/shirt.png"
+        },
+        {
+          "word" : "falda",
+          "translation" : "skirt",
+          "gender" : "f",
+          "image" : "images/skirt.png"
+        },
+        {
+          "word" : "corbata",
+          "translation" : "tie",
+          "gender" : "f",
+          "image" : "images/tie.png"
+        },
+        {
+          "word" : "cinturón",
+          "translation" : "belt",
+          "gender" : "m",
+          "image" : "images/belt.png"
+        },
+        {
+          "word" : "sombrero",
+          "translation" : "hat",
+          "gender" : "m",
+          "image" : "images/hat.png"
+        },
+        {
+          "word" : "calcetínes",
+          "translation" : "socks",
+          "gender" : "mpl",
+          "image" : "images/socks.png"
+        },
+        {
+          "word" : "pantalón",
+          "translation" : "pant",
+          "gender" : "m",
+          "image" : "images/pants.png"
+        },
+        {
+          "word" : "suéter",
+          "translation" : "sweater",
+          "gender" : "m",
+          "image" : "images/sweater.png"
+        },
+        {
+          "word" : "vestido",
+          "translation" : "dress",
+          "gender" : "m",
+          "image" : "images/dress.png"
+        },
+        {
+          "word" : "traje",
+          "translation" : "suit",
+          "gender" : "m",
+          "image" : "images/suit.png"
+        },
+        {
+          "word" : "traje de baño",
+          "translation" : "bathing suit",
+          "gender" : "m",
+          "image" : "images/bathing-suit.jpg"
+        },
+        {
+          "word" : "zapato",
+          "translation" : "shoe",
+          "gender" : "m",
+          "image" : "images/shoe.png"
+        },
+        {
+          "word" : "chaleco",
+          "translation" : "vest",
+          "gender" : "m",
+          "image" : "images/vest.png"
+        },
+        {
+          "word" : "zapatillas",
+          "translation" : "sneakers 1",
+          "gender" : "mpl",
+          "image" : "images/sneaker.png"
+        },
+        {
+          "word" : "tenis",
+          "translation" : "sneakers 2",
+          "gender" : "mpl",
+          "image" : "images/sneaker.png"
+        },
+        {
+          "word" : "blusa",
+          "translation" : "blouse",
+          "gender" : "f",
+          "image" : "images/blouse.png"
+        },
+        {
+          "word" : "bufanda",
+          "translation" : "scarf",
+          "gender" : "f",
+          "image" : "images/scarf.png"
+        },
+        {
+          "word" : "pijamas",
+          "translation" : "pajamas",
+          "gender" : "mpl",
+          "image" : "images/pajamas.png"
+        },
+        {
+          "word" : "botas",
+          "translation" : "boots",
+          "gender" : "mpl",
+          "image" : "images/boots.png"
+        },
+        {
+          "word" : "gorra",
+          "translation" : "cap",
+          "gender" : "f",
+          "image" : "images/cap.png"
+        },
+        {
+          "word": "camiseta",
+          "translation": "t-shirt",
+          "gender": "f",
+          "image": "images/t-shirt.png"
+        },
+        {
+          "word": "sandalía",
+          "translation": "sandal",
+          "gender": "f",
+          "image": "images/sandals.png"
+        }
+      ]
+    },
+    {
+      "category" : "colors",
+      "words" : [
+        {
+          "word" : "colores",
+          "translation" : "colors",
+          "gender" : "mpl",
+          "image" : ""
+        },
+        {
+          "word" : "negro",
+          "translation" : "black",
+          "gender" : "m",
+          "image" : "images/black.gif"
+        },
+        {
+          "word" : "blanco",
+          "translation" : "white",
+          "gender" : "m",
+          "image" : "images/white.gif"
+        },
+        {
+          "word" : "gris",
+          "translation" : "gray",
+          "gender" : "m",
+          "image" : "images/gray.gif"
+        },
+        {
+          "word" : "amarillo",
+          "translation" : "yellow",
+          "gender" : "m",
+          "image" : "images/yellow.gif"
+        },
+        {
+          "word" : "rojo",
+          "translation" : "red",
+          "gender" : "m",
+          "image" : "images/red.gif"
+        },
+        {
+          "word" : "azul",
+          "translation" : "blue",
+          "gender" : "m",
+          "image" : "images/blue.gif"
+        },
+        {
+          "word" : "rosado",
+          "translation" : "pink",
+          "gender" : "m",
+          "image" : "images/pink.gif"
+        },
+        {
+          "word" : "verde",
+          "translation" : "green",
+          "gender" : "m",
+          "image" : "images/green.gif"
+        },
+        {
+          "word" : "marrón",
+          "translation" : "brown",
+          "gender" : "m",
+          "image" : "images/brown.gif"
+        },
+        {
+          "word" : "arco iris",
+          "translation" : "rainbow",
+          "gender" : "m",
+          "image" : "images/rainbow.png"
+        }
+      ]
+    },
+    {
+      "category" : "family",
+      "words" : [
+        {
+          "word" : "familia",
+          "translation" : "family",
+          "gender" : "f",
+          "image" : "images/family.png"
+        },
+        {
+          "word" : "abuelo",
+          "translation" : "grandfather",
+          "gender" : "m",
+          "image" : "images/grandfather.png"
+        },
+        {
+          "word" : "abuela",
+          "translation" : "grandmother",
+          "gender" : "f",
+          "image" : "images/grandmother.png"
+        },
+        {
+          "word" : "abuelos",
+          "translation" : "grandparents",
+          "gender" : "mpl",
+          "image" : "images/grandparents.png"
+        },
+        {
+          "word" : "padre",
+          "translation" : "father",
+          "gender" : "m",
+          "image" : "images/father.png"
+        },
+        {
+          "word" : "madre",
+          "translation" : "mother",
+          "gender" : "f",
+          "image" : "images/mother.png"
+        },
+        {
+          "word" : "padres",
+          "translation" : "parents",
+          "gender" : "mpl",
+          "image" : "images/parents.png"
+        },
+        {
+          "word" : "hijo",
+          "translation" : "son",
+          "gender" : "m",
+          "image" : "images/son.png"
+        },
+        {
+          "word" : "hija",
+          "translation" : "daughter",
+          "gender" : "f",
+          "image" : "images/daughter.png"
+        },
+        {
+          "word" : "hermano",
+          "translation" : "brother",
+          "gender" : "m",
+          "image" : "images/brother.png"
+        },
+        {
+          "word" : "hermana",
+          "translation" : "sister",
+          "gender" : "f",
+          "image" : "images/sister.png"
+        },
+        {
+          "word" : "tío",
+          "translation" : "uncle",
+          "gender" : "m",
+          "image" : ""
+        },
+        {
+          "word" : "tía",
+          "translation" : "aunt",
+          "gender" : "m",
+          "image" : ""
+        },
+        {
+          "word" : "primo",
+          "translation" : "male cousin",
+          "gender" : "m",
+          "image" : "images/cousin.png"
+        },
+        {
+          "word" : "prima",
+          "translation" : "female cousin",
+          "gender" : "f",
+          "image" : "images/cousin.png"
+        },
+        {
+          "word" : "suegro",
+          "translation" : "father-in-law",
+          "gender" : "m",
+          "image" : ""
+        },
+        {
+          "word" : "suegra",
+          "translation" : "mother-in-law",
+          "gender" : "f",
+          "image" : ""
+        },
+        {
+          "word" : "esposa",
+          "translation" : "wife",
+          "gender" : "f",
+          "image" : "images/wife.png"
+        },
+        {
+          "word" : "esposo",
+          "translation" : "husband 1",
+          "gender" : "m",
+          "image" : "images/husband1.png"
+        },
+        {
+          "word" : "marido",
+          "translation" : "husband 2",
+          "gender" : "m",
+          "image" : "images/husband2.png"
+        },
+        {
+          "word" : "bebé",
+          "translation" : "baby",
+          "gender" : "m",
+          "image" : "images/baby.png"
+        },
+        {
+          "word" : "padrastro",
+          "translation" : "stepfather",
+          "gender" : "m",
+          "image" : ""
+        },
+        {
+          "word" : "madrastra",
+          "translation" : "stepmother",
+          "gender" : "f",
+          "image" : ""
+        },
+        {
+          "word" : "novio",
+          "translation" : "boyfriend",
+          "gender" : "m",
+          "image" : "images/boyfriend.png"
+        },
+        {
+          "word" : "novia",
+          "translation" : "girlfriend",
+          "gender" : "f",
+          "image" : "images/girlfriend.png"
+        }
+      ]
+    },
+    {
+      "category" : "body",
+      "words" : [
+        {
+          "word" : "cuerpo",
+          "translation" : "body",
+          "gender" : "m",
+          "image" : "images/body.png"
+        },
+        {
+          "word" : "cabeza",
+          "translation" : "head",
+          "gender" : "m",
+          "image" : "images/head.png"
+        },
+        {
+          "word" : "nariz",
+          "translation" : "nose",
+          "gender" : "m",
+          "image" : "images/nose.png"
+        },
+        {
+          "word" : "ojo",
+          "translation" : "eye",
+          "gender" : "m",
+          "image" : "images/eye.png"
+        },
+        {
+          "word" : "oreja",
+          "translation" : "ear",
+          "gender" : "f",
+          "image" : "images/ear.png"
+        },
+        {
+          "word" : "corazón",
+          "translation" : "heart",
+          "gender" : "m",
+          "image" : "images/heart.png"
+        },
+        {
+          "word" : "pulmón",
+          "translation" : "lung",
+          "gender" : "m",
+          "image" : "images/lung.png"
+        },
+        {
+          "word" : "cuello",
+          "translation" : "neck",
+          "gender" : "m",
+          "image" : "images/neck.png"
+        },
+        {
+          "word" : "garganta",
+          "translation" : "throat",
+          "gender" : "f",
+          "image" : "images/throat.png"
+        },
+        {
+          "word" : "mejilla",
+          "translation" : "cheek",
+          "gender" : "f",
+          "image" : "images/cheek.png"
+        },
+        {
+          "word" : "uña",
+          "translation" : "fingernail",
+          "gender" : "f",
+          "image" : "images/fingernail.png"
+        },
+        {
+          "word" : "uña del pie",
+          "translation" : "toenail",
+          "gender" : "f",
+          "image" : "images/toenail.png"
+        },
+        {
+          "word" : "bigote",
+          "translation" : "mustache",
+          "gender" : "m",
+          "image" : "images/mustache.png"
+        },
+        {
+          "word" : "barba",
+          "translation" : "beard",
+          "gender" : "f",
+          "image" : "images/beard.png"
+        },
+        {
+          "word" : "muslo",
+          "translation" : "thigh",
+          "gender" : "m",
+          "image" : "images/thigh.png"
+        },
+        {
+          "word" : "músculo",
+          "translation" : "muscle",
+          "gender" : "m",
+          "image" : "images/muscle.png"
+        },
+        {
+          "word" : "torso",
+          "translation" : "torso",
+          "gender" : "m",
+          "image" : "images/torso.png"
+        },
+        {
+          "word" : "labio",
+          "translation" : "lip",
+          "gender" : "m",
+          "image" : "images/lips.png"
+        },
+        {
+          "word" : "pelo",
+          "translation" : "hair 1",
+          "gender" : "m",
+          "image" : "images/hair1.png"
+        },
+        {
+          "word" : "cabello",
+          "translation" : "hair 2",
+          "gender" : "m",
+          "image" : "images/hair2.png"
+        },
+        {
+          "word" : "brazo",
+          "translation" : "arm",
+          "gender" : "m",
+          "image" : "images/arm.png"
+        },
+        {
+          "word" : "hombro",
+          "translation" : "shoulder",
+          "gender" : "m",
+          "image" : "images/shoulder.png"
+        },
+        {
+          "word" : "mano",
+          "translation" : "hand",
+          "gender" : "m",
+          "image" : "images/hand.png"
+        },
+        {
+          "word" : "muñeca",
+          "translation" : "wrist",
+          "gender" : "f",
+          "image" : "images/wrist.png"
+        },
+        {
+          "word" : "codo",
+          "translation" : "elbow",
+          "gender" : "m",
+          "image" : "images/elbow.png"
+        },
+        {
+          "word" : "dedo",
+          "translation" : "finger",
+          "gender" : "f",
+          "image" : "images/finger.png"
+        },
+        {
+          "word" : "pecho",
+          "translation" : "chest",
+          "gender" : "m",
+          "image" : "images/chest.png"
+        },
+        {
+          "word" : "seno",
+          "translation" : "breast",
+          "gender" : "m",
+          "image" : "images/breast.png"
+        },
+        {
+          "word" : "espalda",
+          "translation" : "back",
+          "gender" : "f",
+          "image" : "images/back.png"
+        },
+        {
+          "word" : "estómago",
+          "translation" : "stomach",
+          "gender" : "m",
+          "image" : "images/stomach.png"
+        },
+        {
+          "word" : "pierna",
+          "translation" : "leg",
+          "gender" : "f",
+          "image" : "images/leg.png"
+        },
+        {
+          "word" : "rodillo",
+          "translation" : "knee",
+          "gender" : "m",
+          "image" : "images/knee.png"
+        },
+        {
+          "word" : "espinilla",
+          "translation" : "shin",
+          "gender" : "f",
+          "image" : "images/shin.png"
+        },
+        {
+          "word" : "tobillo",
+          "translation" : "ankle",
+          "gender" : "m",
+          "image" : "images/ankle.png"
+        },
+        {
+          "word" : "pie",
+          "translation" : "foot",
+          "gender" : "m",
+          "image" : "images/foot.png"
+        },
+        {
+          "word" : "dedo del pie",
+          "translation" : "toe",
+          "gender" : "m",
+          "image" : "images/toe.png"
+        },
+        {
+          "word" : "diente",
+          "translation" : "tooth",
+          "gender" : "m",
+          "image" : "images/teeth.png"
+        },
+        {
+          "word" : "hueso",
+          "translation" : "bone",
+          "gender" : "m",
+          "image" : "images/bone.png"
+        },
+        {
+          "word" : "rostro",
+          "translation" : "face 1",
+          "gender" : "m",
+          "image" : "images/face.png"
+        },
+        {
+          "word" : "cara",
+          "translation" : "face 2",
+          "gender" : "f",
+          "image" : "images/face.png"
+        },
+        {
+          "word" : "boca",
+          "translation" : "mouth",
+          "gender" : "f",
+          "image" : "images/mouth.png"
+        },
+        {
+          "word": "lengua",
+          "translation": "tongue",
+          "gender": "f",
+          "image": "images/tongue.png"
+        },
+        {
+          "word": "hígado",
+          "translation": "liver",
+          "gender": "m",
+          "image": "images/liver.png"
+        },
+        {
+          "word": "riñón",
+          "translation": "kidney",
+          "gender": "m",
+          "image": "images/kidney.png"
+        },
+        {
+          "word": "cerebro",
+          "translation": "brain",
+          "gender": "m",
+          "image": "images/brain.png"
+        }
+      ]
+    },
+    {
+      "category" : "animals",
+      "words" : [
+        {
+          "word" : "Los animales",
+          "translation" : "animals",
+          "gender" : "",
+          "image" : ""
+        },
+        {
+          "word" : "perro",
+          "translation" : "dog",
+          "gender" : "m",
+          "image" : "images/dog.png"
+        },
+        {
+          "word" : "gato",
+          "translation" : "cat",
+          "gender" : "m",
+          "image" : "images/cat.png"
+        },
+        {
+          "word": "pollo",
+          "translation": "chicken",
+          "gender": "m",
+          "image": "images/chicken.png"
+        },
+        {
+          "word" : "mono",
+          "translation" : "monkey",
+          "gender" : "m",
+          "image" : "images/monkey.png"
+        },
+        {
+          "word" : "ratón",
+          "translation" : "mouse",
+          "gender" : "m",
+          "image" : "images/mouse.png"
+        },
+        {
+          "word" : "caballo",
+          "translation" : "horse",
+          "gender" : "m",
+          "image" : "images/horse.png"
+        },
+        {
+          "word" : "elefante",
+          "translation" : "elephant",
+          "gender" : "m",
+          "image" : "images/elephant.png"
+        },
+        {
+          "word" : "araña",
+          "translation" : "spider",
+          "gender" : "f",
+          "image" : "images/spider.png"
+        },
+        {
+          "word" : "toro",
+          "translation" : "bull",
+          "gender" : "m",
+          "image" : "images/bull.png"
+        },
+        {
+          "word" : "vaca",
+          "translation" : "cow",
+          "gender" : "f",
+          "image" : "images/cow.png"
+        },
+        {
+          "word" : "cerdo",
+          "translation" : "pig",
+          "gender" : "m",
+          "image" : "images/pig.png"
+        },
+        {
+          "word" : "cangrejo",
+          "translation" : "crab",
+          "gender" : "m",
+          "image" : "images/crab.png"
+        },
+        {
+          "word" : "pescado",
+          "translation" : "fish",
+          "gender" : "m",
+          "image" : "images/fish.png"
+        },
+        {
+          "word" : "león",
+          "translation" : "lion",
+          "gender" : "m",
+          "image" : "images/lion.png"
+        },
+        {
+          "word" : "tigre",
+          "translation" : "tiger",
+          "gender" : "m",
+          "image" : "images/tiger.png"
+        },
+        {
+          "word" : "tortuga",
+          "translation" : "turtle",
+          "gender" : "f",
+          "image" : "images/turtle.png"
+        },
+        {
+          "word" : "pájaro",
+          "translation" : "bird",
+          "gender" : "m",
+          "image" : "images/bird.png"
+        },
+        {
+          "word" : "oso",
+          "translation" : "bear",
+          "gender" : "m",
+          "image" : "images/bear.png"
+        },
+        {
+          "word" : "pato",
+          "translation" : "duck",
+          "gender" : "m",
+          "image" : "images/duck.png"
+        },
+        {
+          "word" : "conejo",
+          "translation" : "rabbit",
+          "gender" : "m",
+          "image" : "images/rabbit.png"
+        },
+        {
+          "word" : "pingüino",
+          "translation" : "penguin",
+          "gender" : "m",
+          "image" : "images/penguin.png"
+        },
+        {
+          "word" : "gallo",
+          "translation" : "rooster",
+          "gender" : "m",
+          "image" : "images/rooster.png"
+        },
+        {
+          "word": "canguro",
+          "translation": "kangaroo",
+          "gender": "m",
+          "image": "images/kangaroo.png"
+        },
+        {
+          "word": "pavo",
+          "translation": "turkey",
+          "gender": "m",
+          "image": "images/turkey.png"
+        },
+        {
+          "word": "ballena",
+          "translation": "whale",
+          "gender": "f",
+          "image": "images/whale.png"
+        }
+      ]
+    },
+    {
+      "category": "time",
+      "words": [
+        {
+          "word": "tiempo",
+          "translation": "time/weather",
+          "gender": "m",
+          "image": "images/weather.png"
+        },
+        {
+          "word": "día",
+          "translation": "day",
+          "gender": "m",
+          "image": "images/day.png"
+        },
+        {
+          "word": "noche",
+          "translation": "night",
+          "gender": "m",
+          "image": "images/night.png"
+        },
+        {
+          "word": "tarde",
+          "translation": "afternoon",
+          "gender": "f",
+          "image": "images/afternoon.png"
+        },
+        {
+          "word": "medianoche",
+          "translation": "midnight",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "hora",
+          "translation": "hour",
+          "gender": "f",
+          "image": "images/hourglass.png"
+        },
+        {
+          "word": "minuto",
+          "translation": "minute",
+          "gender": "m",
+          "image": "images/minutes.png"
+        },
+        {
+          "word": "segundo",
+          "translation": "second",
+          "gender": "",
+          "image": "images/seconds.png"
+        },
+        {
+          "word": "ahora",
+          "translation": "now",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "ayer",
+          "translation": "yesterday",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "hoy",
+          "translation": "today",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "domingo",
+          "translation": "Sunday",
+          "gender": "m",
+          "image": "images/sunday.png"
+        },
+        {
+          "word": "lunes",
+          "translation": "Monday",
+          "gender": "m",
+          "image": "images/monday.png"
+        },
+        {
+          "word": "martes",
+          "translation": "Tuesday",
+          "gender": "m",
+          "image": "images/tuesday.png"
+        },
+        {
+          "word": "miércoles",
+          "translation": "Wednesday",
+          "gender": "m",
+          "image": "images/wednesday.png"
+        },
+        {
+          "word": "jueves",
+          "translation": "Thursday",
+          "gender": "m",
+          "image": "images/thursday.png"
+        },
+        {
+          "word": "viernes",
+          "translation": "Friday",
+          "gender": "m",
+          "image": "images/friday.png"
+        },
+        {
+          "word": "sabado",
+          "translation": "Saturday",
+          "gender": "m",
+          "image": "images/saturday.png"
+        },
+        {
+          "word": "mes",
+          "translation": "month",
+          "gender": "m",
+          "image": "images/month.png"
+        },
+        {
+          "word": "enero",
+          "translation": "January",
+          "gender": "m",
+          "image": "images/january.png"
+        },
+        {
+          "word": "febrero",
+          "translation": "February",
+          "gender": "m",
+          "image": "images/february.png"
+        },
+        {
+          "word": "marzo",
+          "translation": "March",
+          "gender": "m",
+          "image": "images/march.png"
+        },
+        {
+          "word": "abril",
+          "translation": "April",
+          "gender": "m",
+          "image": "images/april.png"
+        },
+        {
+          "word": "mayo",
+          "translation": "May",
+          "gender": "m",
+          "image": "images/may.png"
+        },
+        {
+          "word": "junio",
+          "translation": "June",
+          "gender": "m",
+          "image": "images/june.png"
+        },
+        {
+          "word": "julio",
+          "translation": "July",
+          "gender": "m",
+          "image": "images/july.png"
+        },
+        {
+          "word": "agosto",
+          "translation": "August",
+          "gender": "m",
+          "image": "images/august.png"
+        },
+        {
+          "word": "septiembre",
+          "translation": "September",
+          "gender": "m",
+          "image": "images/september.png"
+        },
+        {
+          "word": "octubre",
+          "translation": "October",
+          "gender": "m",
+          "image": "images/october.png"
+        },
+        {
+          "word": "noviembre",
+          "translation": "November",
+          "gender": "m",
+          "image": "images/november.png"
+        },
+        {
+          "word": "diciembre",
+          "translation": "December",
+          "gender": "m",
+          "image": "images/december.png"
+        },
+        {
+          "word": "invierno",
+          "translation": "winter",
+          "gender": "m",
+          "image": "images/winter.png"
+        },
+        {
+          "word": "primavera",
+          "translation": "spring",
+          "gender": "f",
+          "image": "images/spring.png"
+        },
+        {
+          "word": "verano",
+          "translation": "summer",
+          "gender": "m",
+          "image": "images/summer.png"
+        },
+        {
+          "word": "otoño",
+          "translation": "fall",
+          "gender": "m",
+          "image": "images/fall.png"
+        },
+        {
+          "word": "año",
+          "translation": "year",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "estación",
+          "translation": "season 1 ",
+          "gender": "f",
+          "image": "images/seasons1.png"
+        },
+        {
+          "word": "temporada",
+          "translation": "season 2",
+          "gender": "f",
+          "image": "images/seasons2.png"
+        },
+        {
+          "word": "semana",
+          "translation": "week",
+          "gender": "f",
+          "image": "images/week.png"
+        },
+        {
+          "word": "lluvia",
+          "translation": "rain",
+          "gender": "f",
+          "image": "images/rain.png"
+        },
+        {
+          "word": "nieve",
+          "translation": "snow",
+          "gender": "f",
+          "image": "images/snow.png"
+        }
+      ]
+    },
+    {
+      "category": "food",
+      "words": [
+        {
+          "word": "comida",
+          "translation": "food",
+          "gender": "f",
+          "image": "images/food.png"
+        },
+        {
+          "word": "zanahoria",
+          "translation": "carrot",
+          "gender": "f",
+          "image": "images/carrot.png"
+        },
+        {
+          "word": "cebolla",
+          "translation": "onion",
+          "gender": "f",
+          "image": "images/onion.png"
+        },
+        {
+          "word": "fresa",
+          "translation": "strawberry",
+          "gender": "f",
+          "image": "images/strawberry.png"
+        },
+        {
+          "word": "frambuesa",
+          "translation": "raspberry",
+          "gender": "f",
+          "image": "images/raspberry.png"
+        },
+        {
+          "word": "fruta",
+          "translation": "fruit",
+          "gender": "f",
+          "image": "images/fruit.png"
+        },
+        {
+          "word": "uvas",
+          "translation": "grapes",
+          "gender": "fpl",
+          "image": "images/grapes.png"
+        },
+        {
+          "word": "papa",
+          "translation": "potato",
+          "gender": "f",
+          "image": "images/potatoes.png"
+        },
+        {
+          "word": "huevo",
+          "translation": "egg",
+          "gender": "m",
+          "image": "images/eggs.png"
+        },
+        {
+          "word": "queso",
+          "translation": "cheese",
+          "gender": "m",
+          "image": "images/cheese.png"
+        },
+        {
+          "word": "leche",
+          "translation": "milk",
+          "gender": "f",
+          "image": "images/milk.png"
+        },
+        {
+          "word": "agua",
+          "translation": "water",
+          "gender": "f",
+          "image": "images/water.png"
+        },
+        {
+          "word": "cerveza",
+          "translation": "beer",
+          "gender": "f",
+          "image": "images/beer.png"
+        },
+        {
+          "word": "limón",
+          "translation": "lemon",
+          "gender": "m",
+          "image": "images/lemon.png"
+        },
+        {
+          "word": "tocino",
+          "translation": "bacon",
+          "gender": "m",
+          "image": "images/bacon.png"
+        },
+        {
+          "word": "sal",
+          "translation": "salt",
+          "gender": "f",
+          "image": "images/salt.png"
+        },
+        {
+          "word": "pimiento",
+          "translation": "pepper",
+          "gender": "m",
+          "image": "images/pepper.png"
+        },
+        {
+          "word": "naranja",
+          "translation": "orange",
+          "gender": "f",
+          "image": "images/orange.png"
+        },
+        {
+          "word": "vino",
+          "translation": "wine",
+          "gender": "m",
+          "image": "images/wine.png"
+        },
+        {
+          "word": "azúcar",
+          "translation": "sugar",
+          "gender": "m",
+          "image": "images/sugar.png"
+        },
+        {
+          "word": "sopa",
+          "translation": "soup",
+          "gender": "f",
+          "image": "images/soup.png"
+        },
+        {
+          "word": "pan",
+          "translation": "bread",
+          "gender": "m",
+          "image": "images/bread.png"
+        },
+        {
+          "word": "pasta",
+          "translation": "pasta",
+          "gender": "f",
+          "image": "images/pasta.png"
+        },
+        {
+          "word": "salsa",
+          "translation": "sauce",
+          "gender": "f",
+          "image": "images/sauce.png"
+        },
+        {
+          "word": "té",
+          "translation": "tea",
+          "gender": "m",
+          "image": "images/tea.png"
+        },
+        {
+          "word": "café",
+          "translation": "coffee",
+          "gender": "m",
+          "image": "images/coffee.png"
+        },
+        {
+          "word": "frijol",
+          "translation": "bean",
+          "gender": "m",
+          "image": "images/beans.png"
+        },
+        {
+          "word": "ajo",
+          "translation": "garlic",
+          "gender": "m",
+          "image": "images/garlic.png"
+        },
+        {
+          "word": "tomate",
+          "translation": "tomato",
+          "gender": "m",
+          "image": "images/tomato.png"
+        },
+        {
+          "word": "sánduche",
+          "translation": "sandwich 1",
+          "gender": "m",
+          "image": "images/sandwich1.png"
+        },
+        {
+          "word": "emparedado",
+          "translation": "sandwich 2",
+          "gender": "m",
+          "image": "images/sandwich2.png"
+        },
+        {
+          "word": "desayuno",
+          "translation": "breakfast",
+          "gender": "m",
+          "image": "images/breakfast.png"
+        },
+        {
+          "word": "almuerzo",
+          "translation": "lunch",
+          "gender": "m",
+          "image": "images/lunch.png"
+        },
+        {
+          "word": "cena",
+          "translation": "dinner",
+          "gender": "f",
+          "image": "images/dinner.png"
+        },
+        {
+          "word": "tentempié",
+          "translation": "snack",
+          "gender": "m",
+          "image": "images/snack.png"
+        },
+        {
+          "word": "chancho",
+          "translation": "pork 1",
+          "gender": "m",
+          "image": "images/pork1.png"
+        },
+        {
+          "word": "cerdo",
+          "translation": "pork 2",
+          "gender": "m",
+          "image": "images/pork2.png"
+        },
+        {
+          "word": "carne de vaca",
+          "translation": "beef 1",
+          "gender": "f",
+          "image": "images/beef1.png"
+        },
+        {
+          "word": "carne de res",
+          "translation": "beef 2",
+          "gender": "f",
+          "image": "images/beef2.png"
+        },
+        {
+          "word": "jamón",
+          "translation": "ham",
+          "gender": "m",
+          "image": "images/ham.png"
+        },
+        {
+          "word": "vegetales",
+          "translation": "vegetables",
+          "gender": "m",
+          "image": "images/vegetables.png"
+        },
+        {
+          "word": "carne",
+          "translation": "meat",
+          "gender": "f",
+          "image": "images/meat.png"
+        },
+        {
+          "word": "refresco",
+          "translation": "soda 1",
+          "gender": "m",
+          "image": "images/soda1.png"
+        },
+        {
+          "word": "gaseosa",
+          "translation": "soda 2",
+          "gender": "f",
+          "image": "images/soda2.png"
+        },
+        {
+          "word": "helado",
+          "translation": "ice cream",
+          "gender": "m",
+          "image": "images/ice-cream.png"
+        },
+        {
+          "word": "hielo",
+          "translation": "ice",
+          "gender": "m",
+          "image": "images/ice.png"
+        },
+        {
+          "word": "arroz",
+          "translation": "rice",
+          "gender": "m",
+          "image": "images/rice.png"
+        },
+        {
+          "word": "dulce",
+          "translation": "candy",
+          "gender": "m",
+          "image": "images/candy.png"
+        },
+        {
+          "word": "jugo",
+          "translation": "juice",
+          "gender": "m",
+          "image": "images/juice.png"
+        },
+        {
+          "word": "pan tostado",
+          "translation": "toast",
+          "gender": "m",
+          "image": "images/toast.png"
+        },
+        {
+          "word": "mantequilla",
+          "translation": "butter",
+          "gender": "f",
+          "image": "images/butter.png"
+        },
+        {
+          "word": "salchicha",
+          "translation": "sausage",
+          "gender": "f",
+          "image": "images/sausage.png"
+        },
+        {
+          "word": "ternera",
+          "translation": "veal",
+          "gender": "f",
+          "image": "images/veal.png"
+        },
+        {
+          "word": "manzana",
+          "translation": "apple",
+          "gender": "f",
+          "image": "images/apple.png"
+        },
+        {
+          "word": "plátano",
+          "translation": "banana",
+          "gender": "m",
+          "image": "images/banana.png"
+        },
+        {
+          "word": "lechuga",
+          "translation": "lettuce",
+          "gender": "f",
+          "image": "images/lettuce.png"
+        },
+        {
+          "word": "pastel",
+          "translation": "cake 1",
+          "gender": "m",
+          "image": "images/cake1.png"
+        },
+        {
+          "word": "tarta",
+          "translation": "cake 2",
+          "gender": "f",
+          "image": "images/cake2.png"
+        },
+        {
+          "word": "galleta",
+          "translation": "cookie",
+          "gender": "f",
+          "image": "images/cookie.png"
+        },
+        {
+          "word": "apio",
+          "translation": "celery",
+          "gender": "m",
+          "image": "images/celery.png"
+        },
+        {
+          "word": "cereal",
+          "translation": "cereal",
+          "gender": "m",
+          "image": "images/cereal.jpg"
+        },
+        {
+          "word": "cereza",
+          "translation": "cherry",
+          "gender": "f",
+          "image": "images/cherries.png"
+        },
+        {
+          "word": "brócoli",
+          "translation": "broccoli",
+          "gender": "m",
+          "image": "images/broccoli.png"
+        },
+        {
+          "word": "remolacha",
+          "translation": "beet",
+          "gender": "f",
+          "image": "images/beets.png"
+        },
+        {
+          "word": "pepino",
+          "translation": "cucumber",
+          "gender": "m",
+          "image": "images/cucumber.png"
+        },
+        {
+          "word": "berenjena",
+          "translation": "eggplant",
+          "gender": "f",
+          "image": "images/eggplant.png"
+        },
+        {
+          "word": "habichuelas",
+          "translation": "green beans 1",
+          "gender": "m",
+          "image": "images/green-beans.png"
+        },
+        {
+          "word": "judías verdes",
+          "translation": "green beans 2",
+          "gender": "m",
+          "image": "images/green-beans.png"
+        },
+        {
+          "word": "miel",
+          "translation": "honey",
+          "gender": "m",
+          "image": "images/honey.png"
+        },
+        {
+          "word": "lima",
+          "translation": "lime",
+          "gender": "f",
+          "image": "images/lime.png"
+        },
+        {
+          "word": "melón",
+          "translation": "melon",
+          "gender": "m",
+          "image": "images/melon.png"
+        },
+        {
+          "word": "champiñón",
+          "translation": "mushroom 1",
+          "gender": "m",
+          "image": "images/mushroom.png"
+        },
+        {
+          "word": "hongo",
+          "translation": "mushroom 2",
+          "gender": "m",
+          "image": "images/mushroom.png"
+        },
+        {
+          "word": "aceituna",
+          "translation": "olive 1",
+          "gender": "f",
+          "image": "images/olive.png"
+        },
+        {
+          "word": "oliva",
+          "translation": "olive 2",
+          "gender": "f",
+          "image": "images/olive.png"
+        },
+        {
+          "word": "avena",
+          "translation": "oatmeal",
+          "gender": "f",
+          "image": "images/oatmeal.png"
+        },
+        {
+          "word": "panqueque",
+          "translation": "pancake",
+          "gender": "m",
+          "image": "images/pancakes.png"
+        },
+        {
+          "word": "pera",
+          "translation": "pear",
+          "gender": "f",
+          "image": "images/pear.png"
+        },
+        {
+          "word": "arveja",
+          "translation": "peas",
+          "gender": "f",
+          "image": "images/peas.png"
+        },
+        {
+          "word": "piña",
+          "translation": "pineapple",
+          "gender": "f",
+          "image": "images/pineapple.png"
+        },
+        {
+          "word": "rábano",
+          "translation": "radish",
+          "gender": "m",
+          "image": "images/radish.png"
+        },
+        {
+          "word": "huevos revueltos",
+          "translation": "scrambled eggs",
+          "gender": "mpl",
+          "image": "images/scrambled-eggs.png"
+        },
+        {
+          "word": "huevos frito",
+          "translation": "fried eggs",
+          "gender": "mpl",
+          "image": "images/fried-egg.png"
+        },
+        {
+          "word": "yogurt",
+          "translation": "yogurt",
+          "gender": "m",
+          "image": "images/yogurt.png"
+        },
+        {
+          "word": "sandía",
+          "translation": "watermelon",
+          "gender": "f",
+          "image": "images/watermelon.png"
+        },
+        {
+          "word": "pizza",
+          "translation": "pizza",
+          "gender": "f",
+          "image": "images/pizza.png"
+        },
+        {
+          "word": "espinacas",
+          "translation": "spinach",
+          "gender": "fpl",
+          "image": "images/spinach.png"
+        },
+        {
+          "word": "repollo",
+          "translation": "cabbage",
+          "gender": "m",
+          "image": "images/cabbage.png"
+        },
+        {
+          "word": "elote",
+          "translation": "corn 1",
+          "gender": "m",
+          "image": "images/corn.png"
+        },
+        {
+          "word": "maíz",
+          "translation": "corn 2",
+          "gender": "m",
+          "image": "images/corn.png"
+        }
+      ]
+    },
+    {
+      "category": "household",
+      "words": [
+        {
+          "word": "casa familiar",
+          "translation": "household",
+          "gender": "f",
+          "image": "images/household.png"
+        },
+        {
+          "word": "silla",
+          "translation": "chair",
+          "gender": "f",
+          "image": "images/chair.png"
+        },
+        {
+          "word": "mesa",
+          "translation": "table",
+          "gender": "f",
+          "image": "images/table.png"
+        },
+        {
+          "word": "piso",
+          "translation": "floor",
+          "gender": "m",
+          "image": "images/floor.png"
+        },
+        {
+          "word": "techo",
+          "translation": "ceiling/roof",
+          "gender": "m",
+          "image": "images/ceiling.jpg"
+        },
+        {
+          "word": "pared",
+          "translation": "wall",
+          "gender": "m",
+          "image": "images/wall.png"
+        },
+        {
+          "word": "puerta",
+          "translation": "door",
+          "gender": "f",
+          "image": "images/door.png"
+        },
+        {
+          "word": "ventana",
+          "translation": "window",
+          "gender": "f",
+          "image": "images/window.png"
+        },
+        {
+          "word": "cuchillo",
+          "translation": "knife",
+          "gender": "m",
+          "image": "images/knife.png"
+        },
+        {
+          "word": "cuchara",
+          "translation": "spoon",
+          "gender": "f",
+          "image": "images/spoon.png"
+        },
+        {
+          "word": "tenedor",
+          "translation": "fork",
+          "gender": "m",
+          "image": "images/fork.png"
+        },
+        {
+          "word": "plato",
+          "translation": "plate",
+          "gender": "m",
+          "image": "images/plate.png"
+        },
+        {
+          "word": "cocina",
+          "translation": "kitchen/stove",
+          "gender": "f",
+          "image": "images/kitchen.png"
+        },
+        {
+          "word": "horno",
+          "translation": "oven",
+          "gender": "m",
+          "image": "images/oven.png"
+        },
+        {
+          "word": "taza",
+          "translation": "cup",
+          "gender": "f",
+          "image": "images/cup.png"
+        },
+        {
+          "word": "vaso",
+          "translation": "glass",
+          "gender": "m",
+          "image": "images/glass.png"
+        },
+        {
+          "word": "cuarto",
+          "translation": "room 1",
+          "gender": "m",
+          "image": "images/room1.png"
+        },
+        {
+          "word": "habitación",
+          "translation": "room 2",
+          "gender": "f",
+          "image": "images/room2.png"
+        },
+        {
+          "word": "casa",
+          "translation": "house",
+          "gender": "f",
+          "image": "images/house.png"
+        },
+        {
+          "word": "baño",
+          "translation": "bathroom",
+          "gender": "m",
+          "image": "images/bathroom.png"
+        },
+        {
+          "word": "toalla",
+          "translation": "towel",
+          "gender": "f",
+          "image": "images/towel.png"
+        },
+        {
+          "word": "ducha",
+          "translation": "shower",
+          "gender": "f",
+          "image": "images/shower.png"
+        },
+        {
+          "word": "inodoro",
+          "translation": "toilet",
+          "gender": "m",
+          "image": "images/toilet.png"
+        },
+        {
+          "word": "bañera",
+          "translation": "bathtub",
+          "gender": "f",
+          "image": "images/bathtub.png"
+        },
+        {
+          "word": "lavabo",
+          "translation": "bathroom sink",
+          "gender": "m",
+          "image": "images/bathroom-sink.png"
+        },
+        {
+          "word": "fregadero",
+          "translation": "kitchen sink",
+          "gender": "m",
+          "image": "images/kitchen-sink.png"
+        },
+        {
+          "word": "cama",
+          "translation": "bed",
+          "gender": "f",
+          "image": "images/bed.png"
+        },
+        {
+          "word": "dormitorio",
+          "translation": "bedroom",
+          "gender": "m",
+          "image": "images/bedroom.png"
+        },
+        {
+          "word": "teléfono",
+          "translation": "telephone",
+          "gender": "m",
+          "image": "images/phone.png"
+        },
+        {
+          "word": "televisión",
+          "translation": "television",
+          "gender": "f",
+          "image": "images/television.png"
+        },
+        {
+          "word": "reloj ",
+          "translation": "clock/watch",
+          "gender": "m",
+          "image": "images/clock.png"
+        },
+        {
+          "word": "escritorio",
+          "translation": "desk",
+          "gender": "m",
+          "image": "images/desk.png"
+        },
+        {
+          "word": "lavadora ",
+          "translation": "washer",
+          "gender": "f",
+          "image": "images/washer.png"
+        },
+        {
+          "word": "secadora ",
+          "translation": "dryer",
+          "gender": "f",
+          "image": "images/dryer.png"
+        },
+        {
+          "word": "refrigerador",
+          "translation": "refrigerator",
+          "gender": "m",
+          "image": "images/fridge.png"
+        },
+        {
+          "word": "razuradora",
+          "translation": "razor",
+          "gender": "f",
+          "image": "images/razor.png"
+        },
+        {
+          "word": "espejo",
+          "translation": "mirror",
+          "gender": "m",
+          "image": "images/mirror.png"
+        },
+        {
+          "word": "esponja",
+          "translation": "sponge",
+          "gender": "f",
+          "image": "images/sponge.png"
+        },
+        {
+          "word": "libro",
+          "translation": "book",
+          "gender": "m",
+          "image": "images/books.png"
+        },
+        {
+          "word": "diario",
+          "translation": "newspaper 1",
+          "gender": "m",
+          "image": "images/newspaper1.png"
+        },
+        {
+          "word": "periódico",
+          "translation": "newspaper 2",
+          "gender": "m",
+          "image": "images/newspaper2.png"
+        },
+        {
+          "word": "lámpara",
+          "translation": "lamp",
+          "gender": "f",
+          "image": "images/lamp.png"
+        },
+        {
+          "word": "Las gafas",
+          "translation": "glasses",
+          "gender": "",
+          "image": "images/glasses.png"
+        },
+        {
+          "word": "lápiz",
+          "translation": "pencil",
+          "gender": "m",
+          "image": "images/pencil.png"
+        },
+        {
+          "word": "bolígrafo",
+          "translation": "pen 1",
+          "gender": "m",
+          "image": "images/pen1.png"
+        },
+        {
+          "word": "pluma",
+          "translation": "pen 2",
+          "gender": "f",
+          "image": "images/pen2.png"
+        },
+        {
+          "word": "sofá",
+          "translation": "sofa",
+          "gender": "m",
+          "image": "images/sofa.png"
+        },
+        {
+          "word": "sótano",
+          "translation": "basement",
+          "gender": "m",
+          "image": "images/basement.png"
+        },
+        {
+          "word": "jabón",
+          "translation": "soap",
+          "gender": "m",
+          "image": "images/soap.png"
+        },
+        {
+          "word": "cepillo",
+          "translation": "brush",
+          "gender": "m",
+          "image": "images/brush.png"
+        },
+        {
+          "word": "cepillo de dientes",
+          "translation": "toothbrush",
+          "gender": "m",
+          "image": "images/toothbrush.png"
+        },
+        {
+          "word": "carta",
+          "translation": "letter",
+          "gender": "f",
+          "image": "images/letter.png"
+        },
+        {
+          "word": "tarjeta",
+          "translation": "card",
+          "gender": "f",
+          "image": "images/card.png"
+        },
+        {
+          "word": "tarjeta de crédito",
+          "translation": "credit card",
+          "gender": "f",
+          "image": "images/credit-card.png"
+        },
+        {
+          "word": "pintura",
+          "translation": "paint",
+          "gender": "f",
+          "image": "images/paint.png"
+        },
+        {
+          "word": "desván",
+          "translation": "attic",
+          "gender": "m",
+          "image": "images/attic.png"
+        },
+        {
+          "word": "tazón",
+          "translation": "bowl 1",
+          "gender": "m",
+          "image": "images/bowl1.png"
+        },
+        {
+          "word": "bol",
+          "translation": "bowl 2",
+          "gender": "m",
+          "image": "images/bowl2.png"
+        },
+        {
+          "word": "armario",
+          "translation": "closet 1",
+          "gender": "m",
+          "image": "images/closet1.png"
+        },
+        {
+          "word": "clóset",
+          "translation": "closet 2",
+          "gender": "m",
+          "image": "images/closet2.png"
+        },
+        {
+          "word": "tocador",
+          "translation": "dresser",
+          "gender": "m",
+          "image": "images/dresser.png"
+        },
+        {
+          "word": "alfombra",
+          "translation": "carpet",
+          "gender": "f",
+          "image": "images/carpet.png"
+        },
+        {
+          "word": "juguete",
+          "translation": "toy",
+          "gender": "m",
+          "image": "images/toy.png"
+        },
+        {
+          "word": "caja",
+          "translation": "box",
+          "gender": "f",
+          "image": "images/box.png"
+        },
+        {
+          "word": "almohada",
+          "translation": "pillow",
+          "gender": "f",
+          "image": "images/pillow.png"
+        },
+        {
+          "word": "computadora",
+          "translation": "computer",
+          "gender": "f",
+          "image": "images/computer.png"
+        },
+        {
+          "word": "salón",
+          "translation": "living room 1",
+          "gender": "m",
+          "image": "images/living-room1.png"
+        },
+        {
+          "word": "sala de estar",
+          "translation": "living room 2",
+          "gender": "f",
+          "image": "images/living-room2.png"
+        },
+        {
+          "word": "garaje",
+          "translation": "garage",
+          "gender": "m",
+          "image": "images/garage.png"
+        },
+        {
+          "word": "escaleras",
+          "translation": "stairs",
+          "gender": "fpl",
+          "image": "images/stairs.png"
+        },
+        {
+          "word": "paraguas",
+          "translation": "umbrella",
+          "gender": "m",
+          "image": "images/umbrella.png"
+        },
+        {
+          "word": "aspiradora",
+          "translation": "vacuum",
+          "gender": "f",
+          "image": "images/vacuum.png"
+        },
+        {
+          "word": "pala",
+          "translation": "shovel",
+          "gender": "f",
+          "image": "images/shovel.png"
+        },
+        {
+          "word": "piscina",
+          "translation": "pool",
+          "gender": "f",
+          "image": "images/swimming-pool.png"
+        }
+      ]
+    }
+  ]
+}

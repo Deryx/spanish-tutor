@@ -1,0 +1,4937 @@
+{
+  "verbs": [
+    {
+      "infinitive": "ser",
+      "translation": "to be(ser)",
+      "present": {
+        "yo": "soy",
+        "tu": "eres",
+        "el": "es",
+        "ella": "es",
+        "usted": "es",
+        "nosotros": "somos",
+        "ellos": "son",
+        "ellas": "son",
+        "ustedes": "son"
+      },
+      "preterite": {
+        "yo": "fui",
+        "tu": "fuiste",
+        "el": "fue",
+        "ella": "fue",
+        "usted": "fue",
+        "nosotros": "fuimos",
+        "ellos": "fueron",
+        "ellas": "fueron",
+        "ustedes": "fueron"
+      },
+      "imperfect": {
+        "yo": "era",
+        "tu": "eras",
+        "el": "era",
+        "ella": "era",
+        "usted": "era",
+        "nosotros": "eramos",
+        "ellos": "eran",
+        "ellas": "eran",
+        "ustedes": "eran"
+      },
+      "future": {
+        "yo": "seré",
+        "tu": "serás",
+        "el": "será",
+        "ella": "será",
+        "usted": "será",
+        "nosotros": "seremos",
+        "ellos": "serán",
+        "ellas": "serán",
+        "ustedes": "serán"
+      }
+    },
+    {
+      "infinitive": "estar",
+      "translation": "to be(estar)",
+      "present": {
+        "yo": "estoy",
+        "tu": "estas",
+        "el": "esta",
+        "ella": "esta",
+        "usted": "esta",
+        "nosotros": "estamos",
+        "ellos": "estan",
+        "ellas": "estan",
+        "ustedes": "estan"
+      },
+      "preterite": {
+        "yo": "estuve",
+        "tu": "estuviste",
+        "el": "estuvo",
+        "ella": "estuvo",
+        "usted": "estuvo",
+        "nosotros": "estuvimos",
+        "ellos": "estuvieron",
+        "ellas": "estuvieron",
+        "ustedes": "estuvieron"
+      },
+      "imperfect": {
+        "yo": "estaba",
+        "tu": "estabas",
+        "el": "estaba",
+        "ella": "estaba",
+        "usted": "estaba",
+        "nosotros": "estabamos",
+        "ellos": "estaban",
+        "ellas": "estaban",
+        "ustedes": "estaban"
+      },
+      "future": {
+        "yo": "estaré",
+        "tu": "estarás",
+        "el": "estará",
+        "ella": "estará",
+        "usted": "estará",
+        "nosotros": "estaremos",
+        "ellos": "estarán",
+        "ellas": "estarán",
+        "ustedes": "estarán"
+      }
+    },
+    {
+      "infinitive": "tener",
+      "translation": "to have",
+      "present": {
+        "yo": "tengo",
+        "tu": "tienes",
+        "el": "tiene",
+        "ella": "tiene",
+        "usted": "tiene",
+        "nosotros": "tenemos",
+        "ellos": "tienen",
+        "ellas": "tienen",
+        "ustedes": "tienen"
+      },
+      "preterite": {
+        "yo": "tuve",
+        "tu": "tuviste",
+        "el": "tuvo",
+        "ella": "tuvo",
+        "usted": "tuvo",
+        "nosotros": "tuvimos",
+        "ellos": "tuvieron",
+        "ellas": "tuvieron",
+        "ustedes": "tuvieron"
+      },
+      "imperfect": {
+        "yo": "tenia",
+        "tu": "tenias",
+        "el": "tenia",
+        "ella": "tenia",
+        "usted": "tenia",
+        "nosotros": "teniamos",
+        "ellos": "tenian",
+        "ellas": "tenian",
+        "ustedes": "tenian"
+      },
+      "future": {
+        "yo": "tendré",
+        "tu": "tendrás",
+        "el": "tendrá",
+        "ella": "tendrá",
+        "usted": "tendrá",
+        "nosotros": "tendremos",
+        "ellos": "tendrán",
+        "ellas": "tendrán",
+        "ustedes": "tendrán"
+      }
+    },
+    {
+      "infinitive": "hacer",
+      "translation": "to do, to make",
+      "present": {
+        "yo": "hago",
+        "tu": "haces",
+        "el": "hace",
+        "ella": "hace",
+        "usted": "hace",
+        "nosotros": "hacemos",
+        "ellos": "hacen",
+        "ellas": "hacen",
+        "ustedes": "hacen"
+      },
+      "preterite": {
+        "yo": "hice",
+        "tu": "hiciste",
+        "el": "hizo",
+        "ella": "hizo",
+        "usted": "hizo",
+        "nosotros": "hicimos",
+        "ellos": "hicieron",
+        "ellas": "hicieron",
+        "ustedes": "hicieron"
+      },
+      "imperfect": {
+        "yo": "hacia",
+        "tu": "hacias",
+        "el": "hacia",
+        "ella": "hacia",
+        "usted": "hacia",
+        "nosotros": "haciamos",
+        "ellos": "hacian",
+        "ellas": "hacian",
+        "ustedes": "hacian"
+      },
+      "future": {
+        "yo": "haré",
+        "tu": "harás",
+        "el": "hará",
+        "ella": "hará",
+        "usted": "hará",
+        "nosotros": "haremos",
+        "ellos": "harán",
+        "ellas": "harán",
+        "ustedes": "harán"
+      }
+    },
+    {
+      "infinitive": "poder",
+      "translation": "to be able, can",
+      "present": {
+        "yo": "puedo",
+        "tu": "puedes",
+        "el": "puede",
+        "ella": "puede",
+        "usted": "puede",
+        "nosotros": "podemos",
+        "ellos": "pueden",
+        "ellas": "pueden",
+        "ustedes": "pueden"
+      },
+      "preterite": {
+        "yo": "pude",
+        "tu": "pudiste",
+        "el": "pudo",
+        "ella": "pudo",
+        "usted": "pudo",
+        "nosotros": "pudimos",
+        "ellos": "pudieron",
+        "ellas": "pudieron",
+        "ustedes": "pudieron"
+      },
+      "imperfect": {
+        "yo": "podia",
+        "tu": "podias",
+        "el": "podia",
+        "ella": "podia",
+        "usted": "podia",
+        "nosotros": "podiamos",
+        "ellos": "podian",
+        "ellas": "podian",
+        "ustedes": "podian"
+      },
+      "future": {
+        "yo": "podré",
+        "tu": "podrás",
+        "el": "podrá",
+        "ella": "podrá",
+        "usted": "podrá",
+        "nosotros": "podremos",
+        "ellos": "podrán",
+        "ellas": "podrán",
+        "ustedes": "podrán"
+      }
+    },
+    {
+      "infinitive": "ir",
+      "translation": "to go",
+      "present": {
+        "yo": "voy",
+        "tu": "vas",
+        "el": "va",
+        "ella": "va",
+        "usted": "va",
+        "nosotros": "vamos",
+        "ellos": "van",
+        "ellas": "van",
+        "ustedes": "van"
+      },
+      "preterite": {
+        "yo": "fui",
+        "tu": "fuiste",
+        "el": "fue",
+        "ella": "fue",
+        "usted": "fue",
+        "nosotros": "fuimos",
+        "ellos": "fueron",
+        "ellas": "fueron",
+        "ustedes": "fueron"
+      },
+      "imperfect": {
+        "yo": "iba",
+        "tu": "ibas",
+        "el": "iba",
+        "ella": "iba",
+        "usted": "iba",
+        "nosotros": "ibamos",
+        "ellos": "iban",
+        "ellas": "iban",
+        "ustedes": "iban"
+      },
+      "future": {
+        "yo": "iré",
+        "tu": "irás",
+        "el": "irá",
+        "ella": "irá",
+        "usted": "irá",
+        "nosotros": "iremos",
+        "ellos": "irán",
+        "ellas": "irán",
+        "ustedes": "irán"
+      }
+    },
+    {
+      "infinitive": "ver",
+      "translation": "to see",
+      "present": {
+        "yo": "veo",
+        "tu": "ves",
+        "el": "ve",
+        "ella": "ve",
+        "usted": "ve",
+        "nosotros": "vemos",
+        "ellos": "ven",
+        "ellas": "ven",
+        "ustedes": "ven"
+      },
+      "preterite": {
+        "yo": "vi",
+        "tu": "viste",
+        "el": "vio",
+        "ella": "vio",
+        "usted": "vio",
+        "nosotros": "vimos",
+        "ellos": "vieron",
+        "ellas": "vieron",
+        "ustedes": "vieron"
+      },
+      "imperfect": {
+        "yo": "veia",
+        "tu": "veias",
+        "el": "veia",
+        "ella": "veia",
+        "usted": "veia",
+        "nosotros": "veiamos",
+        "ellos": "veian",
+        "ellas": "veian",
+        "ustedes": "veian"
+      },
+      "future": {
+        "yo": "veré",
+        "tu": "verás",
+        "el": "verá",
+        "ella": "verá",
+        "usted": "verá",
+        "nosotros": "veremos",
+        "ellos": "verán",
+        "ellas": "verán",
+        "ustedes": "verán"
+      }
+    },
+    {
+      "infinitive": "dar",
+      "translation": "to give",
+      "present": {
+        "yo": "doy",
+        "tu": "das",
+        "el": "da",
+        "ella": "da",
+        "usted": "da",
+        "nosotros": "damos",
+        "ellos": "dan",
+        "ellas": "dan",
+        "ustedes": "dan"
+      },
+      "preterite": {
+        "yo": "di",
+        "tu": "diste",
+        "el": "dio",
+        "ella": "dio",
+        "usted": "dio",
+        "nosotros": "dimos",
+        "ellos": "dieron",
+        "ellas": "dieron",
+        "ustedes": "dieron"
+      },
+      "imperfect": {
+        "yo": "daba",
+        "tu": "dabas",
+        "el": "daba",
+        "ella": "daba",
+        "usted": "daba",
+        "nosotros": "dabamos",
+        "ellos": "daban",
+        "ellas": "daban",
+        "ustedes": "daban"
+      },
+      "future": {
+        "yo": "daré",
+        "tu": "darás",
+        "el": "dará",
+        "ella": "dará",
+        "usted": "dará",
+        "nosotros": "daremos",
+        "ellos": "darán",
+        "ellas": "darán",
+        "ustedes": "darán"
+      }
+    },
+    {
+      "infinitive": "saber",
+      "translation": "to know (information)",
+      "present": {
+        "yo": "se",
+        "tu": "sabes",
+        "el": "sabe",
+        "ella": "sabe",
+        "usted": "sabe",
+        "nosotros": "sabemos",
+        "ellos": "saben",
+        "ellas": "saben",
+        "ustedes": "saben"
+      },
+      "preterite": {
+        "yo": "supe",
+        "tu": "supiste",
+        "el": "supo",
+        "ella": "supo",
+        "usted": "supo",
+        "nosotros": "supimos",
+        "ellos": "supieron",
+        "ellas": "supieron",
+        "ustedes": "supieron"
+      },
+      "imperfect": {
+        "yo": "sabia",
+        "tu": "sabias",
+        "el": "sabia",
+        "ella": "sabia",
+        "usted": "sabia",
+        "nosotros": "sabiamos",
+        "ellos": "sabian",
+        "ellas": "sabian",
+        "ustedes": "sabian"
+      },
+      "future": {
+        "yo": "sabré",
+        "tu": "sabrás",
+        "el": "sabrá",
+        "ella": "sabrá",
+        "usted": "sabrá",
+        "nosotros": "sabremos",
+        "ellos": "sabrán",
+        "ellas": "sabrán",
+        "ustedes": "sabrán"
+      }
+    },
+    {
+      "infinitive": "querer",
+      "translation": "to want, love",
+      "present": {
+        "yo": "quiero",
+        "tu": "quieres",
+        "el": "quiere",
+        "ella": "quiere",
+        "usted": "quiere",
+        "nosotros": "queremos",
+        "ellos": "quieren",
+        "ellas": "quieren",
+        "ustedes": "quieren"
+      },
+      "preterite": {
+        "yo": "quise",
+        "tu": "quisiste",
+        "el": "quiso",
+        "ella": "quiso",
+        "usted": "quiso",
+        "nosotros": "quisimos",
+        "ellos": "quisieron",
+        "ellas": "quisieron",
+        "ustedes": "quisieron"
+      },
+      "imperfect": {
+        "yo": "queria",
+        "tu": "querias",
+        "el": "queria",
+        "ella": "queria",
+        "usted": "queria",
+        "nosotros": "queriamos",
+        "ellos": "querian",
+        "ellas": "querian",
+        "ustedes": "querian"
+      },
+      "future": {
+        "yo": "querré",
+        "tu": "querrás",
+        "el": "querrá",
+        "ella": "querrá",
+        "usted": "querrá",
+        "nosotros": "querremos",
+        "ellos": "querrán",
+        "ellas": "querrán",
+        "ustedes": "querrán"
+      }
+    },
+    {
+      "infinitive": "llegar",
+      "translation": "to arrive, come, reach",
+      "present": {
+        "yo": "llego",
+        "tu": "llegas",
+        "el": "llega",
+        "ella": "llega",
+        "usted": "llega",
+        "nosotros": "llegamos",
+        "ellos": "llegan",
+        "ellas": "llegan",
+        "ustedes": "llegan"
+      },
+      "preterite": {
+        "yo": "llegue",
+        "tu": "llegaste",
+        "el": "llego",
+        "ella": "llego",
+        "usted": "llego",
+        "nosotros": "llegamos",
+        "ellos": "llegaron",
+        "ellas": "llegaron",
+        "ustedes": "llegaron"
+      },
+      "imperfect": {
+        "yo": "llegaba",
+        "tu": "llegabas",
+        "el": "llegaba",
+        "ella": "llegaba",
+        "usted": "llegaba",
+        "nosotros": "llegabamos",
+        "ellos": "llegaban",
+        "ellas": "llegaban",
+        "ustedes": "llegaban"
+      },
+      "future": {
+        "yo": "llegaré",
+        "tu": "llegarás",
+        "el": "llegará",
+        "ella": "llegará",
+        "usted": "llegará",
+        "nosotros": "llegaremos",
+        "ellos": "llegarán",
+        "ellas": "llegarán",
+        "ustedes": "llegarán"
+      }
+    },
+    {
+      "infinitive": "pasar",
+      "translation": "to pass",
+      "present": {
+        "yo": "paso",
+        "tu": "pasas",
+        "el": "pasa",
+        "ella": "pasa",
+        "usted": "pasa",
+        "nosotros": "pasamos",
+        "ellos": "pasan",
+        "ellas": "pasan",
+        "ustedes": "pasan"
+      },
+      "preterite": {
+        "yo": "pase",
+        "tu": "pasaste",
+        "el": "paso",
+        "ella": "paso",
+        "usted": "paso",
+        "nosotros": "pasamos",
+        "ellos": "pasaron",
+        "ellas": "pasaron",
+        "ustedes": "pasaron"
+      },
+      "imperfect": {
+        "yo": "pasaba",
+        "tu": "pasabas",
+        "el": "pasaba",
+        "ella": "pasaba",
+        "usted": "pasaba",
+        "nosotros": "pasabamos",
+        "ellos": "pasaban",
+        "ellas": "pasaban",
+        "ustedes": "pasaban"
+      },
+      "future": {
+        "yo": "pasaré",
+        "tu": "pasarás",
+        "el": "pasará",
+        "ella": "pasará",
+        "usted": "pasará",
+        "nosotros": "pasaremos",
+        "ellos": "pasarán",
+        "ellas": "pasarán",
+        "ustedes": "pasarán"
+      }
+    },
+    {
+      "infinitive": "deber",
+      "translation": "to owe, must, should, ought to",
+      "present": {
+        "yo": "debo",
+        "tu": "debes",
+        "el": "debe",
+        "ella": "debe",
+        "usted": "debe",
+        "nosotros": "debemos",
+        "ellos": "deben",
+        "ellas": "deben",
+        "ustedes": "deben"
+      },
+      "preterite": {
+        "yo": "debi",
+        "tu": "debiste",
+        "el": "debio",
+        "ella": "debio",
+        "usted": "debio",
+        "nosotros": "debimos",
+        "ellos": "debieron",
+        "ellas": "debieron",
+        "ustedes": "debieron"
+      },
+      "imperfect": {
+        "yo": "debia",
+        "tu": "debias",
+        "el": "debia",
+        "ella": "debia",
+        "usted": "debia",
+        "nosotros": "debiamos",
+        "ellos": "debian",
+        "ellas": "debian",
+        "ustedes": "debian"
+      },
+      "future": {
+        "yo": "deberé",
+        "tu": "deberás",
+        "el": "deberá",
+        "ella": "deberá",
+        "usted": "deberá",
+        "nosotros": "deberemos",
+        "ellos": "deberán",
+        "ellas": "deberán",
+        "ustedes": "deberán"
+      }
+    },
+    {
+      "infinitive": "poner",
+      "translation": "to put, place, set",
+      "present": {
+        "yo": "pongo",
+        "tu": "pones",
+        "el": "pone",
+        "ella": "pone",
+        "usted": "ponemos",
+        "nosotros": "ponen",
+        "ellos": "ponen",
+        "ellas": "ponen",
+        "ustedes": "ponen"
+      },
+      "preterite": {
+        "yo": "puse",
+        "tu": "pusiste",
+        "el": "puso",
+        "ella": "puso",
+        "usted": "puso",
+        "nosotros": "pusimos",
+        "ellos": "pusieron",
+        "ellas": "pusieron",
+        "ustedes": "pusieron"
+      },
+      "imperfect": {
+        "yo": "ponia",
+        "tu": "ponias",
+        "el": "ponia",
+        "ella": "ponia",
+        "usted": "ponia",
+        "nosotros": "poniamos",
+        "ellos": "ponian",
+        "ellas": "ponian",
+        "ustedes": "ponian"
+      },
+      "future": {
+        "yo": "pondré",
+        "tu": "pondrás",
+        "el": "pondrá",
+        "ella": "pondrá",
+        "usted": "pondrá",
+        "nosotros": "pondremos",
+        "ellos": "pondrán",
+        "ellas": "pondrán",
+        "ustedes": "pondrán"
+      }
+    },
+    {
+      "infinitive": "parecer",
+      "translation": "to seem, appear",
+      "present": {
+        "yo": "parezco",
+        "tu": "pareces",
+        "el": "parece",
+        "ella": "parece",
+        "usted": "parece",
+        "nosotros": "parecemos",
+        "ellos": "parecen",
+        "ellas": "parecen",
+        "ustedes": "parecen"
+      },
+      "preterite": {
+        "yo": "pareci",
+        "tu": "pareciste",
+        "el": "parecio",
+        "ella": "parecio",
+        "usted": "parecio",
+        "nosotros": "parecimos",
+        "ellos": "parecieron",
+        "ellas": "parecieron",
+        "ustedes": "parecieron"
+      },
+      "imperfect": {
+        "yo": "parecia",
+        "tu": "parecias",
+        "el": "parecia",
+        "ella": "parecia",
+        "usted": "parecia",
+        "nosotros": "pareciamos",
+        "ellos": "parecian",
+        "ellas": "parecian",
+        "ustedes": "parecian"
+      },
+      "future": {
+        "yo": "pareceré",
+        "tu": "parecerás",
+        "el": "parecerá",
+        "ella": "parecerá",
+        "usted": "parecerá",
+        "nosotros": "pareceremos",
+        "ellos": "parecerán",
+        "ellas": "parecerán",
+        "ustedes": "parecerán"
+      }
+    },
+    {
+      "infinitive": "quedar",
+      "translation": "to stay, remain",
+      "present": {
+        "yo": "quedo",
+        "tu": "quedas",
+        "el": "queda",
+        "ella": "queda",
+        "usted": "queda",
+        "nosotros": "quedamos",
+        "ellos": "quedan",
+        "ellas": "quedan",
+        "ustedes": "quedan"
+      },
+      "preterite": {
+        "yo": "quede",
+        "tu": "quedaste",
+        "el": "quedo",
+        "ella": "quedo",
+        "usted": "quedo",
+        "nosotros": "quedamos",
+        "ellos": "quedaron",
+        "ellas": "quedaron",
+        "ustedes": "quedaron"
+      },
+      "imperfect": {
+        "yo": "quedaba",
+        "tu": "quedabas",
+        "el": "quedaba",
+        "ella": "quedaba",
+        "usted": "quedaba",
+        "nosotros": "quedabamos",
+        "ellos": "quedaban",
+        "ellas": "quedaban",
+        "ustedes": "quedaban"
+      },
+      "future": {
+        "yo": "quedaré",
+        "tu": "quedarás",
+        "el": "quedará",
+        "ella": "quedará",
+        "usted": "quedará",
+        "nosotros": "quedaremos",
+        "ellos": "quedarán",
+        "ellas": "quedarán",
+        "ustedes": "quedarán"
+      }
+    },
+    {
+      "infinitive": "creer",
+      "translation": "to believe",
+      "present": {
+        "yo": "creo",
+        "tu": "crees",
+        "el": "cree",
+        "ella": "cree",
+        "usted": "cree",
+        "nosotros": "creemos",
+        "ellos": "creen",
+        "ellas": "creen",
+        "ustedes": "creen"
+      },
+      "preterite": {
+        "yo": "crei",
+        "tu": "creiste",
+        "el": "creyo",
+        "ella": "creyo",
+        "usted": "creyo",
+        "nosotros": "creimos",
+        "ellos": "creyeron",
+        "ellas": "creyeron",
+        "ustedes": "creyeron"
+      },
+      "imperfect": {
+        "yo": "creia",
+        "tu": "creias",
+        "el": "creia",
+        "ella": "creia",
+        "usted": "creia",
+        "nosotros": "creiamos",
+        "ellos": "creian",
+        "ellas": "creian",
+        "ustedes": "creian"
+      },
+      "future": {
+        "yo": "creeré",
+        "tu": "creerás",
+        "el": "creerá",
+        "ella": "creerá",
+        "usted": "creerá",
+        "nosotros": "creeremos",
+        "ellos": "creerán",
+        "ellas": "creerán",
+        "ustedes": "creerán"
+      }
+    },
+    {
+      "infinitive": "hablar",
+      "translation": "to speak",
+      "present": {
+        "yo": "hablo",
+        "tu": "hablas",
+        "el": "habla",
+        "ella": "habla",
+        "usted": "hablamos",
+        "nosotros": "hablan",
+        "ellos": "hablan",
+        "ellas": "hablan",
+        "ustedes": "hablan"
+      },
+      "preterite": {
+        "yo": "hable",
+        "tu": "hablaste",
+        "el": "hablo",
+        "ella": "hablo",
+        "usted": "hablo",
+        "nosotros": "hablamos",
+        "ellos": "hablaron",
+        "ellas": "hablaron",
+        "ustedes": "hablaron"
+      },
+      "imperfect": {
+        "yo": "hablaba",
+        "tu": "hablabas",
+        "el": "hablaba",
+        "ella": "hablaba",
+        "usted": "hablaba",
+        "nosotros": "hablabamos",
+        "ellos": "hablaban",
+        "ellas": "hablaban",
+        "ustedes": "hablaban"
+      },
+      "future": {
+        "yo": "hablaré",
+        "tu": "hablarás",
+        "el": "hablará",
+        "ella": "hablará",
+        "usted": "hablará",
+        "nosotros": "hablaremos",
+        "ellos": "hablarán",
+        "ellas": "hablarán",
+        "ustedes": "hablarán"
+      }
+    },
+    {
+      "infinitive": "llevar",
+      "translation": "to carry, bring",
+      "present": {
+        "yo": "llevo",
+        "tu": "llevas",
+        "el": "lleva",
+        "ella": "lleva",
+        "usted": "lleva",
+        "nosotros": "llevamos",
+        "ellos": "llevan",
+        "ellas": "llevan",
+        "ustedes": "llevan"
+      },
+      "preterite": {
+        "yo": "lleve",
+        "tu": "llevaste",
+        "el": "llevo",
+        "ella": "llevo",
+        "usted": "llevo",
+        "nosotros": "llevamos",
+        "ellos": "llevaron",
+        "ellas": "llevaron",
+        "ustedes": "llevaron"
+      },
+      "imperfect": {
+        "yo": "llevaba",
+        "tu": "llevabas",
+        "el": "llevaba",
+        "ella": "llevaba",
+        "usted": "llevaba",
+        "nosotros": "llevabamos",
+        "ellos": "llevaban",
+        "ellas": "llevaban",
+        "ustedes": "llevaban"
+      },
+      "future": {
+        "yo": "llevaré",
+        "tu": "llevarás",
+        "el": "llevará",
+        "ella": "llevará",
+        "usted": "llevará",
+        "nosotros": "llevaremos",
+        "ellos": "llevarán",
+        "ellas": "llevarán",
+        "ustedes": "llevarán"
+      }
+    },
+    {
+      "infinitive": "dejar",
+      "translation": "to leave, abandon, to let, allow",
+      "present": {
+        "yo": "dejo",
+        "tu": "dejas",
+        "el": "deja",
+        "ella": "deja",
+        "usted": "deja",
+        "nosotros": "dejamos",
+        "ellos": "dejan",
+        "ellas": "dejan",
+        "ustedes": "dejan"
+      },
+      "preterite": {
+        "yo": "deje",
+        "tu": "dejaste",
+        "el": "dejo",
+        "ella": "dejo",
+        "usted": "dejo",
+        "nosotros": "dejamos",
+        "ellos": "dejaron",
+        "ellas": "dejaron",
+        "ustedes": "dejaron"
+      },
+      "imperfect": {
+        "yo": "dejaba",
+        "tu": "dejabas",
+        "el": "dejaba",
+        "ella": "dejaba",
+        "usted": "dejaba",
+        "nosotros": "dejabamos",
+        "ellos": "dejaban",
+        "ellas": "dejaban",
+        "ustedes": "dejaban"
+      },
+      "future": {
+        "yo": "dejaré",
+        "tu": "dejarás",
+        "el": "dejará",
+        "ella": "dejará",
+        "usted": "dejará",
+        "nosotros": "dejaremos",
+        "ellos": "dejarán",
+        "ellas": "dejarán",
+        "ustedes": "dejarán"
+      }
+    },
+    {
+      "infinitive": "seguir",
+      "translation": "to follow, continue",
+      "present": {
+        "yo": "sigo",
+        "tu": "sigues",
+        "el": "sigue",
+        "ella": "sigue",
+        "usted": "sigue",
+        "nosotros": "seguimos",
+        "ellos": "siguen",
+        "ellas": "siguen",
+        "ustedes": "siguen"
+      },
+      "preterite": {
+        "yo": "segui",
+        "tu": "seguiste",
+        "el": "siguio",
+        "ella": "siguio",
+        "usted": "siguio",
+        "nosotros": "seguimos",
+        "ellos": "siguieron",
+        "ellas": "siguieron",
+        "ustedes": "siguieron"
+      },
+      "imperfect": {
+        "yo": "seguia",
+        "tu": "seguias",
+        "el": "seguia",
+        "ella": "sequia",
+        "usted": "seguia",
+        "nosotros": "seguiamos",
+        "ellos": "seguian",
+        "ellas": "seguian",
+        "ustedes": "seguian"
+      },
+      "future": {
+        "yo": "seguiré",
+        "tu": "seguirás",
+        "el": "seguirá",
+        "ella": "seguirá",
+        "usted": "seguirá",
+        "nosotros": "seguiremos",
+        "ellos": "seguirán",
+        "ellas": "seguirán",
+        "ustedes": "seguirán"
+      }
+    },
+    {
+      "infinitive": "encontrar",
+      "translation": "to find, encounter",
+      "present": {
+        "yo": "encontro",
+        "tu": "encontras",
+        "el": "encontra",
+        "ella": "encontra",
+        "usted": "encontra",
+        "nosotros": "encontramos",
+        "ellos": "encontran",
+        "ellas": "encontran",
+        "ustedes": "encontran"
+      },
+      "preterite": {
+        "yo": "encontre",
+        "tu": "encontraste",
+        "el": "encontro",
+        "ella": "encontro",
+        "usted": "encontro",
+        "nosotros": "encontramos",
+        "ellos": "encontraron",
+        "ellas": "encontraron",
+        "ustedes": "encontraron"
+      },
+      "imperfect": {
+        "yo": "encontraba",
+        "tu": "encontrabas",
+        "el": "encontraba",
+        "ella": "encontraba",
+        "usted": "encontraba",
+        "nosotros": "encontrabamos",
+        "ellos": "encontraban",
+        "ellas": "encontraban",
+        "ustedes": "encontraban"
+      },
+      "future": {
+        "yo": "encontraré",
+        "tu": "encontrarás",
+        "el": "encontrará",
+        "ella": "encontrará",
+        "usted": "encontrará",
+        "nosotros": "encontraremos",
+        "ellos": "encontrarán",
+        "ellas": "encontrarán",
+        "ustedes": "encontrarán"
+      }
+    },
+    {
+      "infinitive": "llamar",
+      "translation": "to call, to name",
+      "present": {
+        "yo": "llamo",
+        "tu": "llamas",
+        "el": "llama",
+        "ella": "llama",
+        "usted": "llama",
+        "nosotros": "llamamos",
+        "ellos": "llaman",
+        "ellas": "llaman",
+        "ustedes": "llaman"
+      },
+      "preterite": {
+        "yo": "llame",
+        "tu": "llamaste",
+        "el": "llamo",
+        "ella": "llamo",
+        "usted": "llamo",
+        "nosotros": "llamamos",
+        "ellos": "llamaron",
+        "ellas": "llamaron",
+        "ustedes": "llamaron"
+      },
+      "imperfect": {
+        "yo": "llamaba",
+        "tu": "llamabas",
+        "el": "llamaba",
+        "ella": "llamaba",
+        "usted": "llamaba",
+        "nosotros": "llamabamos",
+        "ellos": "llamaban",
+        "ellas": "llamaban",
+        "ustedes": "llamaban"
+      },
+      "future": {
+        "yo": "llamaré",
+        "tu": "llamarás",
+        "el": "llamará",
+        "ella": "llamará",
+        "usted": "llamará",
+        "nosotros": "llamaremos",
+        "ellos": "llamarán",
+        "ellas": "llamarán",
+        "ustedes": "llamarán"
+      }
+    },
+    {
+      "infinitive": "venir",
+      "translation": "to come",
+      "present": {
+        "yo": "vengo",
+        "tu": "vienes",
+        "el": "viene",
+        "ella": "viene",
+        "usted": "viene",
+        "nosotros": "venimos",
+        "ellos": "vienen",
+        "ellas": "vienen",
+        "ustedes": "vienen"
+      },
+      "preterite": {
+        "yo": "vine",
+        "tu": "viniste",
+        "el": "vino",
+        "ella": "vino",
+        "usted": "vino",
+        "nosotros": "vinimos",
+        "ellos": "vinieron",
+        "ellas": "vinieron",
+        "ustedes": "vinieron"
+      },
+      "imperfect": {
+        "yo": "venia",
+        "tu": "venias",
+        "el": "venia",
+        "ella": "venia",
+        "usted": "venia",
+        "nosotros": "veniamos",
+        "ellos": "venian",
+        "ellas": "venian",
+        "ustedes": "venian"
+      },
+      "future": {
+        "yo": "vendré",
+        "tu": "vendrás",
+        "el": "vendrá",
+        "ella": "vendrá",
+        "usted": "vendrá",
+        "nosotros": "vendremos",
+        "ellos": "vendrán",
+        "ellas": "vendrán",
+        "ustedes": "vendrán"
+      }
+    },
+    {
+      "infinitive": "pensar",
+      "translation": "to think",
+      "present": {
+        "yo": "penso",
+        "tu": "pensas",
+        "el": "pensa",
+        "ella": "pensa",
+        "usted": "pensa",
+        "nosotros": "pensamos",
+        "ellos": "pensan",
+        "ellas": "pensan",
+        "ustedes": "pensan"
+      },
+      "preterite": {
+        "yo": "pense",
+        "tu": "pensaste",
+        "el": "penso",
+        "ella": "penso",
+        "usted": "penso",
+        "nosotros": "pensamos",
+        "ellos": "pensaron",
+        "ellas": "pensaron",
+        "ustedes": "pensaron"
+      },
+      "imperfect": {
+        "yo": "pensaba",
+        "tu": "pensabas",
+        "el": "pensaba",
+        "ella": "pensaba",
+        "usted": "pensaba",
+        "nosotros": "pensabamos",
+        "ellos": "pensaban",
+        "ellas": "pensaban",
+        "ustedes": "pensaban"
+      },
+      "future": {
+        "yo": "pensaré",
+        "tu": "pensarás",
+        "el": "pensará",
+        "ella": "pensará",
+        "usted": "pensará",
+        "nosotros": "pensaremos",
+        "ellos": "pensarán",
+        "ellas": "pensarán",
+        "ustedes": "pensarán"
+      }
+    },
+    {
+      "infinitive": "salir",
+      "translation": "to leave, go out",
+      "present": {
+        "yo": "salgo",
+        "tu": "sales",
+        "el": "sale",
+        "ella": "sale",
+        "usted": "sale",
+        "nosotros": "salimos",
+        "ellos": "salen",
+        "ellas": "salen",
+        "ustedes": "salen"
+      },
+      "preterite": {
+        "yo": "sali",
+        "tu": "saliste",
+        "el": "salio",
+        "ella": "salio",
+        "usted": "salio",
+        "nosotros": "salimos",
+        "ellos": "salieron",
+        "ellas": "salieron",
+        "ustedes": "salieron"
+      },
+      "imperfect": {
+        "yo": "salia",
+        "tu": "salias",
+        "el": "salia",
+        "ella": "salia",
+        "usted": "salia",
+        "nosotros": "saliamos",
+        "ellos": "salian",
+        "ellas": "salian",
+        "ustedes": "salian"
+      },
+      "future": {
+        "yo": "saldré",
+        "tu": "saldrás",
+        "el": "saldrá",
+        "ella": "saldrá",
+        "usted": "saldrá",
+        "nosotros": "saldremos",
+        "ellos": "saldrán",
+        "ellas": "saldrán",
+        "ustedes": "saldrán"
+      }
+    },
+    {
+      "infinitive": "volver",
+      "translation": "to seem, appear",
+      "present": {
+        "yo": "volvo",
+        "tu": "volves",
+        "el": "volve",
+        "ella": "volve",
+        "usted": "volve",
+        "nosotros": "volvemos",
+        "ellos": "volven",
+        "ellas": "volven",
+        "ustedes": "volven"
+      },
+      "preterite": {
+        "yo": "volvi",
+        "tu": "volviste",
+        "el": "volvio",
+        "ella": "volvio",
+        "usted": "volvio",
+        "nosotros": "volvimos",
+        "ellos": "volvieron",
+        "ellas": "volvieron",
+        "ustedes": "volvieron"
+      },
+      "imperfect": {
+        "yo": "volvia",
+        "tu": "volvias",
+        "el": "volvia",
+        "ella": "volvia",
+        "usted": "volvia",
+        "nosotros": "volviamos",
+        "ellos": "volvian",
+        "ellas": "volvian",
+        "ustedes": "volvian"
+      },
+      "future": {
+        "yo": "volveré",
+        "tu": "volverás",
+        "el": "volverá",
+        "ella": "volverá",
+        "usted": "volverá",
+        "nosotros": "volveremos",
+        "ellos": "volverán",
+        "ellas": "volverán",
+        "ustedes": "volverán"
+      }
+    },
+    {
+      "infinitive": "tomar",
+      "translation": "to take, drink",
+      "present": {
+        "yo": "tomo",
+        "tu": "tomas",
+        "el": "toma",
+        "ella": "toma",
+        "usted": "toma",
+        "nosotros": "tomamos",
+        "ellos": "toman",
+        "ellas": "toman",
+        "ustedes": "toman"
+      },
+      "preterite": {
+        "yo": "tome",
+        "tu": "tomaste",
+        "el": "tomo",
+        "ella": "tomo",
+        "usted": "tomo",
+        "nosotros": "tomamos",
+        "ellos": "tomaron",
+        "ellas": "tomaron",
+        "ustedes": "tomaron"
+      },
+      "imperfect": {
+        "yo": "tomaba",
+        "tu": "tomabas",
+        "el": "tomaba",
+        "ella": "tomaba",
+        "usted": "tomaba",
+        "nosotros": "tomabamos",
+        "ellos": "tomaban",
+        "ellas": "tomaban",
+        "ustedes": "tomaban"
+      },
+      "future": {
+        "yo": "tomaré",
+        "tu": "tomarás",
+        "el": "tomará",
+        "ella": "tomará",
+        "usted": "tomará",
+        "nosotros": "tomaremos",
+        "ellos": "tomarán",
+        "ellas": "tomarán",
+        "ustedes": "tomarán"
+      }
+    },
+    {
+      "infinitive": "conocer",
+      "translation": "to know (people, places)",
+      "present": {
+        "yo": "conoco",
+        "tu": "conoces",
+        "el": "conoce",
+        "ella": "conoce",
+        "usted": "conoce",
+        "nosotros": "conocemos",
+        "ellos": "conocen",
+        "ellas": "conocen",
+        "ustedes": "conocen"
+      },
+      "preterite": {
+        "yo": "conoci",
+        "tu": "conociste",
+        "el": "conocio",
+        "ella": "conocio",
+        "usted": "conocio",
+        "nosotros": "conocimos",
+        "ellos": "conocieron",
+        "ellas": "conocieron",
+        "ustedes": "conocieron"
+      },
+      "imperfect": {
+        "yo": "conocia",
+        "tu": "conocias",
+        "el": "conocia",
+        "ella": "conocia",
+        "usted": "conocia",
+        "nosotros": "conociamos",
+        "ellos": "conocian",
+        "ellas": "conocian",
+        "ustedes": "conocian"
+      },
+      "future": {
+        "yo": "conoceré",
+        "tu": "conocerás",
+        "el": "conocerá",
+        "ella": "conocerá",
+        "usted": "conocerá",
+        "nosotros": "conoceremos",
+        "ellos": "conocerán",
+        "ellas": "conocerán",
+        "ustedes": "conocerán"
+      }
+    },
+    {
+      "infinitive": "vivir",
+      "translation": "to live",
+      "present": {
+        "yo": "vivo",
+        "tu": "vives",
+        "el": "vive",
+        "ella": "vive",
+        "usted": "vive",
+        "nosotros": "vivimos",
+        "ellos": "viven",
+        "ellas": "viven",
+        "ustedes": "viven"
+      },
+      "preterite": {
+        "yo": "vivi",
+        "tu": "viviste",
+        "el": "vivio",
+        "ella": "vivio",
+        "usted": "vivio",
+        "nosotros": "vivimos",
+        "ellos": "vivieron",
+        "ellas": "vivieron",
+        "ustedes": "vivieron"
+      },
+      "imperfect": {
+        "yo": "vivia",
+        "tu": "vivias",
+        "el": "vivia",
+        "ella": "vivia",
+        "usted": "vivia",
+        "nosotros": "viviamos",
+        "ellos": "vivian",
+        "ellas": "vivian",
+        "ustedes": "vivian"
+      },
+      "future": {
+        "yo": "viviré",
+        "tu": "vivirás",
+        "el": "vivirá",
+        "ella": "vivirá",
+        "usted": "vivirá",
+        "nosotros": "viviremos",
+        "ellos": "vivirán",
+        "ellas": "vivirán",
+        "ustedes": "vivirán"
+      }
+    },
+    {
+      "infinitive": "sentir",
+      "translation": "to feel, regret",
+      "present": {
+        "yo": "siento",
+        "tu": "sientes",
+        "el": "siente",
+        "ella": "siente",
+        "usted": "siente",
+        "nosotros": "sentimos",
+        "ellos": "sienten",
+        "ellas": "sienten",
+        "ustedes": "sienten"
+      },
+      "preterite": {
+        "yo": "senti",
+        "tu": "sentiste",
+        "el": "sintio",
+        "ella": "sintio",
+        "usted": "sintio",
+        "nosotros": "sentimos",
+        "ellos": "sintieron",
+        "ellas": "sintieron",
+        "ustedes": "sintieron"
+      },
+      "imperfect": {
+        "yo": "sentia",
+        "tu": "sentias",
+        "el": "sentia",
+        "ella": "sentia",
+        "usted": "sentia",
+        "nosotros": "sentiamos",
+        "ellos": "sentian",
+        "ellas": "sentian",
+        "ustedes": "sentian"
+      },
+      "future": {
+        "yo": "sentiré",
+        "tu": "sentirás",
+        "el": "sentirá",
+        "ella": "sentirá",
+        "usted": "sentirá",
+        "nosotros": "sentiremos",
+        "ellos": "sentirán",
+        "ellas": "sentirán",
+        "ustedes": "sentirán"
+      }
+    },
+    {
+      "infinitive": "tratar",
+      "translation": "to treat, handle",
+      "present": {
+        "yo": "trato",
+        "tu": "tratas",
+        "el": "trata",
+        "ella": "trata",
+        "usted": "trata",
+        "nosotros": "tratamos",
+        "ellos": "tratan",
+        "ellas": "tratan",
+        "ustedes": "tratan"
+      },
+      "preterite": {
+        "yo": "trate",
+        "tu": "trataste",
+        "el": "trato",
+        "ella": "trato",
+        "usted": "trato",
+        "nosotros": "tratamos",
+        "ellos": "trataron",
+        "ellas": "trataron",
+        "ustedes": "trataron"
+      },
+      "imperfect": {
+        "yo": "trataba",
+        "tu": "tratabas",
+        "el": "trataba",
+        "ella": "trataba",
+        "usted": "trataba",
+        "nosotros": "tratabamos",
+        "ellos": "trataban",
+        "ellas": "trataban",
+        "ustedes": "trataban"
+      },
+      "future": {
+        "yo": "trataré",
+        "tu": "tratarás",
+        "el": "tratará",
+        "ella": "tratará",
+        "usted": "tratará",
+        "nosotros": "trataremos",
+        "ellos": "tratarán",
+        "ellas": "tratarán",
+        "ustedes": "tratarán"
+      }
+    },
+    {
+      "infinitive": "mirar",
+      "translation": "to watch, look at",
+      "present": {
+        "yo": "miro",
+        "tu": "miras",
+        "el": "mira",
+        "ella": "mira",
+        "usted": "mira",
+        "nosotros": "miramos",
+        "ellos": "miran",
+        "ellas": "miran",
+        "ustedes": "miran"
+      },
+      "preterite": {
+        "yo": "mire",
+        "tu": "miraste",
+        "el": "miro",
+        "ella": "miro",
+        "usted": "miro",
+        "nosotros": "miramos",
+        "ellos": "miraron",
+        "ellas": "miraron",
+        "ustedes": "miraron"
+      },
+      "imperfect": {
+        "yo": "miraba",
+        "tu": "mirabas",
+        "el": "miraba",
+        "ella": "miraba",
+        "usted": "miraba",
+        "nosotros": "mirabamos",
+        "ellos": "miraban",
+        "ellas": "miraban",
+        "ustedes": "miraban"
+      },
+      "future": {
+        "yo": "miraré",
+        "tu": "mirarás",
+        "el": "mirará",
+        "ella": "mirará",
+        "usted": "mirará",
+        "nosotros": "miraremos",
+        "ellos": "mirarán",
+        "ellas": "mirarán",
+        "ustedes": "mirarán"
+      }
+    },
+    {
+      "infinitive": "contar",
+      "translation": "to count, relate, tell",
+      "present": {
+        "yo": "conto",
+        "tu": "contas",
+        "el": "conta",
+        "ella": "conta",
+        "usted": "conta",
+        "nosotros": "contamos",
+        "ellos": "contan",
+        "ellas": "contan",
+        "ustedes": "contan"
+      },
+      "preterite": {
+        "yo": "conte",
+        "tu": "contaste",
+        "el": "conto",
+        "ella": "conto",
+        "usted": "conto",
+        "nosotros": "contamos",
+        "ellos": "contaron",
+        "ellas": "contaron",
+        "ustedes": "contaron"
+      },
+      "imperfect": {
+        "yo": "contaba",
+        "tu": "contabas",
+        "el": "contaba",
+        "ella": "contaba",
+        "usted": "contaba",
+        "nosotros": "contabamos",
+        "ellos": "contaban",
+        "ellas": "contaban",
+        "ustedes": "contaban"
+      },
+      "future": {
+        "yo": "contaré",
+        "tu": "contarás",
+        "el": "contará",
+        "ella": "contará",
+        "usted": "contará",
+        "nosotros": "contaremos",
+        "ellos": "contarán",
+        "ellas": "contarán",
+        "ustedes": "contarán"
+      }
+    },
+    {
+      "infinitive": "empezar",
+      "translation": "to begin, start",
+      "present": {
+        "yo": "empiezo",
+        "tu": "empiezas",
+        "el": "emipeza",
+        "ella": "emipeza",
+        "usted": "empieza",
+        "nosotros": "empezamos",
+        "ellos": "empezan",
+        "ellas": "empezan",
+        "ustedes": "empiezan"
+      },
+      "preterite": {
+        "yo": "empece",
+        "tu": "empezaste",
+        "el": "empezo",
+        "ella": "empezo",
+        "usted": "empezo",
+        "nosotros": "empezamos",
+        "ellos": "empezaron",
+        "ellas": "empezaron",
+        "ustedes": "empezaron"
+      },
+      "imperfect": {
+        "yo": "empezaba",
+        "tu": "empezabas",
+        "el": "empezaba",
+        "ella": "empezaba",
+        "usted": "empezaba",
+        "nosotros": "empezabamos",
+        "ellos": "empezaban",
+        "ellas": "empezaban",
+        "ustedes": "empezaban"
+      },
+      "future": {
+        "yo": "empezaré",
+        "tu": "empezarás",
+        "el": "empezarás",
+        "ella": "empezarás",
+        "usted": "empezarás",
+        "nosotros": "esperaremos",
+        "ellos": "empezarás",
+        "ellas": "empezarás",
+        "ustedes": "empezarás"
+      }
+    },
+    {
+      "infinitive": "esperar",
+      "translation": "to hope",
+      "present": {
+        "yo": "espero",
+        "tu": "esperas",
+        "el": "espera",
+        "ella": "espera",
+        "usted": "espera",
+        "nosotros": "esperamos",
+        "ellos": "esperan",
+        "ellas": "esperan",
+        "ustedes": "esperan"
+      },
+      "preterite": {
+        "yo": "espere",
+        "tu": "esperaste",
+        "el": "espero",
+        "ella": "espero",
+        "usted": "espero",
+        "nosotros": "esperamos",
+        "ellos": "esperaron",
+        "ellas": "esperaron",
+        "ustedes": "esperaron"
+      },
+      "imperfect": {
+        "yo": "esperaba",
+        "tu": "esperabas",
+        "el": "esperaba",
+        "ella": "esperaba",
+        "usted": "esperaba",
+        "nosotros": "esperabamos",
+        "ellos": "esperaban",
+        "ellas": "esperaban",
+        "ustedes": "esperaban"
+      },
+      "future": {
+        "yo": "esperaré",
+        "tu": "esperarás",
+        "el": "esperará",
+        "ella": "esperará",
+        "usted": "esperará",
+        "nosotros": "esperaremos",
+        "ellos": "esperarán",
+        "ellas": "esperarán",
+        "ustedes": "esperarán"
+      }
+    },
+    {
+      "infinitive": "buscar",
+      "translation": "to search for, look for",
+      "present": {
+        "yo": "busco",
+        "tu": "buscas",
+        "el": "busca",
+        "ella": "busca",
+        "usted": "busca",
+        "nosotros": "buscamos",
+        "ellos": "buscan",
+        "ellas": "buscan",
+        "ustedes": "buscan"
+      },
+      "preterite": {
+        "yo": "busque",
+        "tu": "buscaste",
+        "el": "busco",
+        "ella": "busco",
+        "usted": "busco",
+        "nosotros": "buscamos",
+        "ellos": "buscaron",
+        "ellas": "buscaron",
+        "ustedes": "buscaron"
+      },
+      "imperfect": {
+        "yo": "buscaba",
+        "tu": "buscabas",
+        "el": "buscaba",
+        "ella": "buscaba",
+        "usted": "buscaba",
+        "nosotros": "buscabamos",
+        "ellos": "buscaban",
+        "ellas": "buscaban",
+        "ustedes": "buscaban"
+      },
+      "future": {
+        "yo": "buscaré",
+        "tu": "buscarás",
+        "el": "buscará",
+        "ella": "buscará",
+        "usted": "buscará",
+        "nosotros": "buscaremos",
+        "ellos": "buscarán",
+        "ellas": "buscarán",
+        "ustedes": "buscarán"
+      }
+    },
+    {
+      "infinitive": "existir",
+      "translation": "to exist",
+      "present": {
+        "yo": "existo",
+        "tu": "existes",
+        "el": "existe",
+        "ella": "existe",
+        "usted": "existe",
+        "nosotros": "existimos",
+        "ellos": "existen",
+        "ellas": "existen",
+        "ustedes": "existen"
+      },
+      "preterite": {
+        "yo": "existi",
+        "tu": "exististe",
+        "el": "existio",
+        "ella": "existio",
+        "usted": "existio",
+        "nosotros": "existimos",
+        "ellos": "existeron",
+        "ellas": "existeron",
+        "ustedes": "existeron"
+      },
+      "imperfect": {
+        "yo": "existia",
+        "tu": "existias",
+        "el": "existia",
+        "ella": "existia",
+        "usted": "existia",
+        "nosotros": "existiamos",
+        "ellos": "existian",
+        "ellas": "existian",
+        "ustedes": "existian"
+      },
+      "future": {
+        "yo": "trabajaré",
+        "tu": "trabajarás",
+        "el": "trabajará",
+        "ella": "trabajará",
+        "usted": "trabajará",
+        "nosotros": "trabajaremos",
+        "ellos": "trabajarán",
+        "ellas": "trabajarán",
+        "ustedes": "trabajarán"
+      }
+    },
+    {
+      "infinitive": "entrar",
+      "translation": "to enter, go in, come in",
+      "present": {
+        "yo": "entro",
+        "tu": "entras",
+        "el": "entra",
+        "ella": "entra",
+        "usted": "entra",
+        "nosotros": "entramos",
+        "ellos": "entran",
+        "ellas": "entran",
+        "ustedes": "entran"
+      },
+      "preterite": {
+        "yo": "entré",
+        "tu": "entraste",
+        "el": "entró",
+        "ella": "entró",
+        "usted": "entró",
+        "nosotros": "entramos",
+        "ellos": "entraron",
+        "ellas": "entraron",
+        "ustedes": "entraron"
+      },
+      "imperfect": {
+        "yo": "entraba",
+        "tu": "entrabas",
+        "el": "entraba",
+        "ella": "entraba",
+        "usted": "entraba",
+        "nosotros": "entrábamos",
+        "ellos": "entraban",
+        "ellas": "entraban",
+        "ustedes": "entraban"
+      },
+      "future": {
+        "yo": "entraré",
+        "tu": "entrarás",
+        "el": "entrará",
+        "ella": "entrará",
+        "usted": "entrará",
+        "nosotros": "entraremos",
+        "ellos": "entrarán",
+        "ellas": "entrarán",
+        "ustedes": "entrarán"
+      }
+    },
+    {
+      "infinitive": "trabajar",
+      "translation": "to work",
+      "present": {
+        "yo": "trabajo",
+        "tu": "trabajas",
+        "el": "trabaja",
+        "ella": "trabaja",
+        "usted": "trabaja",
+        "nosotros": "trabajamos",
+        "ellos": "trabajan",
+        "ellas": "trabajan",
+        "ustedes": "trabajan"
+      },
+      "preterite": {
+        "yo": "trabajé",
+        "tu": "trabajaste",
+        "el": "trabajó",
+        "ella": "trabajó",
+        "usted": "trabajó",
+        "nosotros": "trabajamos",
+        "ellos": "trabajaron",
+        "ellas": "trabajaron",
+        "ustedes": "trabajaron"
+      },
+      "imperfect": {
+        "yo": "trabajaba",
+        "tu": "trabajabas",
+        "el": "trabajaba",
+        "ella": "trabajaba",
+        "usted": "trabajaba",
+        "nosotros": "trabajábamos",
+        "ellos": "trabajaban",
+        "ellas": "trabajaban",
+        "ustedes": "trabajaban"
+      },
+      "future": {
+        "yo": "trabajaré",
+        "tu": "trabajarás",
+        "el": "trabajará",
+        "ella": "trabajará",
+        "usted": "trabajará",
+        "nosotros": "trabajaremos",
+        "ellos": "trabajarán",
+        "ellas": "trabajarán",
+        "ustedes": "trabajarán"
+      }
+    },
+    {
+      "infinitive": "escribir",
+      "translation": "to write",
+      "present": {
+        "yo": "escribo",
+        "tu": "escribes",
+        "el": "escribe",
+        "ella": "escribe",
+        "usted": "escribe",
+        "nosotros": "escribimos",
+        "ellos": "escriben",
+        "ellas": "escriben",
+        "ustedes": "escriben"
+      },
+      "preterite": {
+        "yo": "escribí",
+        "tu": "escribiste",
+        "el": "escribió",
+        "ella": "escribió",
+        "usted": "escribió",
+        "nosotros": "escribimos",
+        "ellos": "escribieron",
+        "ellas": "escribieron",
+        "ustedes": "escribieron"
+      },
+      "imperfect": {
+        "yo": "escribía",
+        "tu": "escribías",
+        "el": "escribía",
+        "ella": "escribía",
+        "usted": "escribía",
+        "nosotros": "escribíamos",
+        "ellos": "escribían",
+        "ellas": "escribían",
+        "ustedes": "escribían"
+      },
+      "future": {
+        "yo": "escribiré",
+        "tu": "escribirás",
+        "el": "escribirá",
+        "ella": "escribirá",
+        "usted": "escribirá",
+        "nosotros": "escribiremos",
+        "ellos": "escribirán",
+        "ellas": "escribirán",
+        "ustedes": "escribirán"
+      }
+    },
+    {
+      "infinitive": "perder",
+      "translation": "to lose",
+      "present": {
+        "yo": "perdo",
+        "tu": "perdes",
+        "el": "perde",
+        "ella": "perde",
+        "usted": "perde",
+        "nosotros": "perdemos",
+        "ellos": "pierden",
+        "ellas": "pierden",
+        "ustedes": "pierden"
+      },
+      "preterite": {
+        "yo": "perdí",
+        "tu": "perdiste",
+        "el": "perdió",
+        "ella": "perdió",
+        "usted": "perdió",
+        "nosotros": "perdimos",
+        "ellos": "perdieron",
+        "ellas": "perdieron",
+        "ustedes": "perdieron"
+      },
+      "imperfect": {
+        "yo": "perdía",
+        "tu": "perdías",
+        "el": "perdía",
+        "ella": "perdía",
+        "usted": "perdía",
+        "nosotros": "perdíamos",
+        "ellos": "perdían",
+        "ellas": "perdían",
+        "ustedes": "perdían"
+      },
+      "future": {
+        "yo": "perderé",
+        "tu": "perderás",
+        "el": "perderá",
+        "ella": "perderá",
+        "usted": "perderá",
+        "nosotros": "perderemos",
+        "ellos": "perderán",
+        "ellas": "perderán",
+        "ustedes": "perderán"
+      }
+    },
+    {
+      "infinitive": "producir",
+      "translation": "to produce",
+      "present": {
+        "yo": "produzco",
+        "tu": "produces",
+        "el": "produce",
+        "ella": "produce",
+        "usted": "produce",
+        "nosotros": "producimos",
+        "ellos": "producen",
+        "ellas": "producen",
+        "ustedes": "producen"
+      },
+      "preterite": {
+        "yo": "produje",
+        "tu": "produjiste",
+        "el": "produjo",
+        "ella": "produjo",
+        "usted": "produjo",
+        "nosotros": "produjimos",
+        "ellos": "produjeron",
+        "ellas": "produjeron",
+        "ustedes": "produjeron"
+      },
+      "imperfect": {
+        "yo": "producía",
+        "tu": "producías",
+        "el": "producía",
+        "ella": "producía",
+        "usted": "producía",
+        "nosotros": "producíamos",
+        "ellos": "producían",
+        "ellas": "producían",
+        "ustedes": "producían"
+      },
+      "future": {
+        "yo": "produciré",
+        "tu": "producirás",
+        "el": "producirá",
+        "ella": "producirá",
+        "usted": "producirá",
+        "nosotros": "produciremos",
+        "ellos": "producirán",
+        "ellas": "producirán",
+        "ustedes": "producirán"
+      }
+    },
+    {
+      "infinitive": "ocurrir",
+      "translation": "to occur, happen",
+      "present": {
+        "yo": "ocurro",
+        "tu": "ocurres",
+        "el": "ocurre",
+        "ella": "occurre",
+        "usted": "occurre",
+        "nosotros": "occurrimos",
+        "ellos": "occuren",
+        "ellas": "occuren",
+        "ustedes": "occuren"
+      },
+      "preterite": {
+        "yo": "ocurrí",
+        "tu": "ocurriste",
+        "el": "ocurrió",
+        "ella": "ocurrió",
+        "usted": "ocurrió",
+        "nosotros": "ocurrimos",
+        "ellos": "ocurrieron",
+        "ellas": "ocurrieron",
+        "ustedes": "ocurrieron"
+      },
+      "imperfect": {
+        "yo": "ocurría",
+        "tu": "ocurrías",
+        "el": "ocurría",
+        "ella": "ocurría",
+        "usted": "ocurría",
+        "nosotros": "ocurríamos",
+        "ellos": "ocurrían",
+        "ellas": "ocurrían",
+        "ustedes": "ocurrían"
+      },
+      "future": {
+        "yo": "ocurriré",
+        "tu": "ocurrirás",
+        "el": "ocurrirá",
+        "ella": "ocurrirá",
+        "usted": "ocurrirá",
+        "nosotros": "ocurriremos",
+        "ellos": "ocurrirán",
+        "ellas": "ocurrirán",
+        "ustedes": "ocurrirán"
+      }
+    },
+    {
+      "infinitive": "entender",
+      "translation": "to understand",
+      "present": {
+        "yo": "entiendo",
+        "tu": "entiendes",
+        "el": "entiende",
+        "ella": "entiende",
+        "usted": "entiende",
+        "nosotros": "entendemos",
+        "ellos": "entienden",
+        "ellas": "entienden",
+        "ustedes": "entienden"
+      },
+      "preterite": {
+        "yo": "entendí",
+        "tu": "entendiste",
+        "el": "entendió",
+        "ella": "entendió",
+        "usted": "entendió",
+        "nosotros": "entendimos",
+        "ellos": "entendieron",
+        "ellas": "entendieron",
+        "ustedes": "entendieron"
+      },
+      "imperfect": {
+        "yo": "entendía",
+        "tu": "entendías",
+        "el": "entendía",
+        "ella": "entendía",
+        "usted": "entendía",
+        "nosotros": "entendíamos",
+        "ellos": "entendían",
+        "ellas": "entendían",
+        "ustedes": "entendían"
+      },
+      "future": {
+        "yo": "entenderé",
+        "tu": "entenderás",
+        "el": "entenderá",
+        "ella": "entenderá",
+        "usted": "entenderá",
+        "nosotros": "entenderemos",
+        "ellos": "entenderán",
+        "ellas": "entenderán",
+        "ustedes": "entenderán"
+      }
+    },
+    {
+      "infinitive": "pedir",
+      "translation": "to request, ask for",
+      "present": {
+        "yo": "pido",
+        "tu": "pides",
+        "el": "pide",
+        "ella": "pide",
+        "usted": "pide",
+        "nosotros": "pedimos",
+        "ellos": "piden",
+        "ellas": "piden",
+        "ustedes": "piden"
+      },
+      "preterite": {
+        "yo": "pedí",
+        "tu": "pediste",
+        "el": "pidió",
+        "ella": "pidió",
+        "usted": "pidió",
+        "nosotros": "pedimos",
+        "ellos": "pidieron",
+        "ellas": "pidieron",
+        "ustedes": "pidieron"
+      },
+      "imperfect": {
+        "yo": "pedía",
+        "tu": "pedías",
+        "el": "pedía",
+        "ella": "pedía",
+        "usted": "pedía",
+        "nosotros": "pedíamos",
+        "ellos": "pedían",
+        "ellas": "pedían",
+        "ustedes": "pedían"
+      },
+      "future": {
+        "yo": "pediré",
+        "tu": "pedirás",
+        "el": "pedirá",
+        "ella": "pedirá",
+        "usted": "pedirá",
+        "nosotros": "pediremos",
+        "ellos": "pedirán",
+        "ellas": "pedirán",
+        "ustedes": "pedirán"
+      }
+    },
+    {
+      "infinitive": "recibir",
+      "translation": "to receive, to welcome",
+      "present": {
+        "yo": "recibo",
+        "tu": "recibes",
+        "el": "recibe",
+        "ella": "recibe",
+        "usted": "recibe",
+        "nosotros": "recibimos",
+        "ellos": "reciben",
+        "ellas": "reciben",
+        "ustedes": "reciben"
+      },
+      "preterite": {
+        "yo": "recibí",
+        "tu": "recibiste",
+        "el": "recibió",
+        "ella": "recibió",
+        "usted": "recibió",
+        "nosotros": "recibimos",
+        "ellos": "recibieron",
+        "ellas": "recibieron",
+        "ustedes": "recibieron"
+      },
+      "imperfect": {
+        "yo": "recibía",
+        "tu": "recibías",
+        "el": "recibía",
+        "ella": "recibía",
+        "usted": "recibía",
+        "nosotros": "recibíamos",
+        "ellos": "recibían",
+        "ellas": "recibían",
+        "ustedes": "recibían"
+      },
+      "future": {
+        "yo": "recibiré",
+        "tu": "recibirás",
+        "el": "recibirá",
+        "ella": "recibirá",
+        "usted": "recibirá",
+        "nosotros": "recibiremos",
+        "ellos": "recibirán",
+        "ellas": "recibirán",
+        "ustedes": "recibirán"
+      }
+    },
+    {
+      "infinitive": "recordar",
+      "translation": "to remember, remind",
+      "present": {
+        "yo": "recordo",
+        "tu": "recordas",
+        "el": "recorda",
+        "ella": "recorda",
+        "usted": "recorda",
+        "nosotros": "recordamos",
+        "ellos": "recordan",
+        "ellas": "recordan",
+        "ustedes": "recordan"
+      },
+      "preterite": {
+        "yo": "recordé",
+        "tu": "recordaste",
+        "el": "recordó",
+        "ella": "recordó",
+        "usted": "recordó",
+        "nosotros": "recordamos",
+        "ellos": "recordaron",
+        "ellas": "recordaron",
+        "ustedes": "recordaron"
+      },
+      "imperfect": {
+        "yo": "recordaba",
+        "tu": "recordabas",
+        "el": "recordaba",
+        "ella": "recordaba",
+        "usted": "recordaba",
+        "nosotros": "recordábamos",
+        "ellos": "recordaban",
+        "ellas": "recordaban",
+        "ustedes": "recordaban"
+      },
+      "future": {
+        "yo": "recordaré",
+        "tu": "recordarás",
+        "el": "recordará",
+        "ella": "recordará",
+        "usted": "recordará",
+        "nosotros": "recordaremos",
+        "ellos": "recordarán",
+        "ellas": "recordarán",
+        "ustedes": "recordarán"
+      }
+    },
+    {
+      "infinitive": "terminar",
+      "translation": "to finish, end",
+      "present": {
+        "yo": "termino",
+        "tu": "terminas",
+        "el": "termina",
+        "ella": "termina",
+        "usted": "termina",
+        "nosotros": "terminamos",
+        "ellos": "terminan",
+        "ellas": "terminan",
+        "ustedes": "terminan"
+      },
+      "preterite": {
+        "yo": "terminé",
+        "tu": "terminaste",
+        "el": "terminó",
+        "ella": "terminó",
+        "usted": "terminó",
+        "nosotros": "terminamos",
+        "ellos": "terminaron",
+        "ellas": "terminaron",
+        "ustedes": "terminaron"
+      },
+      "imperfect": {
+        "yo": "terminaba",
+        "tu": "terminabas",
+        "el": "terminaba",
+        "ella": "terminaba",
+        "usted": "terminaba",
+        "nosotros": "terminábamos",
+        "ellos": "terminaban",
+        "ellas": "terminaban",
+        "ustedes": "terminaban"
+      },
+      "future": {
+        "yo": "terminaré",
+        "tu": "terminarás",
+        "el": "terminará",
+        "ella": "terminará",
+        "usted": "terminará",
+        "nosotros": "terminaremos",
+        "ellos": "terminarán",
+        "ellas": "terminarán",
+        "ustedes": "terminarán"
+      }
+    },
+    {
+      "infinitive": "permitir",
+      "translation": "to permit",
+      "present": {
+        "yo": "permito",
+        "tu": "permites",
+        "el": "permite",
+        "ella": "permite",
+        "usted": "permite",
+        "nosotros": "permitimos",
+        "ellos": "permiten",
+        "ellas": "permiten",
+        "ustedes": "permiten"
+      },
+      "preterite": {
+        "yo": "permití",
+        "tu": "permitiste",
+        "el": "permitió",
+        "ella": "permitió",
+        "usted": "permitió",
+        "nosotros": "permitimos",
+        "ellos": "permitieron",
+        "ellas": "permitieron",
+        "ustedes": "permitieron"
+      },
+      "imperfect": {
+        "yo": "permitía",
+        "tu": "permitías",
+        "el": "permitía",
+        "ella": "permitía",
+        "usted": "permitía",
+        "nosotros": "permitíamos",
+        "ellos": "permitían",
+        "ellas": "permitían",
+        "ustedes": "permitían"
+      },
+      "future": {
+        "yo": "permitiré",
+        "tu": "permitirás",
+        "el": "permitirá",
+        "ella": "permitirá",
+        "usted": "permitirá",
+        "nosotros": "permitiremos",
+        "ellos": "permitirán",
+        "ellas": "permitirán",
+        "ustedes": "permitirán"
+      }
+    },
+    {
+      "infinitive": "aparecer",
+      "translation": "to appear, show up",
+      "present": {
+        "yo": "apareco",
+        "tu": "apareces",
+        "el": "aparece",
+        "ella": "aparece",
+        "usted": "aparece",
+        "nosotros": "aparecemos",
+        "ellos": "aparecen",
+        "ellas": "parecen",
+        "ustedes": "aparecen"
+      },
+      "preterite": {
+        "yo": "aparecí",
+        "tu": "apareciste",
+        "el": "apareció",
+        "ella": "apareció",
+        "usted": "apareció",
+        "nosotros": "aparecimos",
+        "ellos": "aparecieron",
+        "ellas": "aparecieron",
+        "ustedes": "aparecieron"
+      },
+      "imperfect": {
+        "yo": "aparecía",
+        "tu": "aparecías",
+        "el": "aparecía",
+        "ella": "aparecía",
+        "usted": "aparecía",
+        "nosotros": "aparecíamos",
+        "ellos": "aparecían",
+        "ellas": "aparecían",
+        "ustedes": "aparecían"
+      },
+      "future": {
+        "yo": "apareceré",
+        "tu": "aparecerás",
+        "el": "aparecerá",
+        "ella": "aparecerá",
+        "usted": "aparecerá",
+        "nosotros": "apareceremos",
+        "ellos": "aparecerán",
+        "ellas": "aparecerán",
+        "ustedes": "aparecerán"
+      }
+    },
+    {
+      "infinitive": "conseguir",
+      "translation": "to get, obtain",
+      "present": {
+        "yo": "consigo",
+        "tu": "consigues",
+        "el": "consigue",
+        "ella": "consigue",
+        "usted": "consigue",
+        "nosotros": "conseguimos",
+        "ellos": "consiguen",
+        "ellas": "consiguen",
+        "ustedes": "consiguen"
+      },
+      "preterite": {
+        "yo": "conseguí",
+        "tu": "conseguiste",
+        "el": "consiguió",
+        "ella": "consiguió",
+        "usted": "consiguió",
+        "nosotros": "conseguimos",
+        "ellos": "consiguieron",
+        "ellas": "consiguieron",
+        "ustedes": "consiguieron"
+      },
+      "imperfect": {
+        "yo": "conseguía",
+        "tu": "conseguías",
+        "el": "conseguía",
+        "ella": "conseguía",
+        "usted": "conseguía",
+        "nosotros": "conseguíamos",
+        "ellos": "conseguían",
+        "ellas": "conseguían",
+        "ustedes": "conseguían"
+      },
+      "future": {
+        "yo": "conseguiré",
+        "tu": "conseguirás",
+        "el": "conseguirá",
+        "ella": "conseguirá",
+        "usted": "conseguirá",
+        "nosotros": "conseguiremos",
+        "ellos": "conseguirán",
+        "ellas": "conseguirán",
+        "ustedes": "conseguirán"
+      }
+    },
+    {
+      "infinitive": "comenzar",
+      "translation": "to commence, begin, start",
+      "present": {
+        "yo": "comienzo",
+        "tu": "comienzas",
+        "el": "comienza",
+        "ella": "comienza",
+        "usted": "comienza",
+        "nosotros": "comenzamos",
+        "ellos": "comienzan",
+        "ellas": "comienzan",
+        "ustedes": "comienzan"
+      },
+      "preterite": {
+        "yo": "comencé",
+        "tu": "comenzaste",
+        "el": "comenzó",
+        "ella": "comenzó",
+        "usted": "comenzó",
+        "nosotros": "comenzamos",
+        "ellos": "comenzaron",
+        "ellas": "comenzaron",
+        "ustedes": "comenzaron"
+      },
+      "imperfect": {
+        "yo": "comenzaba",
+        "tu": "comenzabas",
+        "el": "comenzaba",
+        "ella": "comenzaba",
+        "usted": "comenzaba",
+        "nosotros": "comenzábamos",
+        "ellos": "comenzaban",
+        "ellas": "comenzaban",
+        "ustedes": "comenzaban"
+      },
+      "future": {
+        "yo": "comenzaré",
+        "tu": "comenzarás",
+        "el": "comenzará",
+        "ella": "comenzará",
+        "usted": "comenzará",
+        "nosotros": "comenzaremos",
+        "ellos": "comenzarán",
+        "ellas": "comenzarán",
+        "ustedes": "comenzarán"
+      }
+    },
+    {
+      "infinitive": "servir",
+      "translation": "to serve",
+      "present": {
+        "yo": "servo",
+        "tu": "serves",
+        "el": "serve",
+        "ella": "serve",
+        "usted": "serve",
+        "nosotros": "servimos",
+        "ellos": "serven",
+        "ellas": "serven",
+        "ustedes": "serven"
+      },
+      "preterite": {
+        "yo": "serví",
+        "tu": "serviste",
+        "el": "sirvió",
+        "ella": "sirvió",
+        "usted": "sirvió",
+        "nosotros": "servimos",
+        "ellos": "sirvieron",
+        "ellas": "sirvieron",
+        "ustedes": "sirvieron"
+      },
+      "imperfect": {
+        "yo": "servía",
+        "tu": "servías",
+        "el": "servía",
+        "ella": "servía",
+        "usted": "servía",
+        "nosotros": "servíamos",
+        "ellos": "servían",
+        "ellas": "servían",
+        "ustedes": "servían"
+      },
+      "future": {
+        "yo": "serviré",
+        "tu": "servirás",
+        "el": "servirá",
+        "ella": "servirá",
+        "usted": "servirá",
+        "nosotros": "serviremos",
+        "ellos": "servirán",
+        "ellas": "servirán",
+        "ustedes": "servirán"
+      }
+    },
+    {
+      "infinitive": "sacar",
+      "translation": "to take out, stick out",
+      "present": {
+        "yo": "saco",
+        "tu": "sacas",
+        "el": "saca",
+        "ella": "saca",
+        "usted": "saca",
+        "nosotros": "sacamos",
+        "ellos": "sacan",
+        "ellas": "sacan",
+        "ustedes": "sacan"
+      },
+      "preterite": {
+        "yo": "saqué",
+        "tu": "sacaste",
+        "el": "sacó",
+        "ella": "sacó",
+        "usted": "sacó",
+        "nosotros": "sacamos",
+        "ellos": "sacaron",
+        "ellas": "sacaron",
+        "ustedes": "sacaron"
+      },
+      "imperfect": {
+        "yo": "sacaba",
+        "tu": "sacabas",
+        "el": "sacaba",
+        "ella": "sacaba",
+        "usted": "sacaba",
+        "nosotros": "sacábamos",
+        "ellos": "sacaban",
+        "ellas": "sacaban",
+        "ustedes": "sacaban"
+      },
+      "future": {
+        "yo": "sacaré",
+        "tu": "sacarás",
+        "el": "sacará",
+        "ella": "sacará",
+        "usted": "sacará",
+        "nosotros": "sacaremos",
+        "ellos": "sacarán",
+        "ellas": "sacarán",
+        "ustedes": "sacarán"
+      }
+    },
+    {
+      "infinitive": "necesitar",
+      "translation": "to need, require",
+      "present": {
+        "yo": "necesito",
+        "tu": "necesitas",
+        "el": "necesita",
+        "ella": "necesita",
+        "usted": "necesita",
+        "nosotros": "necesitamos",
+        "ellos": "necesitan",
+        "ellas": "necesitan",
+        "ustedes": "necesitan"
+      },
+      "preterite": {
+        "yo": "necesité",
+        "tu": "necesitaste",
+        "el": "necesitó",
+        "ella": "necesitó",
+        "usted": "necesitó",
+        "nosotros": "necesitamos",
+        "ellos": "necesitaron",
+        "ellas": "necesitaron",
+        "ustedes": "necesitaron"
+      },
+      "imperfect": {
+        "yo": "necesitaba",
+        "tu": "necesitabas",
+        "el": "necesitaba",
+        "ella": "necesitaba",
+        "usted": "necesitaba",
+        "nosotros": "necesitábamos",
+        "ellos": "necesitaban",
+        "ellas": "necesitaban",
+        "ustedes": "necesitaban"
+      },
+      "future": {
+        "yo": "necesitaré",
+        "tu": "necesitarás",
+        "el": "necesitará",
+        "ella": "necesitará",
+        "usted": "necesitará",
+        "nosotros": "necesitaremos",
+        "ellos": "necesitarán",
+        "ellas": "necesitarán",
+        "ustedes": "necesitarán"
+      }
+    },
+    {
+      "infinitive": "mantener",
+      "translation": "to maintain, get",
+      "present": {
+        "yo": "manteno",
+        "tu": "mantenes",
+        "el": "mantene",
+        "ella": "mantene",
+        "usted": "mantene",
+        "nosotros": "mantenemos",
+        "ellos": "mantenen",
+        "ellas": "mantenen",
+        "ustedes": "mantenen"
+      },
+      "preterite": {
+        "yo": "mantuve",
+        "tu": "mantuviste",
+        "el": "mantuvo",
+        "ella": "mantuvo",
+        "usted": "mantuvo",
+        "nosotros": "mantuvimos",
+        "ellos": "mantuvieron",
+        "ellas": "mantuvieron",
+        "ustedes": "mantuvieron"
+      },
+      "imperfect": {
+        "yo": "mantenía",
+        "tu": "mantenías",
+        "el": "mantenía",
+        "ella": "mantenía",
+        "usted": "mantenía",
+        "nosotros": "manteníamos",
+        "ellos": "mantenían",
+        "ellas": "mantenían",
+        "ustedes": "mantenían"
+      },
+      "future": {
+        "yo": "mantendré",
+        "tu": "mantendrás",
+        "el": "mantendrá",
+        "ella": "mantendrá",
+        "usted": "mantendrá",
+        "nosotros": "mantendremos",
+        "ellos": "mantendrán",
+        "ellas": "mantendrán",
+        "ustedes": "mantendrán"
+      }
+    },
+    {
+      "infinitive": "resultar",
+      "translation": "to turn out (to be)",
+      "present": {
+        "yo": "resulto",
+        "tu": "resultas",
+        "el": "resulta",
+        "ella": "resulta",
+        "usted": "resulta",
+        "nosotros": "resultamos",
+        "ellos": "resultan",
+        "ellas": "resultan",
+        "ustedes": "resultan"
+      },
+      "preterite": {
+        "yo": "resulté",
+        "tu": "resultaste",
+        "el": "resultó",
+        "ella": "resultó",
+        "usted": "resultó",
+        "nosotros": "resultamos",
+        "ellos": "resultaron",
+        "ellas": "resultaron",
+        "ustedes": "resultaron"
+      },
+      "imperfect": {
+        "yo": "resultaba",
+        "tu": "resultabas",
+        "el": "resultaba",
+        "ella": "resultaba",
+        "usted": "resultaba",
+        "nosotros": "resultábamos",
+        "ellos": "resultaban",
+        "ellas": "resultaban",
+        "ustedes": "resultaban"
+      },
+      "future": {
+        "yo": "resultaré",
+        "tu": "resultarás",
+        "el": "resultará",
+        "ella": "resultará",
+        "usted": "resultará",
+        "nosotros": "resultaremos",
+        "ellos": "resultarán",
+        "ellas": "resultarán",
+        "ustedes": "resultarán"
+      }
+    },
+    {
+      "infinitive": "leer",
+      "translation": "to read",
+      "present": {
+        "yo": "leo",
+        "tu": "lees",
+        "el": "lee",
+        "ella": "lee",
+        "usted": "lee",
+        "nosotros": "leemos",
+        "ellos": "leen",
+        "ellas": "leen",
+        "ustedes": "leen"
+      },
+      "preterite": {
+        "yo": "leí",
+        "tu": "leíste",
+        "el": "leyó",
+        "ella": "leyó",
+        "usted": "leyó",
+        "nosotros": "leímos",
+        "ellos": "leyeron",
+        "ellas": "leyeron",
+        "ustedes": "leyeron"
+      },
+      "imperfect": {
+        "yo": "leía",
+        "tu": "leías",
+        "el": "leía",
+        "ella": "leía",
+        "usted": "leía",
+        "nosotros": "leíamos",
+        "ellos": "leían",
+        "ellas": "leían",
+        "ustedes": "leían"
+      },
+      "future": {
+        "yo": "leeré",
+        "tu": "leerás",
+        "el": "leerá",
+        "ella": "leerá",
+        "usted": "leerá",
+        "nosotros": "leeremos",
+        "ellos": "leerán",
+        "ellas": "leerán",
+        "ustedes": "leerán"
+      }
+    },
+    {
+      "infinitive": "caer",
+      "translation": "to fall",
+      "present": {
+        "yo": "cao",
+        "tu": "caes",
+        "el": "cae",
+        "ella": "cae",
+        "usted": "cae",
+        "nosotros": "caemos",
+        "ellos": "caen",
+        "ellas": "caen",
+        "ustedes": "caen"
+      },
+      "preterite": {
+        "yo": "caí",
+        "tu": "caíste",
+        "el": "cayó",
+        "ella": "cayó",
+        "usted": "cayó",
+        "nosotros": "caímos",
+        "ellos": "cayeron",
+        "ellas": "cayeron",
+        "ustedes": "cayeron"
+      },
+      "imperfect": {
+        "yo": "caía",
+        "tu": "caías",
+        "el": "caía",
+        "ella": "caía",
+        "usted": "caía",
+        "nosotros": "caíamos",
+        "ellos": "caían",
+        "ellas": "caían",
+        "ustedes": "caían"
+      },
+      "future": {
+        "yo": "caeré",
+        "tu": "caerás",
+        "el": "caerá",
+        "ella": "caerá",
+        "usted": "caerá",
+        "nosotros": "caeremos",
+        "ellos": "caerán",
+        "ellas": "caerán",
+        "ustedes": "caerán"
+      }
+    },
+    {
+      "infinitive": "cambiar",
+      "translation": "to change",
+      "present": {
+        "yo": "cambio",
+        "tu": "cambias",
+        "el": "cambia",
+        "ella": "cambia",
+        "usted": "cambia",
+        "nosotros": "cambiamos",
+        "ellos": "cambian",
+        "ellas": "cambian",
+        "ustedes": "cambian"
+      },
+      "preterite": {
+        "yo": "cambié",
+        "tu": "cambiaste",
+        "el": "cambió",
+        "ella": "cambió",
+        "usted": "cambió",
+        "nosotros": "cambiamos",
+        "ellos": "cambiaron",
+        "ellas": "cambiaron",
+        "ustedes": "cambiaron"
+      },
+      "imperfect": {
+        "yo": "cambiaba",
+        "tu": "cambiabas",
+        "el": "cambiaba",
+        "ella": "cambiaba",
+        "usted": "cambiaba",
+        "nosotros": "cambiábamos",
+        "ellos": "cambiaban",
+        "ellas": "cambiaban",
+        "ustedes": "cambiaban"
+      },
+      "future": {
+        "yo": "cambiaré",
+        "tu": "cambiarás",
+        "el": "cambiará",
+        "ella": "cambiará",
+        "usted": "cambiará",
+        "nosotros": "cambiaremos",
+        "ellos": "cambiarán",
+        "ellas": "cambiarán",
+        "ustedes": "cambiarán"
+      }
+    },
+    {
+      "infinitive": "presentar",
+      "translation": "to introduce, present",
+      "present": {
+        "yo": "presento",
+        "tu": "presentas",
+        "el": "presenta",
+        "ella": "presenta",
+        "usted": "presenta",
+        "nosotros": "presentamos",
+        "ellos": "presentan",
+        "ellas": "presentan",
+        "ustedes": "presentan"
+      },
+      "preterite": {
+        "yo": "presenté",
+        "tu": "presentaste",
+        "el": "presentó",
+        "ella": "presentó",
+        "usted": "presentó",
+        "nosotros": "presentamos",
+        "ellos": "presentaron",
+        "ellas": "presentaron",
+        "ustedes": "presentaron"
+      },
+      "imperfect": {
+        "yo": "presentaba",
+        "tu": "presentabas",
+        "el": "presentaba",
+        "ella": "presentaba",
+        "usted": "presentaba",
+        "nosotros": "presentábamos",
+        "ellos": "presentaban",
+        "ellas": "presentaban",
+        "ustedes": "presentaban"
+      },
+      "future": {
+        "yo": "presentaré",
+        "tu": "presentarás",
+        "el": "presentará",
+        "ella": "presentará",
+        "usted": "presentará",
+        "nosotros": "presentaremos",
+        "ellos": "presentarán",
+        "ellas": "presentarán",
+        "ustedes": "presentarán"
+      }
+    },
+    {
+      "infinitive": "crear",
+      "translation": "to create, to make",
+      "present": {
+        "yo": "creo",
+        "tu": "creas",
+        "el": "crea",
+        "ella": "crea",
+        "usted": "crea",
+        "nosotros": "creamos",
+        "ellos": "crean",
+        "ellas": "crean",
+        "ustedes": "crean"
+      },
+      "preterite": {
+        "yo": "creé",
+        "tu": "creaste",
+        "el": "creó",
+        "ella": "creó",
+        "usted": "creó",
+        "nosotros": "creamos",
+        "ellos": "crearon",
+        "ellas": "crearon",
+        "ustedes": "crearon"
+      },
+      "imperfect": {
+        "yo": "creaba",
+        "tu": "creabas",
+        "el": "creaba",
+        "ella": "creaba",
+        "usted": "creaba",
+        "nosotros": "creábamos",
+        "ellos": "creaban",
+        "ellas": "creaban",
+        "ustedes": "creaban"
+      },
+      "future": {
+        "yo": "crearé",
+        "tu": "crearás",
+        "el": "creará",
+        "ella": "creará",
+        "usted": "creará",
+        "nosotros": "crearemos",
+        "ellos": "crearán",
+        "ellas": "crearán",
+        "ustedes": "crearán"
+      }
+    },
+    {
+      "infinitive": "abrir",
+      "translation": "to open",
+      "present": {
+        "yo": "abro",
+        "tu": "abres",
+        "el": "abre",
+        "ella": "abre",
+        "usted": "abre",
+        "nosotros": "abremos",
+        "ellos": "abren",
+        "ellas": "abren",
+        "ustedes": "abren"
+      },
+      "preterite": {
+        "yo": "abrí",
+        "tu": "abriste",
+        "el": "abrió",
+        "ella": "abrió",
+        "usted": "abrió",
+        "nosotros": "abrimos",
+        "ellos": "abrieron",
+        "ellas": "abrieron",
+        "ustedes": "abrieron"
+      },
+      "imperfect": {
+        "yo": "abría",
+        "tu": "abrías",
+        "el": "abría",
+        "ella": "abría",
+        "usted": "abría",
+        "nosotros": "abríamos",
+        "ellos": "abrían",
+        "ellas": "abrían",
+        "ustedes": "abrían"
+      },
+      "future": {
+        "yo": "abriré",
+        "tu": "abrirás",
+        "el": "abrirá",
+        "ella": "abrirá",
+        "usted": "abrirá",
+        "nosotros": "abriremos",
+        "ellos": "abrirán",
+        "ellas": "abrirán",
+        "ustedes": "abrirán"
+      }
+    },
+    {
+      "infinitive": "considerar",
+      "translation": "to consider",
+      "present": {
+        "yo": "considero",
+        "tu": "consideres",
+        "el": "considere",
+        "ella": "considere",
+        "usted": "considere",
+        "nosotros": "consideremos",
+        "ellos": "consideren",
+        "ellas": "consideren",
+        "ustedes": "consideren"
+      },
+      "preterite": {
+        "yo": "consideré",
+        "tu": "consideraste",
+        "el": "consideró",
+        "ella": "consideró",
+        "usted": "consideró",
+        "nosotros": "consideramos",
+        "ellos": "consideraron",
+        "ellas": "consideraron",
+        "ustedes": "consideraron"
+      },
+      "imperfect": {
+        "yo": "consideraba",
+        "tu": "considerabas",
+        "el": "consideraba",
+        "ella": "consideraba",
+        "usted": "consideraba",
+        "nosotros": "considerábamos",
+        "ellos": "consideraban",
+        "ellas": "consideraban",
+        "ustedes": "consideraban"
+      },
+      "future": {
+        "yo": "consideraré",
+        "tu": "considerarás",
+        "el": "considerará",
+        "ella": "considerará",
+        "usted": "considerará",
+        "nosotros": "consideraremos",
+        "ellos": "considerarán",
+        "ellas": "considerarán",
+        "ustedes": "considerarán"
+      }
+    },
+    {
+      "infinitive": "oir",
+      "translation": "to hear",
+      "present": {
+        "yo": "oigo",
+        "tu": "oyes",
+        "el": "oye",
+        "ella": "oye",
+        "usted": "oye",
+        "nosotros": "oimos",
+        "ellos": "oyen",
+        "ellas": "oyen",
+        "ustedes": "oyen"
+      },
+      "preterite": {
+        "yo": "oí",
+        "tu": "oíste",
+        "el": "oyó",
+        "ella": "oyó",
+        "usted": "oyó",
+        "nosotros": "oímos",
+        "ellos": "oyeron",
+        "ellas": "oyeron",
+        "ustedes": "oyeron"
+      },
+      "imperfect": {
+        "yo": "oía",
+        "tu": "oías",
+        "el": "oía",
+        "ella": "oía",
+        "usted": "oía",
+        "nosotros": "oíamos",
+        "ellos": "oían",
+        "ellas": "oían",
+        "ustedes": "oían"
+      },
+      "future": {
+        "yo": "oiré",
+        "tu": "oirás",
+        "el": "oirá",
+        "ella": "oirá",
+        "usted": "oirá",
+        "nosotros": "oiremos",
+        "ellos": "oirán",
+        "ellas": "oirán",
+        "ustedes": "oirán"
+      }
+    },
+    {
+      "infinitive": "acabar",
+      "translation": "to finish, end",
+      "present": {
+        "yo": "acabo",
+        "tu": "acabas",
+        "el": "acaba",
+        "ella": "acaba",
+        "usted": "acaba",
+        "nosotros": "acabamos",
+        "ellos": "acaban",
+        "ellas": "acaban",
+        "ustedes": "acaban"
+      },
+      "preterite": {
+        "yo": "acabé",
+        "tu": "acabaste",
+        "el": "acabó",
+        "ella": "acabó",
+        "usted": "acabó",
+        "nosotros": "acabamos",
+        "ellos": "acabaron",
+        "ellas": "acabaron",
+        "ustedes": "acabaron"
+      },
+      "imperfect": {
+        "yo": "acababa",
+        "tu": "acababas",
+        "el": "acababa",
+        "ella": "acababa",
+        "usted": "acababa",
+        "nosotros": "acabábamos",
+        "ellos": "acababan",
+        "ellas": "acababan",
+        "ustedes": "acababan"
+      },
+      "future": {
+        "yo": "acabaré",
+        "tu": "acabarás",
+        "el": "acabará",
+        "ella": "acabará",
+        "usted": "acabará",
+        "nosotros": "acabaremos",
+        "ellos": "acabarán",
+        "ellas": "acabarán",
+        "ustedes": "acabarán"
+      }
+    },
+    {
+      "infinitive": "convertir",
+      "translation": "to convert, change",
+      "present": {
+        "yo": "convierto",
+        "tu": "conviertes",
+        "el": "converte",
+        "ella": "converte",
+        "usted": "converte",
+        "nosotros": "convertimos",
+        "ellos": "convierten",
+        "ellas": "convierten",
+        "ustedes": "convierten"
+      },
+      "preterite": {
+        "yo": "convertí",
+        "tu": "convertiste",
+        "el": "convirtió",
+        "ella": "convirtió",
+        "usted": "convirtió",
+        "nosotros": "convertimos",
+        "ellos": "convirtieron",
+        "ellas": "convirtieron",
+        "ustedes": "convirtieron"
+      },
+      "imperfect": {
+        "yo": "convertía",
+        "tu": "convertías",
+        "el": "convertía",
+        "ella": "convertía",
+        "usted": "convertía",
+        "nosotros": "convertíamos",
+        "ellos": "convertían",
+        "ellas": "convertían",
+        "ustedes": "convertían"
+      },
+      "future": {
+        "yo": "convertiré",
+        "tu": "convertirás",
+        "el": "convertirá",
+        "ella": "convertirá",
+        "usted": "convertirá",
+        "nosotros": "convertiremos",
+        "ellos": "convertirán",
+        "ellas": "convertirán",
+        "ustedes": "convertirán"
+      }
+    },
+    {
+      "infinitive": "ganar",
+      "translation": "to win, earn, get, acquire",
+      "present": {
+        "yo": "gano",
+        "tu": "ganas",
+        "el": "gana",
+        "ella": "gana",
+        "usted": "gana",
+        "nosotros": "ganamos",
+        "ellos": "ganan",
+        "ellas": "ganan",
+        "ustedes": "ganan"
+      },
+      "preterite": {
+        "yo": "gané",
+        "tu": "ganaste",
+        "el": "ganó",
+        "ella": "ganó",
+        "usted": "ganó",
+        "nosotros": "ganamos",
+        "ellos": "ganaron",
+        "ellas": "ganaron",
+        "ustedes": "ganaron"
+      },
+      "imperfect": {
+        "yo": "ganaba",
+        "tu": "ganabas",
+        "el": "ganaba",
+        "ella": "ganaba",
+        "usted": "ganaba",
+        "nosotros": "ganábamos",
+        "ellos": "ganaban",
+        "ellas": "ganaban",
+        "ustedes": "ganaban"
+      },
+      "future": {
+        "yo": "ganaré",
+        "tu": "ganarás",
+        "el": "ganará",
+        "ella": "ganará",
+        "usted": "ganará",
+        "nosotros": "ganaremos",
+        "ellos": "ganarán",
+        "ellas": "ganarán",
+        "ustedes": "ganarán"
+      }
+    },
+    {
+      "infinitive": "formar",
+      "translation": "to form, shape, fashion, make",
+      "present": {
+        "yo": "formo",
+        "tu": "formas",
+        "el": "forma",
+        "ella": "forma",
+        "usted": "forma",
+        "nosotros": "formamos",
+        "ellos": "forman",
+        "ellas": "forman",
+        "ustedes": "forman"
+      },
+      "preterite": {
+        "yo": "formé",
+        "tu": "formaste",
+        "el": "formó",
+        "ella": "formó",
+        "usted": "formó",
+        "nosotros": "formamos",
+        "ellos": "formaron",
+        "ellas": "formaron",
+        "ustedes": "formaron"
+      },
+      "imperfect": {
+        "yo": "formaba",
+        "tu": "formabas",
+        "el": "formaba",
+        "ella": "formaba",
+        "usted": "formaba",
+        "nosotros": "formábamos",
+        "ellos": "formaban",
+        "ellas": "formaban",
+        "ustedes": "formaban"
+      },
+      "future": {
+        "yo": "formaré",
+        "tu": "formarás",
+        "el": "formará",
+        "ella": "formará",
+        "usted": "formará",
+        "nosotros": "formaremos",
+        "ellos": "formarán",
+        "ellas": "formarán",
+        "ustedes": "formarán"
+      }
+    },
+    {
+      "infinitive": "traer",
+      "translation": "to bring, to get, fetch, to carry",
+      "present": {
+        "yo": "traigo",
+        "tu": "traes",
+        "el": "trae",
+        "ella": "trae",
+        "usted": "trae",
+        "nosotros": "traemos",
+        "ellos": "traen",
+        "ellas": "traen",
+        "ustedes": "traen"
+      },
+      "preterite": {
+        "yo": "traje",
+        "tu": "trajiste",
+        "el": "trajo",
+        "ella": "trajo",
+        "usted": "trajo",
+        "nosotros": "trajimos",
+        "ellos": "trajeron",
+        "ellas": "trajeron",
+        "ustedes": "trajeron"
+      },
+      "imperfect": {
+        "yo": "traía",
+        "tu": "traías",
+        "el": "traía",
+        "ella": "traía",
+        "usted": "traía",
+        "nosotros": "traíamos",
+        "ellos": "traían",
+        "ellas": "traían",
+        "ustedes": "traían"
+      },
+      "future": {
+        "yo": "traeré",
+        "tu": "traerás",
+        "el": "traerá",
+        "ella": "traerá",
+        "usted": "traerá",
+        "nosotros": "traeremos",
+        "ellos": "traerán",
+        "ellas": "traerán",
+        "ustedes": "traerán"
+      }
+    },
+    {
+      "infinitive": "partir",
+      "translation": "to divide, to leave",
+      "present": {
+        "yo": "parto",
+        "tu": "partes",
+        "el": "parte",
+        "ella": "parte",
+        "usted": "parte",
+        "nosotros": "partimos",
+        "ellos": "parten",
+        "ellas": "parten",
+        "ustedes": "parten"
+      },
+      "preterite": {
+        "yo": "partí",
+        "tu": "partiste",
+        "el": "partió",
+        "ella": "partió",
+        "usted": "partió",
+        "nosotros": "partimos",
+        "ellos": "partieron",
+        "ellas": "partieron",
+        "ustedes": "partieron"
+      },
+      "imperfect": {
+        "yo": "partía",
+        "tu": "partías",
+        "el": "partía",
+        "ella": "partía",
+        "usted": "partía",
+        "nosotros": "partíamos",
+        "ellos": "partían",
+        "ellas": "partían",
+        "ustedes": "partían"
+      },
+      "future": {
+        "yo": "partiré",
+        "tu": "partirás",
+        "el": "partirá",
+        "ella": "partirá",
+        "usted": "partirá",
+        "nosotros": "partiremos",
+        "ellos": "partirán",
+        "ellas": "partirán",
+        "ustedes": "partirán"
+      }
+    },
+    {
+      "infinitive": "morir",
+      "translation": "to die",
+      "present": {
+        "yo": "muero",
+        "tu": "mueres",
+        "el": "muere",
+        "ella": "muere",
+        "usted": "muere",
+        "nosotros": "morimos",
+        "ellos": "mueren",
+        "ellas": "mueren",
+        "ustedes": "mueren"
+      },
+      "preterite": {
+        "yo": "morí",
+        "tu": "moriste",
+        "el": "murió",
+        "ella": "murió",
+        "usted": "murió",
+        "nosotros": "morimos",
+        "ellos": "murieron",
+        "ellas": "murieron",
+        "ustedes": "murieron"
+      },
+      "imperfect": {
+        "yo": "moría",
+        "tu": "morías",
+        "el": "moría",
+        "ella": "moría",
+        "usted": "moría",
+        "nosotros": "moríamos",
+        "ellos": "morían",
+        "ellas": "morían",
+        "ustedes": "morían"
+      },
+      "future": {
+        "yo": "moriré",
+        "tu": "morirás",
+        "el": "morirá",
+        "ella": "morirá",
+        "usted": "morirá",
+        "nosotros": "moriremos",
+        "ellos": "morirán",
+        "ellas": "morirán",
+        "ustedes": "morirán"
+      }
+    },
+    {
+      "infinitive": "aceptar",
+      "translation": "to accept, approve, to agree to",
+      "present": {
+        "yo": "acepto",
+        "tu": "aceptas",
+        "el": "acepta",
+        "ella": "acepta",
+        "usted": "acepta",
+        "nosotros": "aceptamos",
+        "ellos": "aceptan",
+        "ellas": "aceptan",
+        "ustedes": "aceptan"
+      },
+      "preterite": {
+        "yo": "acepté",
+        "tu": "aceptaste",
+        "el": "aceptó",
+        "ella": "aceptó",
+        "usted": "aceptó",
+        "nosotros": "aceptamos",
+        "ellos": "aceptaron",
+        "ellas": "aceptaron",
+        "ustedes": "aceptaron"
+      },
+      "imperfect": {
+        "yo": "aceptaba",
+        "tu": "aceptabas",
+        "el": "aceptaba",
+        "ella": "aceptaba",
+        "usted": "aceptaba",
+        "nosotros": "aceptábamos",
+        "ellos": "aceptaban",
+        "ellas": "aceptaban",
+        "ustedes": "aceptaban"
+      },
+      "future": {
+        "yo": "aceptaré",
+        "tu": "aceptarás",
+        "el": "aceptará",
+        "ella": "aceptará",
+        "usted": "aceptará",
+        "nosotros": "aceptaremos",
+        "ellos": "aceptarán",
+        "ellas": "aceptarán",
+        "ustedes": "aceptarán"
+      }
+    },
+    {
+      "infinitive": "realizar",
+      "translation": "to realize, achieve, attain, accomplish",
+      "present": {
+        "yo": "realizo",
+        "tu": "realizas",
+        "el": "realiza",
+        "ella": "realiza",
+        "usted": "realiza",
+        "nosotros": "realizamos",
+        "ellos": "realizan",
+        "ellas": "realizan",
+        "ustedes": "realizan"
+      },
+      "preterite": {
+        "yo": "realicé",
+        "tu": "realizaste",
+        "el": "realizó",
+        "ella": "realizó",
+        "usted": "realizó",
+        "nosotros": "realizamos",
+        "ellos": "realizaron",
+        "ellas": "realizaron",
+        "ustedes": "realizaron"
+      },
+      "imperfect": {
+        "yo": "realizaba",
+        "tu": "realizabas",
+        "el": "realizaba",
+        "ella": "realizaba",
+        "usted": "realizaba",
+        "nosotros": "realizábamos",
+        "ellos": "realizaban",
+        "ellas": "realizaban",
+        "ustedes": "realizaban"
+      },
+      "future": {
+        "yo": "realizaré",
+        "tu": "realizarás",
+        "el": "realizará",
+        "ella": "realizará",
+        "usted": "realizará",
+        "nosotros": "realizaremos",
+        "ellos": "realizarán",
+        "ellas": "realizarán",
+        "ustedes": "realizarán"
+      }
+    },
+    {
+      "infinitive": "suponer",
+      "translation": "to suppose",
+      "present": {
+        "yo": "supono",
+        "tu": "supones",
+        "el": "supone",
+        "ella": "supone",
+        "usted": "supone",
+        "nosotros": "suponemos",
+        "ellos": "suponen",
+        "ellas": "suponen",
+        "ustedes": "suponen"
+      },
+      "preterite": {
+        "yo": "supuse",
+        "tu": "supusiste",
+        "el": "supuso",
+        "ella": "supuso",
+        "usted": "supuso",
+        "nosotros": "supusimos",
+        "ellos": "supusieron",
+        "ellas": "supusieron",
+        "ustedes": "supusieron"
+      },
+      "imperfect": {
+        "yo": "suponía",
+        "tu": "suponías",
+        "el": "suponía",
+        "ella": "suponía",
+        "usted": "suponía",
+        "nosotros": "suponíamos",
+        "ellos": "suponían",
+        "ellas": "suponían",
+        "ustedes": "suponían"
+      },
+      "future": {
+        "yo": "supondré",
+        "tu": "supondrás",
+        "el": "supondrá",
+        "ella": "supondrá",
+        "usted": "supondrá",
+        "nosotros": "supondremos",
+        "ellos": "supondrán",
+        "ellas": "supondrán",
+        "ustedes": "supondrán"
+      }
+    },
+    {
+      "infinitive": "comprender",
+      "translation": "to understand, comprehend",
+      "present": {
+        "yo": "comprendo",
+        "tu": "comprendes",
+        "el": "comprende",
+        "ella": "comprende",
+        "usted": "comprende",
+        "nosotros": "comprendemos",
+        "ellos": "comprenden",
+        "ellas": "comprenden",
+        "ustedes": "comprenden"
+      },
+      "preterite": {
+        "yo": "comprendí",
+        "tu": "comprendiste",
+        "el": "comprendió",
+        "ella": "comprendió",
+        "usted": "comprendió",
+        "nosotros": "comprendimos",
+        "ellos": "comprendieron",
+        "ellas": "comprendieron",
+        "ustedes": "comprendieron"
+      },
+      "imperfect": {
+        "yo": "comprendía",
+        "tu": "comprendías",
+        "el": "comprendía",
+        "ella": "comprendía",
+        "usted": "comprendía",
+        "nosotros": "comprendíamos",
+        "ellos": "comprendían",
+        "ellas": "comprendían",
+        "ustedes": "comprendían"
+      },
+      "future": {
+        "yo": "comprenderé",
+        "tu": "comprenderás",
+        "el": "comprenderá",
+        "ella": "comprenderá",
+        "usted": "comprenderá",
+        "nosotros": "comprenderemos",
+        "ellos": "comprenderán",
+        "ellas": "comprenderán",
+        "ustedes": "comprenderán"
+      }
+    },
+    {
+      "infinitive": "lograr",
+      "translation": "to get, obtain, to achieve, attain",
+      "present": {
+        "yo": "logro",
+        "tu": "logras",
+        "el": "logra",
+        "ella": "logra",
+        "usted": "logra",
+        "nosotros": "logramos",
+        "ellos": "logran",
+        "ellas": "logran",
+        "ustedes": "logran"
+      },
+      "preterite": {
+        "yo": "logré",
+        "tu": "lograste",
+        "el": "logró",
+        "ella": "logró",
+        "usted": "logró",
+        "nosotros": "logramos",
+        "ellos": "lograron",
+        "ellas": "lograron",
+        "ustedes": "lograron"
+      },
+      "imperfect": {
+        "yo": "lograba",
+        "tu": "lograbas",
+        "el": "lograba",
+        "ella": "lograba",
+        "usted": "lograba",
+        "nosotros": "lográbamos",
+        "ellos": "lograban",
+        "ellas": "lograban",
+        "ustedes": "lograban"
+      },
+      "future": {
+        "yo": "lograré",
+        "tu": "lograrás",
+        "el": "logrará",
+        "ella": "logrará",
+        "usted": "logrará",
+        "nosotros": "lograremos",
+        "ellos": "lograrán",
+        "ellas": "lograrán",
+        "ustedes": "lograrán"
+      }
+    },
+    {
+      "infinitive": "explicar",
+      "translation": "to explain",
+      "present": {
+        "yo": "explico",
+        "tu": "explicas",
+        "el": "explica",
+        "ella": "explica",
+        "usted": "explica",
+        "nosotros": "explicamos",
+        "ellos": "explican",
+        "ellas": "explican",
+        "ustedes": "explican"
+      },
+      "preterite": {
+        "yo": "expliqué",
+        "tu": "explicaste",
+        "el": "explicó",
+        "ella": "explicó",
+        "usted": "explicó",
+        "nosotros": "explicamos",
+        "ellos": "explicaron",
+        "ellas": "explicaron",
+        "ustedes": "explicaron"
+      },
+      "imperfect": {
+        "yo": "explicaba",
+        "tu": "explicabas",
+        "el": "explicaba",
+        "ella": "explicaba",
+        "usted": "explicaba",
+        "nosotros": "explicábamos",
+        "ellos": "explicaban",
+        "ellas": "explicaban",
+        "ustedes": "explicaban"
+      },
+      "future": {
+        "yo": "explicaré",
+        "tu": "explicarás",
+        "el": "explicará",
+        "ella": "explicará",
+        "usted": "explicará",
+        "nosotros": "explicaremos",
+        "ellos": "explicarán",
+        "ellas": "explicarán",
+        "ustedes": "explicarán"
+      }
+    },
+    {
+      "infinitive": "preguntar",
+      "translation": "to ask, inquire",
+      "present": {
+        "yo": "pregunto",
+        "tu": "preguntas",
+        "el": "pregunta",
+        "ella": "pregunta",
+        "usted": "pregunta",
+        "nosotros": "preguntamos",
+        "ellos": "preguntan",
+        "ellas": "preguntan",
+        "ustedes": "preguntan"
+      },
+      "preterite": {
+        "yo": "pregunté",
+        "tu": "preguntaste",
+        "el": "preguntó",
+        "ella": "preguntó",
+        "usted": "preguntó",
+        "nosotros": "preguntamos",
+        "ellos": "preguntaron",
+        "ellas": "preguntaron",
+        "ustedes": "preguntaron"
+      },
+      "imperfect": {
+        "yo": "preguntaba",
+        "tu": "preguntabas",
+        "el": "preguntaba",
+        "ella": "preguntaba",
+        "usted": "preguntaba",
+        "nosotros": "preguntábamos",
+        "ellos": "preguntaban",
+        "ellas": "preguntaban",
+        "ustedes": "preguntaban"
+      },
+      "future": {
+        "yo": "preguntaré",
+        "tu": "preguntarás",
+        "el": "preguntará",
+        "ella": "preguntará",
+        "usted": "preguntará",
+        "nosotros": "preguntaremos",
+        "ellos": "preguntarán",
+        "ellas": "preguntarán",
+        "ustedes": "preguntarán"
+      }
+    },
+    {
+      "infinitive": "tocar",
+      "translation": "to touch",
+      "present": {
+        "yo": "toco",
+        "tu": "tocas",
+        "el": "toca",
+        "ella": "toca",
+        "usted": "toca",
+        "nosotros": "tocamos",
+        "ellos": "tocan",
+        "ellas": "tocan",
+        "ustedes": "tocan"
+      },
+      "preterite": {
+        "yo": "toqué",
+        "tu": "tocaste",
+        "el": "tocó",
+        "ella": "tocó",
+        "usted": "tocó",
+        "nosotros": "tocamos",
+        "ellos": "tocaron",
+        "ellas": "tocaron",
+        "ustedes": "tocaron"
+      },
+      "imperfect": {
+        "yo": "tocaba",
+        "tu": "tocabas",
+        "el": "tocaba",
+        "ella": "tocaba",
+        "usted": "tocaba",
+        "nosotros": "tocábamos",
+        "ellos": "tocaban",
+        "ellas": "tocaban",
+        "ustedes": "tocaban"
+      },
+      "future": {
+        "yo": "tocaré",
+        "tu": "tocarás",
+        "el": "tocará",
+        "ella": "tocará",
+        "usted": "tocará",
+        "nosotros": "tocaremos",
+        "ellos": "tocarán",
+        "ellas": "tocarán",
+        "ustedes": "tocarán"
+      }
+    },
+    {
+      "infinitive": "reconocer",
+      "translation": "to recognize",
+      "present": {
+        "yo": "reconoco",
+        "tu": "reconoces",
+        "el": "reconoce",
+        "ella": "reconoce",
+        "usted": "reconoce",
+        "nosotros": "reconocemos",
+        "ellos": "reconocen",
+        "ellas": "reconocen",
+        "ustedes": "reconocen"
+      },
+      "preterite": {
+        "yo": "reconocí",
+        "tu": "reconociste",
+        "el": "reconoció",
+        "ella": "reconoció",
+        "usted": "reconoció",
+        "nosotros": "reconocimos",
+        "ellos": "reconocieron",
+        "ellas": "reconocieron",
+        "ustedes": "reconocieron"
+      },
+      "imperfect": {
+        "yo": "reconocía",
+        "tu": "reconocías",
+        "el": "reconocía",
+        "ella": "reconocía",
+        "usted": "reconocía",
+        "nosotros": "reconocíamos",
+        "ellos": "reconocían",
+        "ellas": "reconocían",
+        "ustedes": "reconocían"
+      },
+      "future": {
+        "yo": "reconoceré",
+        "tu": "reconocerás",
+        "el": "reconocerá",
+        "ella": "reconocerá",
+        "usted": "reconocerá",
+        "nosotros": "reconoceremos",
+        "ellos": "reconocerán",
+        "ellas": "reconocerán",
+        "ustedes": "reconocerán"
+      }
+    },
+    {
+      "infinitive": "estudiar",
+      "translation": "to study",
+      "present": {
+        "yo": "estudio",
+        "tu": "estudes",
+        "el": "estude",
+        "ella": "estude",
+        "usted": "estude",
+        "nosotros": "estudemos",
+        "ellos": "estuden",
+        "ellas": "estuden",
+        "ustedes": "estuden"
+      },
+      "preterite": {
+        "yo": "estudié",
+        "tu": "estudiaste",
+        "el": "estudió",
+        "ella": "estudió",
+        "usted": "estudió",
+        "nosotros": "estudiamos",
+        "ellos": "estudiaron",
+        "ellas": "estudiaron",
+        "ustedes": "estudiaron"
+      },
+      "imperfect": {
+        "yo": "estudiaba",
+        "tu": "estudiabas",
+        "el": "estudiaba",
+        "ella": "estudiaba",
+        "usted": "estudiaba",
+        "nosotros": "estudiábamos",
+        "ellos": "estudiaban",
+        "ellas": "estudiaban",
+        "ustedes": "estudiaban"
+      },
+      "future": {
+        "yo": "estudiaré",
+        "tu": "estudiarás",
+        "el": "estudiará",
+        "ella": "estudiará",
+        "usted": "estudiará",
+        "nosotros": "estudiaremos",
+        "ellos": "estudiarán",
+        "ellas": "estudiarán",
+        "ustedes": "estudiarán"
+      }
+    },
+    {
+      "infinitive": "alcanzar",
+      "translation": "to reach, catch up",
+      "present": {
+        "yo": "alcanzo",
+        "tu": "alcanzas",
+        "el": "alcanza",
+        "ella": "alcanza",
+        "usted": "alcanza",
+        "nosotros": "alcanzamos",
+        "ellos": "alcanzan",
+        "ellas": "alcanzan",
+        "ustedes": "alcanzan"
+      },
+      "preterite": {
+        "yo": "alcancé",
+        "tu": "alcanzaste",
+        "el": "alcanzó",
+        "ella": "alcanzó",
+        "usted": "alcanzó",
+        "nosotros": "alcanzamos",
+        "ellos": "alcanzaron",
+        "ellas": "alcanzaron",
+        "ustedes": "alcanzaron"
+      },
+      "imperfect": {
+        "yo": "alcanzaba",
+        "tu": "alcanzabas",
+        "el": "alcanzaba",
+        "ella": "alcanzaba",
+        "usted": "alcanzaba",
+        "nosotros": "alcanzábamos",
+        "ellos": "alcanzaban",
+        "ellas": "alcanzaban",
+        "ustedes": "alcanzaban"
+      },
+      "future": {
+        "yo": "alcanzaré",
+        "tu": "alcanzarás",
+        "el": "alcanzará",
+        "ella": "alcanzará",
+        "usted": "alcanzará",
+        "nosotros": "alcanzaremos",
+        "ellos": "alcanzarán",
+        "ellas": "alcanzarán",
+        "ustedes": "alcanzarán"
+      }
+    },
+    {
+      "infinitive": "nacer",
+      "translation": "to be born",
+      "present": {
+        "yo": "naco",
+        "tu": "naces",
+        "el": "nace",
+        "ella": "nace",
+        "usted": "nace",
+        "nosotros": "nacemos",
+        "ellos": "nacen",
+        "ellas": "nacen",
+        "ustedes": "nacen"
+      },
+      "preterite": {
+        "yo": "nací",
+        "tu": "naciste",
+        "el": "nació",
+        "ella": "nació",
+        "usted": "nació",
+        "nosotros": "nacimos",
+        "ellos": "nacieron",
+        "ellas": "nacieron",
+        "ustedes": "nacieron"
+      },
+      "imperfect": {
+        "yo": "nacía",
+        "tu": "nacías",
+        "el": "nacía",
+        "ella": "nacía",
+        "usted": "nacía",
+        "nosotros": "nacíamos",
+        "ellos": "nacían",
+        "ellas": "nacía",
+        "ustedes": "nacían"
+      },
+      "future": {
+        "yo": "naceré",
+        "tu": "nacerás",
+        "el": "nacerá",
+        "ella": "nacerá",
+        "usted": "nacerá",
+        "nosotros": "naceremos",
+        "ellos": "nacerán",
+        "ellas": "nacerán",
+        "ustedes": "nacerán"
+      }
+    },
+    {
+      "infinitive": "dirigir",
+      "translation": "to direct",
+      "present": {
+        "yo": "dirijo",
+        "tu": "diriges",
+        "el": "dirige",
+        "ella": "dirige",
+        "usted": "dirige",
+        "nosotros": "dirigimos",
+        "ellos": "dirigen",
+        "ellas": "dirigen",
+        "ustedes": "dirigen"
+      },
+      "preterite": {
+        "yo": "dirigí",
+        "tu": "dirigiste",
+        "el": "dirigió",
+        "ella": "dirigió",
+        "usted": "dirigió",
+        "nosotros": "dirigimos",
+        "ellos": "dirigieron",
+        "ellas": "dirigieron",
+        "ustedes": "dirigieron"
+      },
+      "imperfect": {
+        "yo": "dirigía",
+        "tu": "dirigías",
+        "el": "dirigía",
+        "ella": "dirigía",
+        "usted": "dirigía",
+        "nosotros": "dirigíamos",
+        "ellos": "dirigían",
+        "ellas": "dirigían",
+        "ustedes": "dirigían"
+      },
+      "future": {
+        "yo": "dirigiré",
+        "tu": "dirigirás",
+        "el": "dirigirá",
+        "ella": "dirigirá",
+        "usted": "dirigirá",
+        "nosotros": "dirigiremos",
+        "ellos": "dirigirán",
+        "ellas": "dirigirán",
+        "ustedes": "dirigirán"
+      }
+    },
+    {
+      "infinitive": "correr",
+      "translation": "to run",
+      "present": {
+        "yo": "corro",
+        "tu": "corres",
+        "el": "corre",
+        "ella": "corre",
+        "usted": "corre",
+        "nosotros": "corremos",
+        "ellos": "corren",
+        "ellas": "corren",
+        "ustedes": "corren"
+      },
+      "preterite": {
+        "yo": "corrí",
+        "tu": "corriste",
+        "el": "corrió",
+        "ella": "corrió",
+        "usted": "corrió",
+        "nosotros": "corrimos",
+        "ellos": "corrieron",
+        "ellas": "corrieron",
+        "ustedes": "corrieron"
+      },
+      "imperfect": {
+        "yo": "corría",
+        "tu": "corrías",
+        "el": "corría",
+        "ella": "corría",
+        "usted": "corría",
+        "nosotros": "corríamos",
+        "ellos": "corrían",
+        "ellas": "corrían",
+        "ustedes": "corrían"
+      },
+      "future": {
+        "yo": "correré",
+        "tu": "correrás",
+        "el": "correrá",
+        "ella": "correrá",
+        "usted": "correrá",
+        "nosotros": "correremos",
+        "ellos": "correrán",
+        "ellas": "correrán",
+        "ustedes": "correrán"
+      }
+    },
+    {
+      "infinitive": "utilizar",
+      "translation": "to utilize, use",
+      "present": {
+        "yo": "utilizo",
+        "tu": "utilizes",
+        "el": "utilize",
+        "ella": "utilize",
+        "usted": "utilize",
+        "nosotros": "utilizemos",
+        "ellos": "utilizen",
+        "ellas": "utilizen",
+        "ustedes": "utilizen"
+      },
+      "preterite": {
+        "yo": "utilicé",
+        "tu": "utilizaste",
+        "el": "utilizó",
+        "ella": "utilizó",
+        "usted": "utilizó",
+        "nosotros": "utilizamos",
+        "ellos": "utilizaron",
+        "ellas": "utilizaron",
+        "ustedes": "utilizaron"
+      },
+      "imperfect": {
+        "yo": "utilizaba",
+        "tu": "utilizabas",
+        "el": "utilizaba",
+        "ella": "utilizaba",
+        "usted": "utilizaba",
+        "nosotros": "utilizábamos",
+        "ellos": "utilizaban",
+        "ellas": "utilizaban",
+        "ustedes": "utilizaban"
+      },
+      "future": {
+        "yo": "utilizaré",
+        "tu": "utilizarás",
+        "el": "utilizará",
+        "ella": "utilizará",
+        "usted": "utilizará",
+        "nosotros": "utilizaremos",
+        "ellos": "utilizarán",
+        "ellas": "utilizarán",
+        "ustedes": "utilizarán"
+      }
+    },
+    {
+      "infinitive": "pagar",
+      "translation": "to pau",
+      "present": {
+        "yo": "pago",
+        "tu": "pagas",
+        "el": "paga",
+        "ella": "paga",
+        "usted": "paga",
+        "nosotros": "pagamos",
+        "ellos": "pagan",
+        "ellas": "pagan",
+        "ustedes": "pagan"
+      },
+      "preterite": {
+        "yo": "pagué",
+        "tu": "pagaste",
+        "el": "pagó",
+        "ella": "pagó",
+        "usted": "pagó",
+        "nosotros": "pagamos",
+        "ellos": "pagaron",
+        "ellas": "pagaron",
+        "ustedes": "pagaron"
+      },
+      "imperfect": {
+        "yo": "pagaba",
+        "tu": "pagabas",
+        "el": "pagaba",
+        "ella": "pagaba",
+        "usted": "pagaba",
+        "nosotros": "pagábamos",
+        "ellos": "pagaban",
+        "ellas": "pagaban",
+        "ustedes": "pagaban"
+      },
+      "future": {
+        "yo": "pagaré",
+        "tu": "pagarás",
+        "el": "pagará",
+        "ella": "pagará",
+        "usted": "pagará",
+        "nosotros": "ayudaremos",
+        "ellos": "pagarán",
+        "ellas": "pagarán",
+        "ustedes": "pagarán"
+      }
+    },
+    {
+      "infinitive": "ayudar",
+      "translation": "to help",
+      "present": {
+        "yo": "ayudo",
+        "tu": "ayudas",
+        "el": "ayuda",
+        "ella": "ayuda",
+        "usted": "ayuda",
+        "nosotros": "ayudamos",
+        "ellos": "ayudan",
+        "ellas": "ayudan",
+        "ustedes": "ayudan"
+      },
+      "preterite": {
+        "yo": "ayudé",
+        "tu": "ayudaste",
+        "el": "ayudó",
+        "ella": "ayudó",
+        "usted": "ayudó",
+        "nosotros": "ayudamos",
+        "ellos": "ayudaron",
+        "ellas": "ayudaron",
+        "ustedes": "ayudaron"
+      },
+      "imperfect": {
+        "yo": "ayudaba",
+        "tu": "ayudabas",
+        "el": "ayudaba",
+        "ella": "ayudaba",
+        "usted": "ayudaba",
+        "nosotros": "ayudábamos",
+        "ellos": "ayudaban",
+        "ellas": "ayudaban",
+        "ustedes": "ayudaban"
+      },
+      "future": {
+        "yo": "ayudaré",
+        "tu": "ayudarás",
+        "el": "ayudará",
+        "ella": "ayudará",
+        "usted": "ayudará",
+        "nosotros": "ayudaremos",
+        "ellos": "ayudarán",
+        "ellas": "ayudarán",
+        "ustedes": "ayudarán"
+      }
+    },
+    {
+      "infinitive": "gustar",
+      "translation": "to please, be pleasing",
+      "present": {
+        "yo": "gusto",
+        "tu": "gustas",
+        "el": "gusta",
+        "ella": "gusta",
+        "usted": "gusta",
+        "nosotros": "gustamos",
+        "ellos": "gustan",
+        "ellas": "gustan",
+        "ustedes": "gustan"
+      },
+      "preterite": {
+        "yo": "gusté",
+        "tu": "gustaste",
+        "el": "gustó",
+        "ella": "gustó",
+        "usted": "gustó",
+        "nosotros": "gustamos",
+        "ellos": "gustaron",
+        "ellas": "gustaron",
+        "ustedes": "gustaron"
+      },
+      "imperfect": {
+        "yo": "gustaba",
+        "tu": "gustabas",
+        "el": "gustaba",
+        "ella": "gustaba",
+        "usted": "gustaba",
+        "nosotros": "gustábamos",
+        "ellos": "gustaban",
+        "ellas": "gustaban",
+        "ustedes": "gustaban"
+      },
+      "future": {
+        "yo": "gustaré",
+        "tu": "gustarás",
+        "el": "gustará",
+        "ella": "gustará",
+        "usted": "gustará",
+        "nosotros": "justaremos",
+        "ellos": "gustarán",
+        "ellas": "gustarán",
+        "ustedes": "gustarán"
+      }
+    },
+    {
+      "infinitive": "justar",
+      "translation": "to play (a game or sport)",
+      "present": {
+        "yo": "justo",
+        "tu": "justas",
+        "el": "justa",
+        "ella": "justa",
+        "usted": "justa",
+        "nosotros": "justamos",
+        "ellos": "justan",
+        "ellas": "justan",
+        "ustedes": "justan"
+      },
+      "preterite": {
+        "yo": "justé",
+        "tu": "justaste",
+        "el": "justó",
+        "ella": "justó",
+        "usted": "justó",
+        "nosotros": "justamos",
+        "ellos": "justaron",
+        "ellas": "justaron",
+        "ustedes": "justaron"
+      },
+      "imperfect": {
+        "yo": "justaba",
+        "tu": "justabas",
+        "el": "justaba",
+        "ella": "justaba",
+        "usted": "justaba",
+        "nosotros": "justábamos",
+        "ellos": "justaban",
+        "ellas": "justaban",
+        "ustedes": "justaban"
+      },
+      "future": {
+        "yo": "justaré",
+        "tu": "justarás",
+        "el": "justará",
+        "ella": "justará",
+        "usted": "justará",
+        "nosotros": "justaremos",
+        "ellos": "justarán",
+        "ellas": "justarán",
+        "ustedes": "justarán"
+      }
+    },
+    {
+      "infinitive": "escuchar",
+      "translation": "to listen to, hear",
+      "present": {
+        "yo": "escucho",
+        "tu": "escuchas",
+        "el": "escucha",
+        "ella": "escucha",
+        "usted": "escucha",
+        "nosotros": "escuchamos",
+        "ellos": "escuchan",
+        "ellas": "escuchan",
+        "ustedes": "escuchan"
+      },
+      "preterite": {
+        "yo": "escuché",
+        "tu": "escuchaste",
+        "el": "escuchó",
+        "ella": "escuchó",
+        "usted": "escuchó",
+        "nosotros": "escuchamos",
+        "ellos": "escucharon",
+        "ellas": "escucharon",
+        "ustedes": "escucharon"
+      },
+      "imperfect": {
+        "yo": "escuchaba",
+        "tu": "escuchabas",
+        "el": "escuchaba",
+        "ella": "escuchaba",
+        "usted": "escuchaba",
+        "nosotros": "escuchábamos",
+        "ellos": "escuchaban",
+        "ellas": "escuchaban",
+        "ustedes": "escuchaban"
+      },
+      "future": {
+        "yo": "escucharé",
+        "tu": "escucharás",
+        "el": "escuchará",
+        "ella": "escuchará",
+        "usted": "escuchará",
+        "nosotros": "escucharemos",
+        "ellos": "escucharán",
+        "ellas": "escucharán",
+        "ustedes": "escucharán"
+      }
+    },
+    {
+      "infinitive": "cumplir",
+      "translation": "to fulfill, carry out",
+      "present": {
+        "yo": "cumplo",
+        "tu": "cumples",
+        "el": "cumple",
+        "ella": "cumple",
+        "usted": "cumple",
+        "nosotros": "cumplimos",
+        "ellos": "cumplen",
+        "ellas": "cumplen",
+        "ustedes": "cumplen"
+      },
+      "preterite": {
+        "yo": "cumplí",
+        "tu": "cumpliste",
+        "el": "cumplió",
+        "ella": "cumplió",
+        "usted": "cumplió",
+        "nosotros": "cumplimos",
+        "ellos": "cumplieron",
+        "ellas": "cumplieron",
+        "ustedes": "cumplieron"
+      },
+      "imperfect": {
+        "yo": "cumplía",
+        "tu": "cumplías",
+        "el": "cumplía",
+        "ella": "cumplía",
+        "usted": "cumplía",
+        "nosotros": "cumplíamos",
+        "ellos": "cumplían",
+        "ellas": "cumplían",
+        "ustedes": "cumplían"
+      },
+      "future": {
+        "yo": "cumpliré",
+        "tu": "cumplirás",
+        "el": "cumplirá",
+        "ella": "cumplirá",
+        "usted": "cumplirá",
+        "nosotros": "cumpliremos",
+        "ellos": "cumplirán",
+        "ellas": "cumplirán",
+        "ustedes": "cumplirán"
+      }
+    },
+    {
+      "infinitive": "ofrecer",
+      "translation": "to offer",
+      "present": {
+        "yo": "ofreco",
+        "tu": "ofreces",
+        "el": "ofrece",
+        "ella": "ofrece",
+        "usted": "ofrece",
+        "nosotros": "ofrecemos",
+        "ellos": "ofrecen",
+        "ellas": "ofrecen",
+        "ustedes": "ofrecen"
+      },
+      "preterite": {
+        "yo": "ofrecí",
+        "tu": "ofreciste",
+        "el": "ofreció",
+        "ella": "ofreció",
+        "usted": "ofreció",
+        "nosotros": "ofrecimos",
+        "ellos": "ofrecieron",
+        "ellas": "ofrecieron",
+        "ustedes": "ofrecieron"
+      },
+      "imperfect": {
+        "yo": "ofrecía",
+        "tu": "ofrecías",
+        "el": "ofrecía",
+        "ella": "ofrecía",
+        "usted": "ofrecía",
+        "nosotros": "ofrecíamos",
+        "ellos": "ofrecían",
+        "ellas": "ofrecían",
+        "ustedes": "ofrecían"
+      },
+      "future": {
+        "yo": "ofreceré",
+        "tu": "ofrecerá",
+        "el": "ofrecerá",
+        "ella": "ofrecerá",
+        "usted": "ofrecerá",
+        "nosotros": "levantaremos",
+        "ellos": "ofrecerán",
+        "ellas": "ofrecerán",
+        "ustedes": "ofrecerán"
+      }
+    },
+    {
+      "infinitive": "descubrir",
+      "translation": "to discover",
+      "present": {
+        "yo": "descubro",
+        "tu": "descubres",
+        "el": "descubre",
+        "ella": "descubre",
+        "usted": "descubre",
+        "nosotros": "descubrimos",
+        "ellos": "descubren",
+        "ellas": "descubren",
+        "ustedes": "descubren"
+      },
+      "preterite": {
+        "yo": "descubrí",
+        "tu": "descubriste",
+        "el": "descubrió",
+        "ella": "descubrió",
+        "usted": "descubrió",
+        "nosotros": "descubrimos",
+        "ellos": "descubrieron",
+        "ellas": "descubrieron",
+        "ustedes": "descubrieron"
+      },
+      "imperfect": {
+        "yo": "descubría",
+        "tu": "descubrías",
+        "el": "descubría",
+        "ella": "descubría",
+        "usted": "descubría",
+        "nosotros": "descubríamos",
+        "ellos": "descubrían",
+        "ellas": "descubrían",
+        "ustedes": "descubrían"
+      }
+    },
+    {
+      "infinitive": "levantar",
+      "translation": "to raise, to lift",
+      "present": {
+        "yo": "levanto",
+        "tu": "levantes",
+        "el": "levante",
+        "ella": "levante",
+        "usted": "levante",
+        "nosotros": "levantemos",
+        "ellos": "levanten",
+        "ellas": "levanten",
+        "ustedes": "levanten"
+      },
+      "preterite": {
+        "yo": "levanté",
+        "tu": "levantaste",
+        "el": "levantó",
+        "ella": "levantó",
+        "usted": "levantó",
+        "nosotros": "levantamos",
+        "ellos": "levantaron",
+        "ellas": "levantaron",
+        "ustedes": "levantaron"
+      },
+      "imperfect": {
+        "yo": "levantaba",
+        "tu": "levantabasn",
+        "el": "levantaba",
+        "ella": "levantaba",
+        "usted": "levantaba",
+        "nosotros": "levantábamos",
+        "ellos": "levantaban",
+        "ellas": "levantaban",
+        "ustedes": "levantaba"
+      },
+      "future": {
+        "yo": "levantaré",
+        "tu": "levantarás",
+        "el": "levantará",
+        "ella": "levantará",
+        "usted": "levantará",
+        "nosotros": "levantaremos",
+        "ellos": "levantarán",
+        "ellas": "levantarán",
+        "ustedes": "levantarán"
+      }
+    },
+    {
+      "infinitive": "intentar",
+      "translation": "to try, attempt",
+      "present": {
+        "yo": "intento",
+        "tu": "intentas",
+        "el": "intenta",
+        "ella": "intenta",
+        "usted": "intenta",
+        "nosotros": "intentamos",
+        "ellos": "intentan",
+        "ellas": "intentan",
+        "ustedes": "intentan"
+      },
+      "preterite": {
+        "yo": "intenté",
+        "tu": "intentaste",
+        "el": "intentó",
+        "ella": "intentó",
+        "usted": "intentó",
+        "nosotros": "intentamos",
+        "ellos": "intentaron",
+        "ellas": "intentaron",
+        "ustedes": "intentaron"
+      },
+      "imperfect": {
+        "yo": "intentaba",
+        "tu": "intentabas",
+        "el": "intentaba",
+        "ella": "intentaba",
+        "usted": "intentaba",
+        "nosotros": "intentábamos",
+        "ellos": "intentaban",
+        "ellas": "intentaban",
+        "ustedes": "intentaban"
+      },
+      "future": {
+        "yo": "intentaré",
+        "tu": "intentarás",
+        "el": "intentará",
+        "ella": "intentará",
+        "usted": "intentará",
+        "nosotros": "intentaremos",
+        "ellos": "intentarán",
+        "ellas": "intentarán",
+        "ustedes": "intentarán"
+      }
+    },
+    {
+      "infinitive": "usar",
+      "translation": "to use",
+      "present": {
+        "yo": "uso",
+        "tu": "usas",
+        "el": "usa",
+        "ella": "usa",
+        "usted": "usa",
+        "nosotros": "usamos",
+        "ellos": "usan",
+        "ellas": "usan",
+        "ustedes": "usan"
+      },
+      "preterite": {
+        "yo": "usé",
+        "tu": "usaste",
+        "el": "usó",
+        "ella": "usó",
+        "usted": "usó",
+        "nosotros": "usamos",
+        "ellos": "usaron",
+        "ellas": "usaron",
+        "ustedes": "usaron"
+      },
+      "imperfect": {
+        "yo": "usaba",
+        "tu": "usabas",
+        "el": "usaba",
+        "ella": "usaba",
+        "usted": "usaba",
+        "nosotros": "usábamost",
+        "ellos": "usaban",
+        "ellas": "usaban",
+        "ustedes": "usaban"
+      },
+      "future": {
+        "yo": "usaré",
+        "tu": "usarás",
+        "el": "usará",
+        "ella": "usará",
+        "usted": "usará",
+        "nosotros": "usaremos",
+        "ellos": "usarán",
+        "ellas": "usarán",
+        "ustedes": "usarán"
+      }
+    },
+    {
+      "infinitive": "caminar",
+      "translation": "to talk",
+      "present": {
+        "yo": "camino",
+        "tu": "caminas",
+        "el": "camina",
+        "ella": "camina",
+        "usted": "camina",
+        "nosotros": "caminamos",
+        "ellos": "caminan",
+        "ellas": "caminan",
+        "ustedes": "caminan"
+      },
+      "preterite": {
+        "yo": "caminé",
+        "tu": "caminaste",
+        "el": "caminó",
+        "ella": "caminó",
+        "usted": "caminó",
+        "nosotros": "caminamos",
+        "ellos": "caminaron",
+        "ellas": "caminaron",
+        "ustedes": "caminaron"
+      },
+      "imperfect": {
+        "yo": "caminaba",
+        "tu": "caminabas",
+        "el": "caminaba",
+        "ella": "caminaba",
+        "usted": "caminaba",
+        "nosotros": "caminábamos",
+        "ellos": "caminaban",
+        "ellas": "caminaban",
+        "ustedes": "caminaban"
+      },
+      "future": {
+        "yo": "caminaré",
+        "tu": "caminarás",
+        "el": "caminará",
+        "ella": "caminará",
+        "usted": "caminará",
+        "nosotros": "caminaremos",
+        "ellos": "caminarán",
+        "ellas": "caminarán",
+        "ustedes": "caminarán"
+      }
+    },
+    {
+      "infinitive": "beber",
+      "translation": "to drink",
+      "present": {
+        "yo": "bebo",
+        "tu": "bebes",
+        "el": "bebe",
+        "ella": "bebe",
+        "usted": "bebe",
+        "nosotros": "bebemos",
+        "ellos": "beben",
+        "ellas": "beben",
+        "ustedes": "beben"
+      },
+      "preterite": {
+        "yo": "bebí",
+        "tu": "bebiste",
+        "el": "bebió",
+        "ella": "bebió",
+        "usted": "bebió",
+        "nosotros": "bebimos",
+        "ellos": "bebieron",
+        "ellas": "bebieron",
+        "ustedes": "bebieron"
+      },
+      "imperfect": {
+        "yo": "bebía",
+        "tu": "bebías",
+        "el": "bebía",
+        "ella": "bebía",
+        "usted": "bebía",
+        "nosotros": "bebíamos",
+        "ellos": "bebían",
+        "ellas": "bebían",
+        "ustedes": "bebía"
+      },
+      "future": {
+        "yo": "beberé",
+        "tu": "beberás",
+        "el": "beberá",
+        "ella": "beberá",
+        "usted": "beberá",
+        "nosotros": "beberemos",
+        "ellos": "beberán",
+        "ellas": "beberán",
+        "ustedes": "beberán"
+      }
+    },
+    {
+      "infinitive": "comer",
+      "translation": "to eat",
+      "present": {
+        "yo": "como",
+        "tu": "comes",
+        "el": "come",
+        "ella": "come",
+        "usted": "come",
+        "nosotros": "comemos",
+        "ellos": "comen",
+        "ellas": "comen",
+        "ustedes": "comen"
+      },
+      "preterite": {
+        "yo": "comí",
+        "tu": "comiste",
+        "el": "comió",
+        "ella": "comió",
+        "usted": "comió",
+        "nosotros": "comimos",
+        "ellos": "comieron",
+        "ellas": "comieron",
+        "ustedes": "comieron"
+      },
+      "imperfect": {
+        "yo": "comía",
+        "tu": "comías",
+        "el": "comía",
+        "ella": "comía",
+        "usted": "comía",
+        "nosotros": "comíamos",
+        "ellos": "comían",
+        "ellas": "comían",
+        "ustedes": "comían"
+      },
+      "future": {
+        "yo": "comeré",
+        "tu": "comerás",
+        "el": "comerá",
+        "ella": "comerá",
+        "usted": "comerá",
+        "nosotros": "comeremos",
+        "ellos": "comerán",
+        "ellas": "comerán",
+        "ustedes": "comerán"
+      }
+    },
+    {
+      "infinitive": "dormir",
+      "translation": "to sleep",
+      "present": {
+        "yo": "duermo",
+        "tu": "duermes",
+        "el": "duerme",
+        "ella": "duerme",
+        "usted": "duerme",
+        "nosotros": "duermemos",
+        "ellos": "duermen",
+        "ellas": "duermen",
+        "ustedes": "duermen"
+      },
+      "preterite": {
+        "yo": "dormí",
+        "tu": "dormiste",
+        "el": "durmió",
+        "ella": "durmió",
+        "usted": "durmió",
+        "nosotros": "dormimos",
+        "ellos": "durmieron",
+        "ellas": "durmieron",
+        "ustedes": "durmieron"
+      },
+      "imperfect": {
+        "yo": "dormía",
+        "tu": "dormías",
+        "el": "dormía",
+        "ella": "dormía",
+        "usted": "dormía",
+        "nosotros": "dormíamos",
+        "ellos": "dormían",
+        "ellas": "dormían",
+        "ustedes": "dormían"
+      },
+      "future": {
+        "yo": "dormiré",
+        "tu": "dormirás",
+        "el": "dormirá",
+        "ella": "dormirá",
+        "usted": "dormirá",
+        "nosotros": "dormiremos",
+        "ellos": "dormirán",
+        "ellas": "dormirán",
+        "ustedes": "dormirán"
+      }
+    }
+  ]
+}

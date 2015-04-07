@@ -1,0 +1,125 @@
+<!-- verbConjugator.html -->
+
+<div id="vc-container">
+    <h2>Spanish Verb Conjugator</h2>
+    <form>
+        <div class="intro" ng-show="showIntroduction">
+            <p>What verb tense would you like to be tested on?</p>
+            <p>
+                <input type="radio" ng-model="verbTense" value="present" /> Present
+                <input type="radio" ng-model="verbTense" value="preterite" /> Preterite
+                <input type="radio" ng-model="verbTense" value="imperfect" /> Imperfect
+                <input type="radio" ng-model="verbTense" value="future" /> Future
+            </p>
+            <p>How many words would you like to conjugate?</p>
+            <p>
+                <input type="radio" ng-model="numberQuestions" value="5" /> 5
+                <input type="radio" ng-model="numberQuestions" value="10" /> 10
+                <input type="radio" ng-model="numberQuestions" value="15" /> 15
+                <input type="radio" ng-model="numberQuestions" value="20" /> 20
+                <input type="radio" ng-model="numberQuestions" value="25" /> 25
+            </p>
+            <p>How much time on the timer?</p>
+            <p>
+                <input type="radio" ng-model="timerTime" value="0" /> No timer
+                <input type="radio" ng-model="timerTime" value="15" /> 15
+                <input type="radio" ng-model="timerTime" value="30" /> 30
+                <input type="radio" ng-model="timerTime" value="45" /> 45
+                <input type="radio" ng-model="timerTime" value="60" /> 60
+            </p>
+            <div class="buttons">
+                <button ng-click="continue()">go</button>
+            </div>
+        </div>
+        <div class="questions" ng-show="showQuestions">
+            <fieldset>
+                <div id="vc-timer" ng-show="showTimer">{{ timerTime }}</div>
+                <h1>{{  verb }}</h1>
+                <h2>{{ translation }}</h2>
+                <div>
+                        <dl>
+                            <dt>Yo</dt>
+                            <dd><input type="text" name="yoBox" id="yoBox" ng-model="yoInput" /></dd>
+                            <dd>
+                                <ul>
+                                    <li><button ng-click="accentClick('yoBox', 'á')">á</button></li>
+                                    <li><button ng-click="accentClick('yoBox', 'é')">é</button></li>
+                                    <li><button ng-click="accentClick('yoBox', 'í')">í</button></li>
+                                    <li><button ng-click="accentClick('yoBox', 'ó')">ó</button></li>
+                                    <li><button ng-click="accentClick('yoBox', 'ú')">ú</button></li>
+                                    <li><button ng-click="accentClick('yoBox', 'ñ')">ñ</button></li>
+                                    <li><button ng-click="accentClick('yoBox', 'ü')">ü</button></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>Tu</dt>
+                            <dd><input type="text" name="tuBox" id="tuBox" ng-model="tuInput" /></dd>
+                            <dd>
+                                <ul>
+                                    <li><button ng-click="accentClick('tuBox', 'á')">á</button></li>
+                                    <li><button ng-click="accentClick('tuBox', 'é')">é</button></li>
+                                    <li><button ng-click="accentClick('tuBox', 'í')">í</button></li>
+                                    <li><button ng-click="accentClick('tuBox', 'ó')">ó</button></li>
+                                    <li><button ng-click="accentClick('tuBox', 'ú')">ú</button></li>
+                                    <li><button ng-click="accentClick('tuBox', 'ñ')">ñ</button></li>
+                                    <li><button ng-click="accentClick('tuBox', 'ü')">ü</button></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>El/Ella/Usted</dt>
+                            <dd><input type="text" name="elBox" id="elBox" ng-model="elInput" /></dd>
+                            <dd>
+                                <ul>
+                                    <li><button ng-click="accentClick('elBox', 'á')">á</button></li>
+                                    <li><button ng-click="accentClick('elBox', 'é')">é</button></li>
+                                    <li><button ng-click="accentClick('elBox', 'í')">í</button></li>
+                                    <li><button ng-click="accentClick('elBox', 'ó')">ó</button></li>
+                                    <li><button ng-click="accentClick('elBox', 'ú')">ú</button></li>
+                                    <li><button ng-click="accentClick('elBox', 'ñ')">ñ</button></li>
+                                    <li><button ng-click="accentClick('elBox', 'ü')">ü</button></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>Nosotros/Nosotras</dt>
+                            <dd><input type="text" name="nosotrosBox" id="nosotrosBox" ng-model="nosotrosInput" /></dd>
+                            <dd>
+                                <ul>
+                                    <li><button ng-click="accentClick('nosotrosBox', 'á')">á</button></li>
+                                    <li><button ng-click="accentClick('nosotrosBox', 'é')">é</button></li>
+                                    <li><button ng-click="accentClick('nosotrosBox', 'í')">í</button></li>
+                                    <li><button ng-click="accentClick('nosotrosBox', 'ó')">ó</button></li>
+                                    <li><button ng-click="accentClick('nosotrosBox', 'ú')">ú</button></li>
+                                    <li><button ng-click="accentClick('nosotrosBox', 'ñ')">ñ</button></li>
+                                    <li><button ng-click="accentClick('nosotrosBox', 'ü')">ü</button></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>Ellos/Ellas/Ustedes</dt>
+                            <dd><input type="text" name="ellosBox" id="ellosBox" ng-model="ellosInput" /></dd>
+                            <dd>
+                                <ul>
+                                    <li><button ng-click="accentClick('ellosBox', 'á')">á</button></li>
+                                    <li><button ng-click="accentClick('ellosBox', 'é')">é</button></li>
+                                    <li><button ng-click="accentClick('ellosBox', 'í')">í</button></li>
+                                    <li><button ng-click="accentClick('ellosBox', 'ó')">ó</button></li>
+                                    <li><button ng-click="accentClick('ellosBox', 'ú')">ú</button></li>
+                                    <li><button ng-click="accentClick('ellosBox', 'ñ')">ñ</button></li>
+                                    <li><button ng-click="accentClick('ellosBox', 'ü')">ü</button></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    <div class="buttons">
+                        <button ng-click="submit()">Answer</button>
+                        <button ng-click="reset()">Reset</button>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="info">
+                Number Cards Correct: {{ cardsCorrect }}/{{ index }} ({{ cardsCorrect/index * 100 | number:0 }}% )
+            </div>
+    </form>
+</div>
