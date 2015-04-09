@@ -11,7 +11,6 @@
         $scope.showIntroduction = true;
         $scope.showQuestions = false;
         $scope.index = 0;
-        ws-timer = document.getElementById("ws-timer");
 
         function getWord() {
             dictionaryFactory.getDictionary()
@@ -78,6 +77,7 @@
         };
 
         function countdown() {
+            ws-timer = document.getElementById('ws-timer');
             seconds = ws-timer.innerHTML;
             seconds = parseInt(seconds, 10);
 
@@ -92,7 +92,7 @@
             }
 
             seconds--;
-            temp = ws-timer;
+            temp = document.getElementById('ws-timer');
             temp.innerHTML = seconds;
             timeoutMyOswego = setTimeout(countdown, 1000);
         }
@@ -112,6 +112,7 @@
         };
 
         $scope.newWord = function() {
+            document.getElementById('ws-timer');
             ws-timer.innerHTML = $scope.originalTime;
             if ($scope.index < $scope.numberQuestions) {
                 getWord();
