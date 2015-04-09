@@ -83,7 +83,7 @@
 
             if (seconds == 0) {
                 getWord();
-                ws-timer.innerHTML = $scope.originalTime;
+                wstimer.innerHTML = $scope.originalTime;
                 if ($scope.index < $scope.numberQuestions) {
                     countdown();
                     $scope.index++;
