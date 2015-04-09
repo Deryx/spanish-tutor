@@ -53,7 +53,8 @@
 
             if (seconds == 0) {
                 nextQuestion();
-                timer.innerHTML = $scope.originalTime;
+                var vctimer = document.getElementById('vc-timer');
+                vctimer.innerHTML = $scope.originalTime;
                 countdown();
                 return;
             }
@@ -106,7 +107,8 @@
         };
 
         $scope.submit = function() {
-            vc-timer.innerHTML = $scope.originalTime;
+            var vctimer = document.getElementById('vc-timer');
+            vctimer.innerHTML = $scope.originalTime;
             nextQuestion();
 
             $scope.yoInput = '';
