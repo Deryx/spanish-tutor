@@ -77,8 +77,8 @@
         };
 
         function countdown() {
-            var ws-timer = document.getElementById('ws-timer');
-            seconds = ws-timer.innerHTML;
+            var wstimer = document.getElementById('ws-timer');
+            seconds = wstimer.innerHTML;
             seconds = parseInt(seconds, 10);
 
             if (seconds == 0) {
@@ -112,8 +112,8 @@
         };
 
         $scope.newWord = function() {
-            document.getElementById('ws-timer');
-            ws-timer.innerHTML = $scope.originalTime;
+            var wstimer = document.getElementById('ws-timer');
+            wstimer.innerHTML = $scope.originalTime;
             if ($scope.index < $scope.numberQuestions) {
                 getWord();
 
