@@ -96,7 +96,7 @@
         };
 
         $scope.submit = function() {
-            timer.innerHTML = $scope.originalTime;
+            dq-timer.innerHTML = $scope.originalTime;
             if ($scope.index < $scope.numberQuestions) {
                 if ($scope.answer == $scope.sel) {
                     $scope.numberCorrect++;
