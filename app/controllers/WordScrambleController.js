@@ -111,7 +111,7 @@
         };
 
         $scope.newWord = function() {
-            timer.innerHTML = $scope.originalTime;
+            ws-timer.innerHTML = $scope.originalTime;
             if ($scope.index < $scope.numberQuestions) {
                 getWord();
 
