@@ -77,7 +77,7 @@
         };
 
         function countdown() {
-            ws-timer = document.getElementById('ws-timer');
+            var ws-timer = document.getElementById('ws-timer');
             seconds = ws-timer.innerHTML;
             seconds = parseInt(seconds, 10);
 
