@@ -106,7 +106,7 @@
         };
 
         $scope.submit = function() {
-            timer.innerHTML = $scope.originalTime;
+            vc-timer.innerHTML = $scope.originalTime;
             nextQuestion();
 
             $scope.yoInput = '';
