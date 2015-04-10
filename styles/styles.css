@@ -94,18 +94,18 @@ header nav ul ul li {
     background: #CC0001;
 }
 
-.menu.ng-enter {
-     -webkit-animation: slideInDown 1s;
-     -moz-animation: slideInDown 1s;
-     -ms-animation: slideInDown 1s;
-     animation: slideInDown 1s;
+.menu.ng-enter, .menu.ng-leave {
+    -webkit-animation: slideInDown 1s;
+    -moz-animation: slideInDown 1s;
+    -ms-animation: slideInDown 1s;
+    animation: slideInDown 1s;
 }
 
 .menu.ng-leave {
-     -webkit-animation: slideInUp 1s;
-     -moz-animation: slideInUp 1s;
-     -ms-animation: slideInUp 1s;
-     animation: slideInUp 1s;
+    -webkit-animation: slideOutUp 1s;
+    -moz-animation: slideOutUp 1s;
+    -ms-animation: slideOutUp 1s;
+    animation: slideOutUp 1s;
 }
 
 header nav ul ul li a:hover {
