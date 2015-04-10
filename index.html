@@ -13,7 +13,7 @@
         <nav ng-controller="IndexController">
             <ul>
                 <li>
-                    <a href="" ng-click="menuClick()"><img src="images/menu.png" /> menu<span ng-show="showMenu">x</span></a>
+                    <a href="" ng-click="showMenu = !showMenu"><img src="images/menu.png" /> menu<span ng-show="showMenu">x</span></a>
                     <ul ng-show="showMenu">
                         <li><a href="#/dictionary-flashcard" ng-click="menuClick()">word flashcard</a></li>
                         <li><a href="#/verb-flashcard" ng-click="menuClick()">verb flashcard</a></li>
@@ -38,7 +38,6 @@
     <script src="app/application.js"></script>
     <script src="scripts/jsonpath.js"></script>
     <script src="scripts/bootstrap/js/bootstrap.js"></script>
-    <script src="app/controllers/IndexController.js"></script>
     <script src="app/controllers/VerbCardController.js"></script>
     <script src="app/controllers/DictionaryCardController.js"></script>
     <script src="app/controllers/VocabSliderController.js"></script>
