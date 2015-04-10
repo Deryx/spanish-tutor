@@ -67,7 +67,8 @@
 
             if (seconds == 0) {
                 getQuestion();
-                timer.innerHTML = $scope.originalTime;
+                var dqtimer = document.getElementById('dq-timer');
+                dqtimer.innerHTML = $scope.originalTime;
                 if ($scope.index < $scope.numberQuestions) {
                     countdown();
                     $scope.index++;
@@ -96,7 +97,8 @@
         };
 
         $scope.submit = function() {
-            timer.innerHTML = $scope.originalTime;
+            var dqtimer = document.getElementById('dq-timer');
+            dqtimer.innerHTML = $scope.originalTime;
             if ($scope.index < $scope.numberQuestions) {
                 if ($scope.answer == $scope.sel) {
                     $scope.numberCorrect++;

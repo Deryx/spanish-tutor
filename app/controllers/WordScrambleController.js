@@ -82,7 +82,8 @@
 
             if (seconds == 0) {
                 getWord();
-                timer.innerHTML = $scope.originalTime;
+                var wstimer = document.getElementById('ws-timer');
+                wstimer.innerHTML = $scope.originalTime;
                 if ($scope.index < $scope.numberQuestions) {
                     countdown();
                     $scope.index++;
@@ -111,7 +112,8 @@
         };
 
         $scope.newWord = function() {
-            timer.innerHTML = $scope.originalTime;
+            var wstimer = document.getElementById('ws-timer');
+            wstimer.innerHTML = $scope.originalTime;
             if ($scope.index < $scope.numberQuestions) {
                 getWord();
 

@@ -64,7 +64,6 @@ header nav ul li a:nth-of-type(1) {
 
 header nav ul li {
     text-transform: uppercase;
-    display: inline-table;
     width: 175px;
 }
 
@@ -93,6 +92,20 @@ header nav ul ul {
 header nav ul ul li {
     display: block;
     background: #CC0001;
+}
+
+.menu.ng-enter {
+     -webkit-animation: slideInDown 1s;
+     -moz-animation: slideInDown 1s;
+     -ms-animation: slideInDown 1s;
+     animation: slideInDown 1s;
+}
+
+.menu.ng-leave {
+     -webkit-animation: slideInUp 1s;
+     -moz-animation: slideInUp 1s;
+     -ms-animation: slideInUp 1s;
+     animation: slideInUp 1s;
 }
 
 header nav ul ul li a:hover {
@@ -664,7 +677,6 @@ footer {
     padding-top: 40px;
     padding-bottom: 20px;
     text-align: center;
-    background: #FFF;
     border: 1px solid #666;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -997,7 +1009,6 @@ fieldset h2 {
     text-align: center;
     color: #4183D7;
     font-weight: bold;
-    background: #FFF;
 }
 
 #ws-container .buttons button:nth-of-type(1) {
@@ -1311,4 +1322,5 @@ hr:nth-of-type(even) {
     text-align: center;
     color: #4183D7;
     font-weight: bold;
+    background: none;
 }

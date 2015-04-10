@@ -13,7 +13,6 @@
         $scope.index = 0;
 
         $scope.verbTense = undefined;
-        var timer = document.getElementById("vc-timer");
 
         function getVerb() {
             verbsFactory.getVerbs()
@@ -53,7 +52,8 @@
 
             if (seconds == 0) {
                 nextQuestion();
-                timer.innerHTML = $scope.originalTime;
+                var vctimer = document.getElementById('vc-timer');
+                vctimer.innerHTML = $scope.originalTime;
                 countdown();
                 return;
             }
@@ -106,7 +106,8 @@
         };
 
         $scope.submit = function() {
-            timer.innerHTML = $scope.originalTime;
+            var vctimer = document.getElementById('vc-timer');
+            vctimer.innerHTML = $scope.originalTime;
             nextQuestion();
 
             $scope.yoInput = '';

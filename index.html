@@ -5,6 +5,7 @@
     <title>Spanish Tutor</title>
     <link rel="shorcut icon" href="images/Spanish-Flag.ico" />
     <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/animate.css" rel="stylesheet" />
 </head>
 <body ng-app="spanishApp">
 
@@ -14,7 +15,7 @@
             <ul>
                 <li>
                     <a href="" ng-click="menuClick()"><img src="images/menu.png" /> menu<span ng-show="showMenu">x</span></a>
-                    <ul ng-show="showMenu">
+                    <ul class="menu" ng-show="showMenu">
                         <li><a href="#/dictionary-flashcard" ng-click="menuClick()">word flashcard</a></li>
                         <li><a href="#/verb-flashcard" ng-click="menuClick()">verb flashcard</a></li>
                         <li><a href="#/vocab-slider" ng-click="menuClick()">slider</a></li>
@@ -30,9 +31,10 @@
 
     <div ui-view></div>
 
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/angular-animate.js"></script>
     <script src="scripts/jquery-1.11.2.min.js"></script>
     <script src="scripts/jquery-ui.js"></script>
-    <script src="scripts/angular.js"></script>
     <script src="scripts/angular-ui-router.js"></script>
     <script src="scripts/angular-ui-sortable.js"></script>
     <script src="app/application.js"></script>
