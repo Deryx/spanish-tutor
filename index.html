@@ -15,7 +15,7 @@
             <ul>
                 <li>
                     <a href="" ng-click="showMenu = !showMenu"><img src="images/menu.png" /> menu<span ng-show="showMenu">x</span></a>
-                    <ul ng-show="showMenu">
+                    <ul ng-if="showMenu" class="menu">
                         <li><a href="#/dictionary-flashcard" ng-click="menuClick()">word flashcard</a></li>
                         <li><a href="#/verb-flashcard" ng-click="menuClick()">verb flashcard</a></li>
                         <li><a href="#/vocab-slider" ng-click="menuClick()">slider</a></li>
