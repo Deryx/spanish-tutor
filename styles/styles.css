@@ -94,7 +94,7 @@ header nav ul ul li {
     background: #CC0001;
 }
 
-.menu.ng-enter, .menu.ng-leave {
+.menu.ng-enter {
     -webkit-animation: slideInDown 1s;
     -moz-animation: slideInDown 1s;
     -ms-animation: slideInDown 1s;
