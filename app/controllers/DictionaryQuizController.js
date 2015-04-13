@@ -1,18 +1,18 @@
 /**
- * Created by dscott on 3/10/2015.
+ * Created by dscott on 3/18/2015.
  */
 (function() {
-    var DictionaryQuizController = function ($scope, $state, dictionaryFactory) {
+    var WordScrambleController = function ($scope, $state, dictionaryFactory) {
 
         $scope.numberQuestions = 0;
+        $scope.wordLength = 0;
+        $scope.correctIndex = 0;
         $scope.numberCorrect = 0;
         $scope.showIntroduction = true;
         $scope.showQuestions = false;
-        $scope.showTimer = false;
-        $scope.originalTime = $scope.timerTime;
         $scope.index = 0;
 
-        function getQuestion() {
+        function getWord() {
             dictionaryFactory.getDictionary()
                 .success(function (data) {
                     $scope.dictionaryInfo = data.dictionary;
@@ -21,20 +21,21 @@
                     $scope.words = JSONPath({json: $scope.dictionaryInfo, path: expression});
 
                     expression = "$..translation";
-                    $scope.selections = JSONPath({json: $scope.dictionaryInfo, path: expression});
+                    $scope.translations = JSONPath({json: $scope.dictionaryInfo, path: expression});
 
                     $scope.dictionaryLength = $scope.words.length;
 
                     $scope.wordNumber = Math.floor((Math.random() * $scope.dictionaryLength) + 1);
 
                     $scope.word = $scope.words[$scope.wordNumber];
-                    $scope.answer = $scope.selections[$scope.wordNumber];
+                    $scope.translation = $scope.translations[$scope.wordNumber];
 
-                    $scope.selectionList = [];
-
-                    $scope.selectionList.push($scope.answer);
-                    for (var i = 1; i < 6; i++) {
-                        $scope.selectionList.push($scope.selections[Math.floor((Math.random() * $scope.dictionaryLength) + 1)]);
+                    $scope.wordLength = $scope.word.length;
+                    $scope.wordArray = [];
+                    $scope.unscrambledWord = [];
+                    for(var i = 0;i < $scope.wordLength; i++) {
+                        $scope.unscrambledWord.push($scope.word[i]);
+                        $scope.wordArray.push($scope.word[i]);
                     }
 
                     function shuffle(array) {
@@ -57,18 +58,32 @@
                         return array;
                     }
 
-                    $scope.selectionList = shuffle($scope.selectionList);
-            })
+                    $scope.scrambledWord = shuffle($scope.wordArray);
+
+                    $scope.$watchCollection('scrambledWord', function (newOrder) {
+                        $scope.correctIndex = 0;
+                        for(var i = 0; i < $scope.wordLength; i++) {
+                            if ($scope.unscrambledWord[i] == newOrder[i]) {
+                                $scope.correctIndex++;
+                            }
+                        };
+                    });
+                });
+            if($scope.correctIndex > 0 && $scope.wordLength > 0) {
+                if ($scope.correctIndex == $scope.wordLength) {
+                    $scope.numberCorrect++;
+                }
+            }
         };
 
         function countdown() {
-            seconds = document.getElementById('dq-timer').innerHTML;
+            var wstimer = document.getElementById('ws-timer');
+            seconds = wstimer.innerHTML;
             seconds = parseInt(seconds, 10);
 
             if (seconds == 0) {
-                getQuestion();
-                var dqtimer = document.getElementById('dq-timer');
-                dqtimer.innerHTML = $scope.originalTime;
+                getWord();
+                wstimer.innerHTML = $scope.originalTime;
                 if ($scope.index < $scope.numberQuestions) {
                     countdown();
                     $scope.index++;
@@ -77,7 +92,7 @@
             }
 
             seconds--;
-            temp = document.getElementById('dq-timer');
+            temp = document.getElementById('ws-timer');
             temp.innerHTML = seconds;
             timeoutMyOswego = setTimeout(countdown, 1000);
         }
@@ -92,32 +107,23 @@
                     $scope.originalTime = $scope.timerTime;
                     countdown();
                 }
-                getQuestion();
+                getWord();
             }
         };
 
-        $scope.submit = function() {
-            var dqtimer = document.getElementById('dq-timer');
-            dqtimer.innerHTML = $scope.originalTime;
+        $scope.newWord = function() {
+            var wstimer = document.getElementById('ws-timer');
+            wstimer.innerHTML = $scope.originalTime;
             if ($scope.index < $scope.numberQuestions) {
-                if ($scope.answer == $scope.sel) {
-                    $scope.numberCorrect++;
-                }
-                getQuestion();
+                getWord();
 
                 $scope.index++;
             }
         }
+    };
 
-        $scope.reset = function() {
-            $scope.numberCorrect = 0;
-            $scope.numberQuestions = 0;
-            getQuestion();
-        }
-    }
-
-    DictionaryQuizController.$inject = ['$scope', '$state', 'dictionaryFactory'];
+    WordScrambleController.$inject = ['$scope', '$state', 'dictionaryFactory'];
 
     angular.module('spanishApp')
-        .controller('DictionaryQuizController', DictionaryQuizController);
+        .controller('WordScrambleController', WordScrambleController);
 }());
