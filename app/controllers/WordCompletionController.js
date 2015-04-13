@@ -52,12 +52,11 @@
 
                     $scope.$watchCollection('wordArray', function (newWord) {
                         $scope.correctIndex = 0;
-                        for (var i = 0; i < $scope.wordLh; i++) {
-                            if ($scope.completeWord[i] ==    newWord[i]) {
+                        for (var i = 0; i < $scope.wordLength; i++) {
+                            if ($scope.completeWord[i] == newWord[i]) {
                                 $scope.correctIndex++;
                             }
-                        };
-                    });
+                    };
                 });
             if ($scope.correctIndex > 0 && $scope.wordLength > 0) {
                 if ($scope.correctIndex == $scope.wordLength) {
