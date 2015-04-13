@@ -55,10 +55,12 @@
                             // Decrease counter by 1
                             counter--;
 
-                            // And swap the last element with it
-                            temp = array[counter];
-                            array[counter] = array[index];
-                            array[index] = temp;
+                            if (array[counter] != ' ') {
+                                // And swap the last element with it
+                                temp = array[counter];
+                                array[counter] = array[index];
+                                array[index] = temp;
+                            }
                         }
 
                         return array;
