@@ -1797,7 +1797,7 @@
           "image": "images/television.png"
         },
         {
-          "word": "reloj ",
+          "word": "reloj",
           "translation": "clock/watch",
           "gender": "m",
           "image": "images/clock.png"
@@ -1809,7 +1809,7 @@
           "image": "images/desk.png"
         },
         {
-          "word": "lavadora ",
+          "word": "lavadora",
           "translation": "washer",
           "gender": "f",
           "image": "images/washer.png"
@@ -1869,9 +1869,9 @@
           "image": "images/lamp.png"
         },
         {
-          "word": "Las gafas",
+          "word": "gafas",
           "translation": "glasses",
-          "gender": "",
+          "gender": "fpl",
           "image": "images/glasses.png"
         },
         {
