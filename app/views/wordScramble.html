@@ -31,10 +31,9 @@
             <h2>{{ translation }}</h2>
             <div>
                 <ul ui-sortable ng-model="scrambledWord">
-                    <li ng-if="letter != ' '" ng-repeat="letter in scrambledWord track by $index">
+                    <li ng-repeat="letter in scrambledWord track by $index">
                         {{ letter }}
                     </li>
-                    <li ng-if="letter == ' '" ng-repeat="letter in scrambledWord track by $index">&nbsp;</li>
                 </ul>
             </div>
             <div class="buttons">
