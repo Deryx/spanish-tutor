@@ -29,6 +29,11 @@
 
                     $scope.word = $scope.words[$scope.wordNumber];
                     $scope.translation = $scope.translations[$scope.wordNumber];
+                    var word = $scope.translation;
+                    if (hasNumber(word)) {
+                        word = word.substr(0, word.length - 2);
+                    }
+                    $scope.translation = word;
 
                     $scope.wordLength = $scope.word.length;
                     $scope.completeWord = [];
@@ -46,7 +51,9 @@
 
                     for(var i = 0; i < $scope.chars2Remove; i++) {
                         $scope.randomChar = Math.floor((Math.random() * $scope.wordLength - 1) + 1);
-                        $scope.wordArray[$scope.randomChar] = '?';
+                        if ($scope.wordArray[$scope.randomChar] != ' ') {
+                            $scope.wordArray[$scope.randomChar] = '?';
+                        }
                     }
                     console.log($scope.wordLength);
 
@@ -64,6 +71,10 @@
                     $scope.numberCorrect++;
                 }
             }
+        }
+
+        function hasNumber(word) {
+            return /\d/.test(word);
         }
 
         function countdown() {
