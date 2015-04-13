@@ -660,9 +660,9 @@
       "category" : "animals",
       "words" : [
         {
-          "word" : "Los animales",
+          "word" : "animales",
           "translation" : "animals",
-          "gender" : "",
+          "gender" : "mpl",
           "image" : ""
         },
         {
