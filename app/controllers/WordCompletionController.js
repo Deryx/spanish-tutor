@@ -46,7 +46,7 @@
 
                     for(var i = 0; i < $scope.chars2Remove; i++) {
                         $scope.randomChar = Math.floor((Math.random() * $scope.wordLength - 1) + 1);
-                        $scope.wordArray[$scope.randomChar] = ' ';
+                        $scope.wordArray[$scope.randomChar] = '?';
                     }
                     console.log($scope.wordLength);
 
