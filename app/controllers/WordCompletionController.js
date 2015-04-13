@@ -52,8 +52,8 @@
 
                     $scope.$watchCollection('wordArray', function (newWord) {
                         $scope.correctIndex = 0;
-                        for (var i = 0; i < $scope.wordLength; i++) {
-                            if ($scope.completeWord[i] == newWord[i]) {
+                        for (var i = 0; i < $scope.wordLh; i++) {
+                            if ($scope.completeWord[i] ==    newWord[i]) {
                                 $scope.correctIndex++;
                             }
                         };
