@@ -6,8 +6,6 @@
         function getCards() {
             dictionaryFactory.getDictionary()
                 .success(function (data) {
-                    var word = undefined;
-
                     $scope.dictionaryInfo = data.dictionary;
 
                     var expression = "$..translation";
@@ -25,17 +23,12 @@
 
                     for (var i = 0; i < 6; i++) {
                         $scope.wordArray[i] = Math.floor((Math.random() * $scope.translationsLength) + 1);
-                        for (var j = 0; j < i; j++) {
-                            if($scope.wordArray[i] == $scope.wordArray[j]) {
-                                $scope.wordArray[i] = Math.floor((Math.random() * $scope.translationsLength) + 1);
-                            };
-                        };
-                    };
+                    }
 
                     $scope.selections = [];
 
                     $scope.translation1 = $scope.translations[$scope.wordArray[0]];
-                    word = $scope.translation1;
+                    var word = $scope.translation1;
                     if (hasNumber(word)) {
                         word = word.substr(0, word.length - 2);
                     }
@@ -55,7 +48,7 @@
                     $scope.image2 = $scope.images[$scope.wordArray[1]];
 
                     $scope.translation3 = $scope.translations[$scope.wordArray[2]];
-                    word = $scope.translation3;
+                    var word = $scope.translation3;
                     if (hasNumber(word)) {
                         word = word.substr(0, word.length - 2);
                     }
@@ -65,7 +58,7 @@
                     $scope.image3 = $scope.images[$scope.wordArray[2]];
 
                     $scope.translation4 = $scope.translations[$scope.wordArray[3]];
-                    word = $scope.translation4;
+                    var word = $scope.translation4;
                     if (hasNumber(word)) {
                         word = word.substr(0, word.length - 2);
                     }
@@ -75,7 +68,7 @@
                     $scope.image4 = $scope.images[$scope.wordArray[3]];
 
                     $scope.translation5 = $scope.translations[$scope.wordArray[4]];
-                    word = $scope.translation5;
+                    var word = $scope.translation5;
                     if (hasNumber(word)) {
                         word = word.substr(0, word.length - 2);
                     }
@@ -85,7 +78,7 @@
                     $scope.image5 = $scope.images[$scope.wordArray[4]];
 
                     $scope.translation6 = $scope.translations[$scope.wordArray[5]];
-                    word = $scope.translation6;
+                    var word = $scope.translation6;
                     if (hasNumber(word)) {
                         word = word.substr(0, word.length - 2);
                     }
