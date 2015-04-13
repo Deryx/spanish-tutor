@@ -1797,7 +1797,7 @@
           "image": "images/television.png"
         },
         {
-          "word": "reloj",
+          "word": "reloj ",
           "translation": "clock/watch",
           "gender": "m",
           "image": "images/clock.png"
@@ -1869,9 +1869,9 @@
           "image": "images/lamp.png"
         },
         {
-          "word": "gafas",
+          "word": "Las gafas",
           "translation": "glasses",
-          "gender": "fpl",
+          "gender": "",
           "image": "images/glasses.png"
         },
         {
