@@ -6,6 +6,8 @@
         function getCards() {
             dictionaryFactory.getDictionary()
                 .success(function (data) {
+                    var word = undefined;
+
                     $scope.dictionaryInfo = data.dictionary;
 
                     var expression = "$..translation";
@@ -23,36 +25,71 @@
 
                     for (var i = 0; i < 6; i++) {
                         $scope.wordArray[i] = Math.floor((Math.random() * $scope.translationsLength) + 1);
-                    }
+                        for (var j = 0; j < i; j++) {
+                            if($scope.wordArray[i] == $scope.wordArray[j]) {
+                                $scope.wordArray[i] = Math.floor((Math.random() * $scope.translationsLength) + 1);
+                            };
+                        };
+                    };
 
                     $scope.selections = [];
 
                     $scope.translation1 = $scope.translations[$scope.wordArray[0]];
+                    word = $scope.translation1;
+                    if (hasNumber(word)) {
+                        word = word.substr(0, word.length - 2);
+                    }
+                    $scope.translation1 = word;
                     $scope.answer1 = $scope.words[$scope.wordArray[0]];
                     $scope.selections.push($scope.answer1);
                     $scope.image1 = $scope.images[$scope.wordArray[0]];
 
                     $scope.translation2 = $scope.translations[$scope.wordArray[1]];
+                    word = $scope.translation2;
+                    if (hasNumber(word)) {
+                        word = word.substr(0, word.length - 2);
+                    }
+                    $scope.translation2 = word;
                     $scope.answer2 = $scope.words[$scope.wordArray[1]];
                     $scope.selections.push($scope.answer2);
                     $scope.image2 = $scope.images[$scope.wordArray[1]];
 
                     $scope.translation3 = $scope.translations[$scope.wordArray[2]];
+                    word = $scope.translation3;
+                    if (hasNumber(word)) {
+                        word = word.substr(0, word.length - 2);
+                    }
+                    $scope.translation3 = word;
                     $scope.answer3 = $scope.words[$scope.wordArray[2]];
                     $scope.selections.push($scope.answer3);
                     $scope.image3 = $scope.images[$scope.wordArray[2]];
 
                     $scope.translation4 = $scope.translations[$scope.wordArray[3]];
+                    word = $scope.translation4;
+                    if (hasNumber(word)) {
+                        word = word.substr(0, word.length - 2);
+                    }
+                    $scope.translation4 = word;
                     $scope.answer4 = $scope.words[$scope.wordArray[3]];
                     $scope.selections.push($scope.answer4);
                     $scope.image4 = $scope.images[$scope.wordArray[3]];
 
                     $scope.translation5 = $scope.translations[$scope.wordArray[4]];
+                    word = $scope.translation5;
+                    if (hasNumber(word)) {
+                        word = word.substr(0, word.length - 2);
+                    }
+                    $scope.translation5 = word;
                     $scope.answer5 = $scope.words[$scope.wordArray[4]];
                     $scope.selections.push($scope.answer5);
                     $scope.image5 = $scope.images[$scope.wordArray[4]];
 
                     $scope.translation6 = $scope.translations[$scope.wordArray[5]];
+                    word = $scope.translation6;
+                    if (hasNumber(word)) {
+                        word = word.substr(0, word.length - 2);
+                    }
+                    $scope.translation6 = word;
                     $scope.answer6 = $scope.words[$scope.wordArray[5]];
                     $scope.selections.push($scope.answer6);
                     $scope.image6 = $scope.images[$scope.wordArray[5]];
@@ -112,6 +149,10 @@
                         }
                     });
                 });
+        }
+
+        function hasNumber(word) {
+            return /\d/.test(word);
         }
 
         getCards();

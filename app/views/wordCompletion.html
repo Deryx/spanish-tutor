@@ -33,7 +33,7 @@
                     <div>
                         <ul ng-model="wordArray">
                             <li ng-repeat="letter in wordArray track by $index">
-                                <input type="text" ng-model="wordArray[$index]" value="{{ letter }}" />
+                                <input type="text" ng-if="letter != ' '" ng-model="wordArray[$index]" value="{{ letter }}" />
                             </li>
                         </ul>
                     </div>

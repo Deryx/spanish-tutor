@@ -30,6 +30,12 @@
                     $scope.word = $scope.words[$scope.wordNumber];
                     $scope.translation = $scope.translations[$scope.wordNumber];
 
+                    var word = $scope.translation;
+                    if (hasNumber(word)) {
+                        word = word.substr(0, word.length - 2);
+                    }
+                    $scope.translation = word;
+
                     $scope.wordLength = $scope.word.length;
                     $scope.wordArray = [];
                     $scope.unscrambledWord = [];
@@ -95,6 +101,10 @@
             temp = document.getElementById('ws-timer');
             temp.innerHTML = seconds;
             timeoutMyOswego = setTimeout(countdown, 1000);
+        }
+
+        function hasNumber(word) {
+            return /\d/.test(word);
         }
 
         $scope.continue = function() {
