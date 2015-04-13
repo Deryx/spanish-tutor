@@ -64,7 +64,6 @@ header nav ul li a:nth-of-type(1) {
 
 header nav ul li {
     text-transform: uppercase;
-    display: inline-table;
     width: 175px;
 }
 
@@ -678,7 +677,6 @@ footer {
     padding-top: 40px;
     padding-bottom: 20px;
     text-align: center;
-    background: #FFF;
     border: 1px solid #666;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -980,7 +978,7 @@ fieldset h2 {
     margin: 0 auto;
     margin-top: 5%;
     padding: 0;
-    width: 600px;
+    min-width: 600px;
     font-family: "Montserrat", sans-serif;
     position: absolute;
     left:0;
@@ -996,6 +994,7 @@ fieldset h2 {
 
 #ws-container .intro {
     margin: 0 auto;
+    width: 600px;
     text-align: center;
     background: #FFF;
     border: 1px solid #666;
@@ -1031,10 +1030,6 @@ fieldset h2 {
 #ws-container fieldset {
     width: 100%;
     border: none;
-    border: 1px solid #95a5a6;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
     text-align: center;
     background: #FFF;
 }
@@ -1069,6 +1064,13 @@ fieldset h2 {
     color: #FFF;
 }
 
+#ws-container ul li.blank {
+    display: inline-table;
+    margin: 5px;
+    padding: 5px 10px;
+    background: none;
+}
+
 #ws-container div {
     padding-top: 20px;
     text-align: center;
@@ -1094,7 +1096,7 @@ fieldset h2 {
     margin: 0 auto;
     margin-top: 5%;
     padding: 0;
-    width: 800px;
+    min-width: 800px;
     font-family: "Montserrat", sans-serif;
     position: absolute;
     left:0;
@@ -1124,11 +1126,6 @@ fieldset h2 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     border: none;
-    border: 1px solid #95a5a6;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: #FFF;
 }
 
 #wc-container fieldset h2 {
@@ -1171,7 +1168,7 @@ fieldset h2 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 1.15em;
+    font-size: 1em;
 }
 
 #wc-container div button {
@@ -1324,4 +1321,5 @@ hr:nth-of-type(even) {
     text-align: center;
     color: #4183D7;
     font-weight: bold;
+    background: none;
 }
