@@ -46,8 +46,6 @@
         $scope.translation = '[ Translation ]';
 
         $scope.changeCard = function(word) {
-            $scope.translation = "[ " + word + " ]";
-
             expression = "$..[?(@.translation=='" + word + "')]..gender";
             $scope.article = JSONPath({json: $scope.dictionaryInfo, path: expression})[0];
             if ($scope.article == "m") {
@@ -82,12 +80,22 @@
 
             expression = "$..[?(@.translation=='" + word + "')]..image";
             $scope.image = JSONPath({json: $scope.dictionaryInfo, path: expression})[0];
+
+            if (hasNumber(word)) {
+                word = word.substr(0, word.length - 2);
+            }
+            $scope.translation = "[ " + word + " ]";
+
         };
 
         $scope.clearCard = function() {
             $scope.word = '[ Word ]';
             $scope.translation = '[ Translation ]';
             $scope.image = "";
+        }
+
+        function hasNumber(word) {
+            return /\d/.test(word);
         }
     };
 
