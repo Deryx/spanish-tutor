@@ -30,6 +30,12 @@
                     $scope.word = $scope.words[$scope.wordNumber];
                     $scope.translation = $scope.translations[$scope.wordNumber];
 
+                    var word = $scope.translation;
+                    if (hasNumber(word)) {
+                        word = word.substr(0, word.length - 2);
+                    }
+                    $scope.translation = word;
+
                     $scope.wordLength = $scope.word.length;
                     $scope.wordArray = [];
                     $scope.unscrambledWord = [];
@@ -77,12 +83,12 @@
         };
 
         function countdown() {
-            var wstimer = document.getElementById('ws-timer');
-            seconds = wstimer.innerHTML;
+            seconds = document.getElementById('ws-timer').innerHTML;
             seconds = parseInt(seconds, 10);
 
             if (seconds == 0) {
                 getWord();
+                var wstimer = document.getElementById('ws-timer');
                 wstimer.innerHTML = $scope.originalTime;
                 if ($scope.index < $scope.numberQuestions) {
                     countdown();
@@ -95,6 +101,10 @@
             temp = document.getElementById('ws-timer');
             temp.innerHTML = seconds;
             timeoutMyOswego = setTimeout(countdown, 1000);
+        }
+
+        function hasNumber(word) {
+            return /\d/.test(word);
         }
 
         $scope.continue = function() {
