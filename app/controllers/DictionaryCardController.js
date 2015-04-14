@@ -40,6 +40,10 @@
                 expression = "$..[?(@.category=='household')]..translation";
                 $scope.householdList = JSONPath({json: $scope.dictionaryInfo, path: expression});
                 $scope.householdList.sort();
+
+                expression = "$..[?(@.category=='people')]..translation";
+                $scope.peopleList = JSONPath({json: $scope.dictionaryInfo, path: expression});
+                $scope.peopleList.sort();
             });
 
         $scope.word = '[ Word ]';
