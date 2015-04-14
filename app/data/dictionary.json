@@ -2061,6 +2061,209 @@
           "image": "images/swimming-pool.png"
         }
       ]
+    },
+    {
+      "category": "people",
+      "words": [
+        {
+          "word": "hombre",
+          "translation": "man",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "mujer",
+          "translation": "woman",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "hombre",
+          "translation": "man",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "muchacha",
+          "translation": "girl",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "muchacho",
+          "translation": "boy",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "señor",
+          "translation": "man, sir",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "señora",
+          "translation": "woman, madam",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "señorita",
+          "translation": "miss",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "amigo",
+          "translation": "male friend",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "amiga",
+          "translation": "female friend",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "hombre",
+          "translation": "man",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "policía",
+          "translation": "the police, police officer",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "maestro",
+          "translation": "teacher",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "abogado",
+          "translation": "lawyer, attorney",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "jefe",
+          "translation": "boss",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "profesor",
+          "translation": "professor",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "estudiante",
+          "translation": "student",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "doctor",
+          "translation": "doctor 1",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "médico",
+          "translation": "doctor 2",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "rey",
+          "translation": "king",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "reina",
+          "translation": "queen",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "secretaria",
+          "translation": "secretary",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "autor",
+          "translation": "author",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "poeta",
+          "translation": "poet",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "soldado",
+          "translation": "soldier",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "actor",
+          "translation": "actor",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "pintor",
+          "translation": "painter",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "carpintero",
+          "translation": "carpenter",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "panadero",
+          "translation": "baker",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "cajero",
+          "translation": "cashier",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "atleta",
+          "translation": "athlete",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "cocinero",
+          "translation": "cook, chef",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "enfermera",
+          "translation": "nurse",
+          "gender": "f",
+          "image": ""
+        }
+      ]
     }
   ]
 }
