@@ -2078,12 +2078,6 @@
           "image": ""
         },
         {
-          "word": "hombre",
-          "translation": "man",
-          "gender": "m",
-          "image": ""
-        },
-        {
           "word": "muchacha",
           "translation": "girl",
           "gender": "f",
@@ -2122,12 +2116,6 @@
         {
           "word": "amiga",
           "translation": "female friend",
-          "gender": "m",
-          "image": ""
-        },
-        {
-          "word": "hombre",
-          "translation": "man",
           "gender": "m",
           "image": ""
         },
