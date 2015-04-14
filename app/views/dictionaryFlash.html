@@ -40,6 +40,11 @@
                 <a href ng-click="changeCard(item)">{{ item }}</a>
             </p>
 
+            <h3>People</h3>
+            <p data-ng-repeat="item in peopleList track by $index">
+                <a href ng-click="changeCard(item)">{{ item }}</a>
+            </p>
+
             <h3>Time</h3>
             <p data-ng-repeat="time in timeList track by $index">
                 <a href ng-click="changeCard(time)">{{ time }}</a>
