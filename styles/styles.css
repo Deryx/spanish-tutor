@@ -681,6 +681,7 @@ footer {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
+    background: #FFF;
 }
 
 #vq-container fieldset {
@@ -1035,7 +1036,7 @@ fieldset h2 {
 }
 
 #ws-container fieldset h2 {
-    padding-top: 30px;
+    margin-top: 20px;
 }
 
 #ws-container fieldset div:nth-of-type(1) {
@@ -1132,7 +1133,11 @@ fieldset h2 {
 
 #wc-container fieldset h2 {
     clear: both;
-    padding-top: 30px;
+    margin-top: 0;
+}
+
+#wc-container fieldset div {
+    background: #FFF;
 }
 
 #wc-container fieldset div:nth-of-type(1) {
@@ -1174,7 +1179,7 @@ fieldset h2 {
 }
 
 #wc-container div button {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 10px 15px;
     background: #8b0000;
     color: #FFF;
