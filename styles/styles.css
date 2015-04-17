@@ -1041,8 +1041,8 @@ fieldset h2 {
 
 #ws-container fieldset div:nth-of-type(1) {
     clear: both;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-top: 20px;
+    margin-right: 60px;
     width: 100px;
     height: 50px;
     padding: 10px 5px 5px 5px;
@@ -1129,6 +1129,7 @@ fieldset h2 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     border: none;
+    background: #FFF;
 }
 
 #wc-container fieldset h2 {
@@ -1136,14 +1137,14 @@ fieldset h2 {
     margin-top: 0;
 }
 
-#wc-container fieldset div {
+#wc-container fieldset div:nth-of-type(2) {
     background: #FFF;
 }
 
 #wc-container fieldset div:nth-of-type(1) {
     clear: both;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-top: 20px;
+    margin-right: 60px;
     width: 100px;
     height: 50px;
     padding: 10px 5px 5px 5px;
