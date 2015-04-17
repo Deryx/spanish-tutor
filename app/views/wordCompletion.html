@@ -29,14 +29,14 @@
         <div class="words" ng-show="showWords">
             <fieldset>
                 <div id="wc-timer" ng-show="showTimer">{{ timerTime }}</div>
-                <h2>{{ translation }}</h2>
-                    <div>
-                        <ul ng-model="wordArray">
-                            <li ng-repeat="letter in wordArray track by $index">
-                                <input type="text" ng-if="letter != ' '" ng-model="wordArray[$index]" value="{{ letter }}" />
-                            </li>
-                        </ul>
-                    </div>
+                <div>
+                    <h2>{{ translation }}</h2>
+                    <ul ng-model="wordArray">
+                        <li ng-repeat="letter in wordArray track by $index">
+                            <input type="text" ng-if="letter != ' '" ng-model="wordArray[$index]" value="{{ letter }}" />
+                        </li>
+                    </ul>
+                </div>
                 <div class="buttons">
                     <button ng-click="newWord()">answer</button>
                 </div>
