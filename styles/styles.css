@@ -1055,6 +1055,9 @@ fieldset h2 {
 
 #ws-container ul li {
     display: inline-table;
+}
+
+#ws-container ul li h3 {
     margin: 5px;
     padding: 5px 10px;
     background: #4183D7;
@@ -1064,11 +1067,10 @@ fieldset h2 {
     color: #FFF;
 }
 
-#ws-container ul li.blank {
+#ws-container ul h3.blank {
     display: inline-table;
-    margin: 5px;
     padding: 5px 10px;
-    background: none;
+    background: #FFF;
 }
 
 #ws-container div {
