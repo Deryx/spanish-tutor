@@ -3,7 +3,7 @@
  */
 
 (function() {
-    var app = angular.module('spanishApp', ['ui.router', 'ui.sortable']);
+    var app = angular.module('spanishApp', ['ui.router', 'ui.sortable', 'ngAnimate']);
 
     app.config(function($stateProvider, $urlRouterProvider) {
 

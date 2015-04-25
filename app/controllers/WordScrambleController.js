@@ -30,12 +30,47 @@
                     $scope.word = $scope.words[$scope.wordNumber];
                     $scope.translation = $scope.translations[$scope.wordNumber];
 
+                    var word = $scope.translation;
+                    if (hasNumber(word)) {
+                        word = word.substr(0, word.length - 2);
+                    }
+                    $scope.translation = word;
+
                     $scope.wordLength = $scope.word.length;
                     $scope.wordArray = [];
-                    $scope.unscrambledWord = [];
-                    for(var i = 0;i < $scope.wordLength; i++) {
-                        $scope.unscrambledWord.push($scope.word[i]);
-                        $scope.wordArray.push($scope.word[i]);
+                    var scrambledWords = '';
+
+                    var string = $scope.word;
+                    var numberWords = string.split(' ').length;
+                    console.log(numberWords);
+                    $scope.scrambledWord = [];
+                    if (numberWords > 1) {
+                        console.log($scope.word);
+                        var stringWords = string.split(' ');
+                        console.log(stringWords);
+                        var stringArray = [];
+                        for (var i = 0; i < numberWords; i++) {
+                            var str = stringWords[i];
+                            console.log(str);
+                            for (var j = 0; j < str.length; j++) {
+                                stringArray.push(str[j]);
+                                console.log(stringArray);
+                                $scope.sword = [];
+                                $scope.sword = shuffle(stringArray);
+                           }
+                           $scope.scrambledWord.push(' ');
+                           for (var m = 0; m < str.length; m++) {
+                               $scope.scrambledWord.push($scope.sword[m]);
+                           }
+                           stringArray = [];
+                           console.log($scope.scrambledWord);
+                        };
+                        $scope.scrambledWord.splice(0, 1);
+                    } else {
+                        for(var i = 0; i < $scope.wordLength; i++) {
+                            $scope.wordArray.push($scope.word[i]);
+                            $scope.scrambledWord = shuffle($scope.wordArray);
+                        }
                     }
 
                     function shuffle(array) {
@@ -49,21 +84,27 @@
                             // Decrease counter by 1
                             counter--;
 
-                            // And swap the last element with it
-                            temp = array[counter];
-                            array[counter] = array[index];
-                            array[index] = temp;
+                            if (array[counter] != ' ') {
+                                // And swap the last element with it
+                                temp = array[counter];
+                                array[counter] = array[index];
+                                array[index] = temp;
+                            }
                         }
 
                         return array;
                     }
 
-                    $scope.scrambledWord = shuffle($scope.wordArray);
+                    $scope.unscrambledWord = [];
+                    for(var k = 0;k < $scope.wordLength; k++) {
+                        $scope.unscrambledWord.push($scope.word[k]);
+                    }
+                    console.log($scope.unscrambledWord);
 
                     $scope.$watchCollection('scrambledWord', function (newOrder) {
                         $scope.correctIndex = 0;
-                        for(var i = 0; i < $scope.wordLength; i++) {
-                            if ($scope.unscrambledWord[i] == newOrder[i]) {
+                        for(var l = 0; l < $scope.wordLength; l++) {
+                            if ($scope.unscrambledWord[l] == newOrder[l]) {
                                 $scope.correctIndex++;
                             }
                         };
@@ -77,12 +118,12 @@
         };
 
         function countdown() {
-            var wstimer = document.getElementById('ws-timer');
-            seconds = wstimer.innerHTML;
+            seconds = document.getElementById('ws-timer').innerHTML;
             seconds = parseInt(seconds, 10);
 
             if (seconds == 0) {
                 getWord();
+                var wstimer = document.getElementById('ws-timer');
                 wstimer.innerHTML = $scope.originalTime;
                 if ($scope.index < $scope.numberQuestions) {
                     countdown();
@@ -95,6 +136,10 @@
             temp = document.getElementById('ws-timer');
             temp.innerHTML = seconds;
             timeoutMyOswego = setTimeout(countdown, 1000);
+        }
+
+        function hasNumber(word) {
+            return /\d/.test(word);
         }
 
         $scope.continue = function() {

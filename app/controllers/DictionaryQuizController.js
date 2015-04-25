@@ -24,17 +24,39 @@
                     $scope.selections = JSONPath({json: $scope.dictionaryInfo, path: expression});
 
                     $scope.dictionaryLength = $scope.words.length;
+                    console.log($scope.dictionaryLength);
 
                     $scope.wordNumber = Math.floor((Math.random() * $scope.dictionaryLength) + 1);
 
                     $scope.word = $scope.words[$scope.wordNumber];
+
                     $scope.answer = $scope.selections[$scope.wordNumber];
+                    word = $scope.answer;
+                    if (hasNumber(word)) {
+                        word = word.substr(0, word.length - 2);
+                    }
+                    $scope.answer = word;
 
                     $scope.selectionList = [];
 
                     $scope.selectionList.push($scope.answer);
                     for (var i = 1; i < 6; i++) {
-                        $scope.selectionList.push($scope.selections[Math.floor((Math.random() * $scope.dictionaryLength) + 1)]);
+                        var selection = $scope.selections[Math.floor((Math.random() * $scope.dictionaryLength) + 1)];
+                        for (var j = 2; j < i; j++) {
+                            if (selection == $scope.selectionList[j] || selection == 0) {
+                                selection = $scope.selections[Math.floor((Math.random() * $scope.dictionaryLength) + 1)];
+                            }
+                        }
+                        word = selection;
+                        if (hasNumber(word)) {
+                            word = word.substr(0, word.length - 2);
+                        }
+                        selection = word;
+                        $scope.selectionList.push(selection);
+                    }
+
+                    function hasNumber(word) {
+                        return /\d/.test(word);
                     }
 
                     function shuffle(array) {
@@ -58,7 +80,7 @@
                     }
 
                     $scope.selectionList = shuffle($scope.selectionList);
-            })
+                })
         };
 
         function countdown() {
@@ -93,6 +115,7 @@
                     countdown();
                 }
                 getQuestion();
+                $scope.newCard = true;
             }
         };
 
@@ -110,9 +133,7 @@
         }
 
         $scope.reset = function() {
-            $scope.numberCorrect = 0;
-            $scope.numberQuestions = 0;
-            getQuestion();
+            $state.reload();
         }
     }
 

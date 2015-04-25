@@ -40,6 +40,11 @@
                 <a href ng-click="changeCard(item)">{{ item }}</a>
             </p>
 
+            <h3>People</h3>
+            <p data-ng-repeat="item in peopleList track by $index">
+                <a href ng-click="changeCard(item)">{{ item }}</a>
+            </p>
+
             <h3>Time</h3>
             <p data-ng-repeat="time in timeList track by $index">
                 <a href ng-click="changeCard(time)">{{ time }}</a>
@@ -47,11 +52,15 @@
         </div>
     </div>
 
-    <div class="dictionary-card">
+    <div class="dictionary-card" ng-click="showFront = !showFront">
         <fieldset>
-            <h1>{{ word }}</h1>
-            <h1>{{ translation }}</h1>
-            <img src='{{ image }}' />
+            <div class="front flip" ng-if="showFront">
+                <h1>{{ translation }}</h1>
+            </div>
+            <div class="back flip" ng-if="!showFront">
+                <h1>{{ word }}</h1>
+                <img src='{{ image }}' />
+            </div>
         </fieldset>
     </div>
 
