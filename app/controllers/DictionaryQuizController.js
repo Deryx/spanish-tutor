@@ -120,8 +120,6 @@
         };
 
         $scope.submit = function() {
-            var dqtimer = document.getElementById('dq-timer');
-            dqtimer.innerHTML = $scope.originalTime;
             if ($scope.index < $scope.numberQuestions) {
                 if ($scope.answer == $scope.sel) {
                     $scope.numberCorrect++;
