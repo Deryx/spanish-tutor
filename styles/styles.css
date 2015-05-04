@@ -799,7 +799,8 @@ footer {
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
     z-index: 3;
-    background: rgba(192, 192, 192, 0.1);
+    background: rgba(139, 0, 0, 1);
+    color: #FFF;
 }
 
 .flip .card.flipped .front {
@@ -1325,8 +1326,8 @@ footer {
 }
 
 #dq-timer, #ws-timer, #wc-timer, #vc-timer {
-     background: #CC0001;
-     color: #FFF;
+     background: #FFF;
+     color: #8b0000;
      width: 50px;
      height: 50px;
      padding-top: 10px;
