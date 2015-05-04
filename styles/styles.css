@@ -747,7 +747,7 @@ footer {
     width: 600px;
     height: 300px;
     border: none;
-    background: #FFF;
+    background: rgba(236, 240, 241, 0.75);
     -webkit-perspective: 800;
     -moz-perspective: 800;
     perspective: 800;
