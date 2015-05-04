@@ -12,6 +12,9 @@
         $scope.originalTime = $scope.timerTime;
         $scope.index = 0;
 
+        $scope.flipToggle = false;
+
+
         function getQuestion() {
             dictionaryFactory.getDictionary()
                 .success(function (data) {
@@ -115,18 +118,23 @@
                     countdown();
                 }
                 getQuestion();
-                $scope.newCard = true;
             }
         };
 
         $scope.submit = function() {
+            var dqtimer = document.getElementById('dq-timer');
+            dqtimer.innerHTML = $scope.originalTime;
             if ($scope.index < $scope.numberQuestions) {
+                $scope.newCard = false;
                 if ($scope.answer == $scope.sel) {
                     $scope.numberCorrect++;
                 }
-                getQuestion();
 
                 $scope.index++;
+
+                if ($scope.index < $scope.numberQuestions) {
+                    getQuestion();
+                }
             }
         }
 
@@ -138,5 +146,19 @@
     DictionaryQuizController.$inject = ['$scope', '$state', 'dictionaryFactory'];
 
     angular.module('spanishApp')
+        .directive('flipMe', [function() {
+            var flip = false;
+            return function (scope, element, attrs) {
+                element.click(function() {
+                    if (!flip) {
+                        element.addClass('flipped');
+                        flip = true;
+                    } else {
+                        element.removeClass('flipped');
+                        flip = false;
+                    }
+                })
+            }
+        }])
         .controller('DictionaryQuizController', DictionaryQuizController);
 }());

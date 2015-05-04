@@ -2091,13 +2091,13 @@
         },
         {
           "word": "señor",
-          "translation": "man, sir",
+          "translation": "sir",
           "gender": "m",
           "image": ""
         },
         {
           "word": "señora",
-          "translation": "woman, madam",
+          "translation": "madam",
           "gender": "f",
           "image": ""
         },
@@ -2109,19 +2109,19 @@
         },
         {
           "word": "amigo",
-          "translation": "male friend",
+          "translation": "friend, male",
           "gender": "m",
           "image": ""
         },
         {
           "word": "amiga",
-          "translation": "female friend",
+          "translation": "friend, female",
           "gender": "f",
           "image": ""
         },
         {
           "word": "policía",
-          "translation": "the police, police officer",
+          "translation": "police officer",
           "gender": "f",
           "image": "images/policeman.png"
         },
@@ -2133,7 +2133,7 @@
         },
         {
           "word": "abogado",
-          "translation": "lawyer, attorney",
+          "translation": "lawyer",
           "gender": "m",
           "image": ""
         },

@@ -26,30 +26,31 @@
             <button ng-click="continue()">go</button>
         </p>
     </div>
-    <div class="questions" ng-show="showQuestions">
-        <fieldset>
-            <div id="dq-timer" ng-show="showTimer">{{ timerTime }}</div>
-            <h2>{{ word }}</h2>
-            <div class="question">
-                <form>
+    <div class="flip" ng-show="showQuestions">
+        <div class="card" flip-me="flipToggle">
+            <div class="face front">
+                <h1>{{ word }}</h1>
+            </div>
+            <div class="face back">
+                <div id="dq-timer" ng-show="showTimer">{{ timerTime }}</div>
+                <form class="answers">
                     <label ng-repeat="selection in selectionList track by $index">
                         <p>
                             <input
                                     name="selection"
                                     type="radio"
                                     ng-value="selection"
-                                    ng-model="$parent.sel" />
+                                    ng-model="$parent.sel"
+                                    ng-click="submit()"
+                            />
                             {{ selection }}
                         </p>
                     </label>
                 </form>
             </div>
-            <div class="buttons">
-                <button ng-click="submit()">Answer</button>
-                <button ng-click="reset()">Reset</button>
-            </div>
-        </fieldset>
+        </div>
         <div class="info">
+            <br /><br />
             Number Correct: {{ numberCorrect }}/{{ index }} ({{ numberCorrect/index * 100 | number:0 }}% )
         </div>
     </div>

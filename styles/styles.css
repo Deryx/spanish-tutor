@@ -487,7 +487,6 @@ footer {
 }
 
 .flip.ng-enter {
-    margin-top: auto;
     -webkit-animation: flipInY 2s;
     -moz-animation: flipInY 2s;
     -ms-animation: flipInY 2s;
@@ -495,7 +494,6 @@ footer {
 }
 
 .flip.ng-leave {
-    margin-top: auto;
     -webkit-animation: flipOutY 2s;
     -moz-animation: flipOutY 2s;
     -ms-animation: flipOutY 2s;
@@ -745,27 +743,93 @@ footer {
     margin-bottom: 40px;
 }
 
-#vq-container fieldset {
-    width: 100%;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+#vq-container .flip {
+    width: 600px;
+    height: 300px;
     border: none;
-    border: 1px solid #95a5a6;
     background: #FFF;
+    -webkit-perspective: 800;
+    -moz-perspective: 800;
+    perspective: 800;
+    position: relative;
 }
 
-fieldset h2 {
-    color: #8b0000;
+.flip .card {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    -moz-transform-style: preserve-3d;
+    -moz-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
 }
 
-#vq-container fieldset .question {
-    margin-bottom: 20px;
+.flip .card.flipped {
+    -webkit-transform: rotateX(-180deg);
+    -ms-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+}
+
+.flip .card .face {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.flip .card .front {
+    position: absolute;
+    z-index: 2;
+    -ms-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: #000;
+}
+
+.flip .card .back {
+    -webkit-transform: rotateX(-180deg);
+    -moz-transform: rotateX(-180deg);
+    -ms-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 3;
+    background: rgba(192, 192, 192, 0.1);
+}
+
+.flip .card.flipped .front {
+    -ms-transform: rotateX(-180deg);
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 2;
+}
+
+.flip .card.flipped .back {
+    -ms-transform: rotateX(-180deg);
+    -ms-backface-visibility: visible;
+    backface-visibility: visible;
+    z-index: 3;
+}
+
+.face h1 {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20%;
+    color: #FFF;
+}
+
+.answers {
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 20%;
+    margin-bottom: 20px;
     text-align: justify;
     padding: 0;
-    width: 80%;
     -moz-column-count: 3;
     -webkit-column-count: 3;
     column-count: 3;
@@ -1263,9 +1327,9 @@ fieldset h2 {
 #dq-timer, #ws-timer, #wc-timer, #vc-timer {
      background: #CC0001;
      color: #FFF;
-     -moz-border-radius: 10px;
-     -webkit-border-radius: 10px;
-     border-radius: 10px;
+     width: 50px;
+     height: 50px;
+     padding-top: 10px;
      float: right;
      font-size: 2em;
  }
