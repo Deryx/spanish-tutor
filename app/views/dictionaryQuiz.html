@@ -53,5 +53,9 @@
             <br /><br />
             Number Correct: {{ numberCorrect }}/{{ index }} ({{ numberCorrect/index * 100 | number:0 }}% )
         </div>
+
+        <div class="button">
+            <button ng-click="clearCard()">reset quiz</button>
+        </div>
     </div>
 </div>

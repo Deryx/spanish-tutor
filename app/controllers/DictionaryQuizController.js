@@ -138,8 +138,8 @@
             }
         }
 
-        $scope.reset = function() {
-            $state.reload();
+        $scope.clearCard = function() {
+            $state.go($state.$current, null, { reload: true});
         }
     }
 
