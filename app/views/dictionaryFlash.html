@@ -1,67 +1,26 @@
 <!-- dictionaryflash.html -->
 
-
 <div id="dc-container">
-    <div class="words">
-        <h2>Spanish Vocabulary Flashcard</h2>
-        <div class="dictionary-list">
-            <h3>Animals</h3>
-            <p data-ng-repeat="animal in animalList track by $index">
-                <a href ng-click="changeCard(animal)">{{ animal }}</a>
-            </p>
+    <h2>Spanish Vocabulary Flashcard</h2>
 
-            <h3>Body</h3>
-            <p data-ng-repeat="part in bodyList track by $index">
-                <a href ng-click="changeCard(part)">{{ part }}</a>
-            </p>
-
-            <h3>Colors</h3>
-            <p data-ng-repeat="color in colorList track by $index">
-                <a href ng-click="changeCard(color)">{{ color }}</a>
-            </p>
-
-            <h3>Clothes</h3>
-            <p data-ng-repeat="clothes in clothesList track by $index">
-                <a href ng-click="changeCard(clothes)">{{ clothes }}</a>
-            </p>
-
-            <h3>Family</h3>
-            <p data-ng-repeat="family in familyList track by $index">
-                <a href ng-click="changeCard(family)">{{ family }}</a>
-            </p>
-
-            <h3>Food</h3>
-            <p data-ng-repeat="food in foodList track by $index">
-                <a href ng-click="changeCard(food)">{{ food }}</a>
-            </p>
-
-            <h3>Household</h3>
-            <p data-ng-repeat="item in householdList track by $index">
-                <a href ng-click="changeCard(item)">{{ item }}</a>
-            </p>
-
-            <h3>People</h3>
-            <p data-ng-repeat="item in peopleList track by $index">
-                <a href ng-click="changeCard(item)">{{ item }}</a>
-            </p>
-
-            <h3>Time</h3>
-            <p data-ng-repeat="time in timeList track by $index">
-                <a href ng-click="changeCard(time)">{{ time }}</a>
-            </p>
-        </div>
+    <div class="categories">
+        <form>
+            <label>select a category: </label> <select name="wordCategory" ng-model="wordCategory" ng-click="getWords(0)">
+                <option ng-repeat="category in categoryList">{{ category }}</option>
+            </select>
+        </form>
     </div>
 
-    <div class="dictionary-card" ng-click="showFront = !showFront">
-        <fieldset>
-            <div class="front flip" ng-if="showFront">
+    <div class="dictionary-card">
+        <div class="card" flip-me="flipToggle">
+            <div class="face front">
                 <h1>{{ translation }}</h1>
             </div>
-            <div class="back flip" ng-if="!showFront">
+            <div class="face back" ng-click="newCard()">
                 <h1>{{ word }}</h1>
                 <img src='{{ image }}' />
             </div>
-        </fieldset>
+        </div>
     </div>
 
     <div class="button">

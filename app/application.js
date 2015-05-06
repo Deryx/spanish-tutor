@@ -57,5 +57,21 @@
             });
 
         $urlRouterProvider.otherwise('/');
-    });
+    })
+
+    app.directive('flipMe', [function() {
+        var flip = false;
+        return function (scope, element, attrs) {
+            element.click(function() {
+                if (!flip) {
+                    element.addClass('flipped');
+                    flip = true;
+                } else {
+                    element.removeClass('flipped');
+                    flip = false;
+                }
+            })
+        }
+    }])
+
 }());

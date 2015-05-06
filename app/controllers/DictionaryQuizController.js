@@ -146,19 +146,5 @@
     DictionaryQuizController.$inject = ['$scope', '$state', 'dictionaryFactory'];
 
     angular.module('spanishApp')
-        .directive('flipMe', [function() {
-            var flip = false;
-            return function (scope, element, attrs) {
-                element.click(function() {
-                    if (!flip) {
-                        element.addClass('flipped');
-                        flip = true;
-                    } else {
-                        element.removeClass('flipped');
-                        flip = false;
-                    }
-                })
-            }
-        }])
         .controller('DictionaryQuizController', DictionaryQuizController);
 }());

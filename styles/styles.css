@@ -384,155 +384,126 @@ footer {
 }
 
 #dc-container {
-    margin-top: 5%;
-    padding: 0;
-    width: 935px;
+    width: 630px;
     font-family: "Montserrat";
-    position: absolute;
-    left:0;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.words {
-    margin-top: 0;
-}
-
-.words h2 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.dictionary-list h3:nth-of-type(1) {
-    margin-top: 0;
-}
-
-.words p {
-    margin: 0;
-}
-
-.words a {
-    text-decoration: none;
-    color: #000;
-}
-
-.words a:hover {
-    text-decoration: underline;
-}
-
-.dictionary-card {
-    float: right;
-    perspective: 1000;
-}
-
-.dictionary-card fieldset {
-    border: none;
     margin: 0 auto;
     padding: 0;
+}
+
+#dc-container h2 {
+    margin: 0;
+    padding-top: 12%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#dc-container .categories {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+}
+
+#dc-container .categories select {
+    font-size: 115%;
+}
+
+#dc-container .dictionary-card {
+    border: none;
     width: 630px;
     height: 450px;
+    background: rgba(236, 240, 241, 0.75);
+    -webkit-perspective: 800;
+    -moz-perspective: 800;
+    perspective: 800;
+}
+
+#dc-container .dictionary-card .card {
     text-align: center;
     border: 1px solid #95a5a6;
-    background: #FFF;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    position: relative;
 }
 
-.dictionary-card img {
-    margin-top: -20px;
-}
-
-.dictionary-card fieldset h1:nth-of-type(1) {
-    margin-top: 7%;
+#dc-container .dictionary-card .card .front h1 {
+    margin-top: 30%;
+    font-size: 300%;
     text-align: center;
+    color: #FFF;
+}
+
+#dc-container .dictionary-card .card .back h1 {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 300%;
     color: #8b0000;
 }
 
-.dictionary-card fieldset h1:nth-of-type(2) {
-    margin-top: -20px;
-    margin-bottom: 60px;
-    text-align: center;
-    color: #4183D7;
+#dc-container .dictionary-card .card {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    -moz-transform-style: preserve-3d;
+    -moz-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
 }
 
-.dictionary-card h2:nth-of-type(2) {
-    margin-bottom: -20px;
+#dc-container .dictionary-card .card.flipped {
+    -webkit-transform: rotateX(-180deg);
+    -ms-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
 }
 
-.front, .back {
-    width: 85%;
+#dc-container .dictionary-card .card .face {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
     position: absolute;
 }
 
-.front {
-    top: 150px;
-    left: 30px;
+#dc-container .dictionary-card .card .front {
     z-index: 2;
+    -ms-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: #000;
 }
 
-.front h1 {
-    font-size: 300%;
-}
-
-.back {
-    top: 0;
-    left: 30px;
-}
-
-.back img {
-    margin-top: 30px;
-}
-
-.flip.ng-enter {
-    -webkit-animation: flipInY 2s;
-    -moz-animation: flipInY 2s;
-    -ms-animation: flipInY 2s;
-    animation: flipInY 2s;
-}
-
-.flip.ng-leave {
-    -webkit-animation: flipOutY 2s;
-    -moz-animation: flipOutY 2s;
-    -ms-animation: flipOutY 2s;
-    animation: flipOutY 2s;
-}
-
-.dictionary-list {
-    margin-left: 120px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 175px;
-    height: 430px;
-    overflow: auto;
-    float: left;
-    border: 1px solid #95a5a6;
-    font-size: 90%;
+#dc-container .dictionary-card .card .back {
+    -webkit-transform: rotateX(-180deg);
+    -moz-transform: rotateX(-180deg);
+    -ms-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 3;
     background: #FFF;
-}
-
-.dictionary-list h3 {
-    margin-left: 15px;
-}
-
-.dictionary-list h3:nth-of-type(1) {
-    margin-top: 5px;
-}
-
-.dictionary-list p {
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.dictionary-list p:last-child {
-    margin-bottom: 15px;
-}
-
-.dictionary-list h3 {
-    margin-bottom: 0;
     color: #8b0000;
+}
+
+#dc-container .dictionary-card .card.flipped .front {
+    -ms-transform: rotateX(-180deg);
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+#dc-container .dictionary-card .card.flipped .back {
+    -ms-transform: rotateX(-180deg);
+    -ms-backface-visibility: visible;
+    backface-visibility: visible;
+    z-index: 3;
+}
+
+#dc-container .dictionary-card .face h1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    color: #FFF;
 }
 
 #vs-container {
@@ -743,7 +714,7 @@ footer {
     margin-bottom: 40px;
 }
 
-#vq-container .flip {
+.flip {
     width: 600px;
     height: 300px;
     border: none;

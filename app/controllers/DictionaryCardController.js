@@ -3,98 +3,88 @@
  */
 (function() {
     var DictionaryCardController = function ($scope, $state, dictionaryFactory) {
+        $scope.dictionaryList = [];
+        $scope.index = 1;
 
         dictionaryFactory.getDictionary()
             .success(function (data) {
                 $scope.dictionaryInfo = data.dictionary;
 
-                var expression = "$..[?(@.category=='colors')]..translation";
+                $scope.getCategories = function() {
+                    var expression = "$..category";
 
-                $scope.colorList = JSONPath({json: $scope.dictionaryInfo, path: expression});
-                $scope.colorList.sort();
+                    $scope.categoryList = JSONPath({json: $scope.dictionaryInfo, path: expression});
+                    $scope.categoryList.sort();
+                };
 
-                expression = "$..[?(@.category=='clothes')]..translation";
-                $scope.clothesList = JSONPath({json: $scope.dictionaryInfo, path: expression});
-                $scope.clothesList.sort();
+                $scope.getWords = function(index) {
+                    var expression = "$..[?(@.category=='" + $scope.wordCategory + "')]";
 
-                expression = "$..[?(@.category=='family')]..translation";
-                $scope.familyList = JSONPath({json: $scope.dictionaryInfo, path: expression});
-                $scope.familyList.sort();
+                    $scope.dictionaryList = JSONPath({json: $scope.dictionaryInfo, path: expression})[0];
 
-                expression = "$..[?(@.category=='body')]..translation";
-                $scope.bodyList = JSONPath({json: $scope.dictionaryInfo, path: expression});
-                $scope.bodyList.sort();
+                    words = $scope.dictionaryList.words;
+                    words.sort(sort_by('translation', true, function(a) {return a.toUpperCase()}));
 
-                expression = "$..[?(@.category=='animals')]..translation";
-                $scope.animalList = JSONPath({json: $scope.dictionaryInfo, path: expression});
-                $scope.animalList.sort();
+                    $scope.word = "";
 
-                expression = "$..[?(@.category=='time')]..translation";
-                $scope.timeList = JSONPath({json: $scope.dictionaryInfo, path: expression});
-                $scope.timeList.sort();
+                    $scope.article = $scope.dictionaryList.words[index].gender;
+                    if ($scope.article == "m") {
+                        $scope.word = "El ";
+                    }
+                    else if ($scope.article == "f") {
+                        $scope.word = "La ";
+                    }
+                    else if ($scope.article == "fpl") {
+                        $scope.word = "Las ";
+                    }
+                    else if ($scope.article == "mpl") {
+                        $scope.word = "Los ";
+                    }
 
-                expression = "$..[?(@.category=='food')]..translation";
-                $scope.foodList = JSONPath({json: $scope.dictionaryInfo, path: expression});
-                $scope.foodList.sort();
+                    $scope.word += $scope.dictionaryList.words[index].word;
 
-                expression = "$..[?(@.category=='household')]..translation";
-                $scope.householdList = JSONPath({json: $scope.dictionaryInfo, path: expression});
-                $scope.householdList.sort();
+                    expression = "$..[?(@.translation=='" + $scope.dictionaryList.words[index] + "')]..image";
+                    $scope.image = $scope.dictionaryList.words[index].image;
 
-                expression = "$..[?(@.category=='people')]..translation";
-                $scope.peopleList = JSONPath({json: $scope.dictionaryInfo, path: expression});
-                $scope.peopleList.sort();
+                    if (hasNumber($scope.dictionaryList[$scope.index])) {
+                        $scope.dictionaryList[index] = $scope.dictionaryList[0].substr(0, word.length - 2);
+                    }
+
+                    var translation = $scope.dictionaryList.words[index].translation;
+                    if (hasNumber(translation)) {
+                        translation = translation.substr(0, translation.length - 2);
+                    }
+                    $scope.translation = translation;
+                };
+
+                var sort_by = function(field, reverse, primer){
+                    var key = function (x) {return primer ? primer(x[field]) : x[field]};
+
+                    return function (a,b) {
+                        var A = key(a), B = key(b);
+                        return ( (A < B) ? -1 : ((A > B) ? 1 : 0) ) * [-1,1][+!!reverse];
+                    }
+                }
+
+
+                function hasNumber(word) {
+                    return /\d/.test(word);
+                };
+
+                $scope.getCategories();
+
+                $scope.newCard = function() {
+                    var listLength = $scope.dictionaryList.words.length;
+                    if ($scope.index < listLength) {
+                        $scope.getWords($scope.index);
+
+                        $scope.index++;
+                    }
+                }
             });
 
-        $scope.showFront = false;
-
-        $scope.changeCard = function(word) {
-            $scope.showFront = true;
-
-            expression = "$..[?(@.translation=='" + word + "')]..gender";
-            $scope.article = JSONPath({json: $scope.dictionaryInfo, path: expression})[0];
-            if ($scope.article == "m") {
-                $scope.word = "El ";
-
-                expression = "$..[?(@.translation=='" + word + "')]..word";
-            }
-            else if ($scope.article == "f") {
-                $scope.word = "La ";
-
-                expression = "$..[?(@.translation=='" + word + "')]..word";
-            }
-            else if ($scope.article == "fpl") {
-                $scope.word = "Las ";
-
-                expression = "$..[?(@.translation=='" + word + "')]..word";
-            }
-            else if ($scope.article == "mpl") {
-                $scope.word = "Los ";
-
-                expression = "$..[?(@.translation=='" + word + "')]..word";
-            }
-            else {
-
-                expression = "$..[?(@.translation=='" + word + "')]..word";
-            }
-
-            $scope.word += JSONPath({json: $scope.dictionaryInfo, path: expression})[0];
-
-            expression = "$..[?(@.translation=='" + word + "')]..image";
-            $scope.image = JSONPath({json: $scope.dictionaryInfo, path: expression})[0];
-
-            if (hasNumber(word)) {
-                word = word.substr(0, word.length - 2);
-            }
-            $scope.translation = word;
-        };
-
         $scope.clearCard = function() {
-            $state.reload();
-        }
-
-        function hasNumber(word) {
-            return /\d/.test(word);
+            $state.go($state.$current, null, { reload: true});
         }
     };
 
