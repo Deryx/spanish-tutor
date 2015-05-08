@@ -3,7 +3,7 @@
 <div id="ws-container">
     <h2>Spanish Word Scramble</h2>
     <div class="intro" ng-show="showIntroduction">
-        <p>How many questions would you like?</p>
+        <h3>How many questions would you like?</h3>
         <p>
             <input type="radio" ng-model="numberQuestions" value="5" /> 5
             <input type="radio" ng-model="numberQuestions" value="10" /> 10
@@ -12,7 +12,9 @@
             <input type="radio" ng-model="numberQuestions" value="25" /> 25
         </p>
         <br />
-        <p>How much time on the timer?</p>
+        <hr />
+        <br />
+        <h3>How much time on the timer?</h3>
         <p>
             <input type="radio" ng-model="timerTime" value="0" /> No timer
             <input type="radio" ng-model="timerTime" value="15" /> 15

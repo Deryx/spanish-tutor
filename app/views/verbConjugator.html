@@ -4,14 +4,17 @@
     <h2>Spanish Verb Conjugator</h2>
     <form>
         <div class="intro" ng-show="showIntroduction">
-            <p>What verb tense would you like to be tested on?</p>
+            <h3>What verb tense would you like to be tested on?</h3>
             <p>
                 <input type="radio" ng-model="verbTense" value="present" /> Present
                 <input type="radio" ng-model="verbTense" value="preterite" /> Preterite
                 <input type="radio" ng-model="verbTense" value="imperfect" /> Imperfect
                 <input type="radio" ng-model="verbTense" value="future" /> Future
             </p>
-            <p>How many words would you like to conjugate?</p>
+            <br />
+            <hr />
+            <br />
+            <h3>How many words would you like to conjugate?</h3>
             <p>
                 <input type="radio" ng-model="numberQuestions" value="5" /> 5
                 <input type="radio" ng-model="numberQuestions" value="10" /> 10
@@ -19,7 +22,10 @@
                 <input type="radio" ng-model="numberQuestions" value="20" /> 20
                 <input type="radio" ng-model="numberQuestions" value="25" /> 25
             </p>
-            <p>How much time on the timer?</p>
+            <br />
+            <hr />
+            <br />
+            <h3>How much time on the timer?</h3>
             <p>
                 <input type="radio" ng-model="timerTime" value="0" /> No timer
                 <input type="radio" ng-model="timerTime" value="15" /> 15
