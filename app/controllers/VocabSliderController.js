@@ -3,8 +3,10 @@
  */
 (function() {
     var VocabSliderController = function ($scope, $state, dictionaryFactory) {
-        $scope.showCards = true;
-        $scope.showAnswers = true;
+        $scope.showIntroduction = true;
+        $scope.showCards = false;
+        $scope.showAnswers = false;
+        $scope.numberSets = 0;
 
         function getCards() {
             dictionaryFactory.getDictionary()
@@ -147,14 +149,56 @@
                 });
         }
 
+        function countdown() {
+            seconds = document.getElementById('vs-timer').innerHTML;
+            seconds = parseInt(seconds, 10);
+
+            if (seconds == 0) {
+                getCards();
+                var vstimer = document.getElementById('vs-timer');
+                vstimer.innerHTML = $scope.originalTime;
+                if ($scope.index < $scope.numberQuestions) {
+                    countdown();
+                    $scope.index++;
+                }
+                return;
+            }
+
+            seconds--;
+            temp = document.getElementById('ws-timer');
+            temp.innerHTML = seconds;
+            timeoutMyOswego = setTimeout(countdown, 1000);
+        }
+
         function hasNumber(word) {
             return /\d/.test(word);
         }
 
         getCards();
 
+
+        $scope.continue = function() {
+            if ($scope.numberSets != 0) {
+                $scope.showIntroduction = false;
+                $scope.showCards = true;
+
+                if ($scope.timerTime != undefined && $scope.timerTime > 0) {
+                    $scope.showTimer = true;
+                    $scope.originalTime = $scope.timerTime;
+                    countdown();
+                }
+                getCards();
+            }
+        };
+
         $scope.newCards = function() {
-            $state.reload();
+            var vstimer = document.getElementById('vs-timer');
+            vstimer.innerHTML = $scope.originalTime;
+            if ($scope.index < $scope.numberQuestions) {
+                getCards();
+
+                $scope.index++;
+            }
         }
     };
 

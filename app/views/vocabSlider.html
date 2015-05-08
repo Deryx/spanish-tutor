@@ -2,8 +2,39 @@
 
 <div id="vs-container">
     <h2>Spanish Vocabulary Slider</h2>
-    <p>Welcome to the <strong>Vocabulary Slider</strong>! Slide the blue tiles to match the word cards above. When you want a new set of cards and tiles, simply press the "NEW CARDS" button. Have fun!</p>
+    <div class="intro" ng-show="showIntroduction">
+        <p>Welcome to the <strong>Vocabulary Slider</strong>! Slide the blue tiles to match the word cards above. When you want a new set of cards and tiles, simply press the "NEW CARDS" button. Have fun!</p>
+        <br />
+        <hr />
+        <br />
+        <h3>How many sets of cards would you like?</h3>
+        <p>
+            <input type="radio" ng-model="numberSets" value="5" /> 5
+            <input type="radio" ng-model="numberSets" value="10" /> 10
+            <input type="radio" ng-model="numberSets" value="15" /> 15
+            <input type="radio" ng-model="numberSets" value="20" /> 20
+            <input type="radio" ng-model="numberSets" value="25" /> 25
+        </p>
+        <br />
+        <hr />
+        <br />
+        <h3>How much time on the timer?</h3>
+        <p>
+            <input type="radio" ng-model="timerTime" value="0" /> No timer
+            <input type="radio" ng-model="timerTime" value="15" /> 15
+            <input type="radio" ng-model="timerTime" value="30" /> 30
+            <input type="radio" ng-model="timerTime" value="45" /> 45
+            <input type="radio" ng-model="timerTime" value="60" /> 60
+        </p>
+        <br />
+        <hr />
+        <br />
+        <p class="buttons">
+            <button ng-click="continue()">go</button>
+        </p>
+    </div>
     <div id="wordrow" class="animated slideInLeft" ng-if="showCards">
+        <div id="vs-timer" ng-show="showTimer">{{ timerTime }}</div>
         <div class="card">
             <h3>{{ translation1 }}</h3>
             <img src='{{ image1 }}' />
@@ -34,11 +65,11 @@
             <img src='{{ image6 }}' />
         </div>
     </div>
-    <div id="answerrow">
+    <div id="answerrow" ng-if="showCards">
         <ul ui-sortable ng-model="slides">
             <li ng-repeat="slide in slides" class="slide"><h5>{{ slide }}</h5></li>
         </ul>
     </div>
-    <p>{{ results }}</p>
-    <p><button ng-click="newCards()">new cards</button></p>
+    <p class="results" ng-if="showCards">{{ results }}</p>
+    <p ng-if="showCards"><button ng-click="newCards()">new cards</button></p>
 </div>

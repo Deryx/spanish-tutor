@@ -410,7 +410,7 @@ footer {
 
 #dc-container .categories p {
     text-align: justify;
-    font-size: 90%;
+    font-size: 100%;
     background: #3498DB;
     padding: 15px;
     color: #FFF;
@@ -537,36 +537,68 @@ footer {
     margin-bottom: 30px;
 }
 
-#vs-container p:nth-of-type(1) {
-    text-align: justify;
-    font-size: 90%;
+#vs-container .intro {
+    margin: 0 auto;
+    padding: 0;
+    width: 600px;
     background: #3498DB;
-    padding: 15px;
-    margin-bottom: 40px;
     color: #FFF;
     -webkit-box-shadow: 11px 11px 0px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 11px 11px 0px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 11px 11px 0px 0px rgba(50, 50, 50, 0.75);
 }
 
-#vs-container p {
-    padding-top: 20px;
+#vs-container .intro h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#vs-container hr {
+    border: none;
+    border-bottom: 1px solid #FFF;
+    width: 100%;
+}
+
+#vs-container .intro p:nth-of-type(1) {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+#vs-container .intro p {
     text-align: center;
     clear: both;
 }
 
-#vs-container p button {
-    padding: 10px 15px;
-    background: #8b0000;
-    color: #FFF;
-    font-weight: bold;
+#vs-container p.results {
+    padding-top: 30px;
+    text-align: center;
+    clear: both;
+}
+
+#vs-container .buttons {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#vs-container .buttons button {
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 100px;
+    text-transform: uppercase;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    border: none;
     font-family: "Montserrat", sans-serif;
+    font-weight: bold;
     font-size: 90%;
-    text-transform: uppercase;
+    background: #3FC380;
+    color: #FFF;
+    border: none;
 }
 
 #wordrow {
@@ -574,6 +606,10 @@ footer {
     margin: 0;
     padding: 0;
     clear: both;
+}
+
+#wordrow h2 {
+    margin-bottom: 40px;
 }
 
 #wordrow ul {
@@ -622,6 +658,10 @@ footer {
     margin-left: 10px;
 }
 
+#wordrow .card:nth-of-type(7) {
+    margin-left: 10px;
+}
+
 #answerrow {
     clear: both;
     width: 100%;
@@ -644,6 +684,7 @@ footer {
 
 #answerrow .slide {
     text-align: center;
+    margin-left: 6px;
     margin-top: 25px;
     width: 151px;
     -moz-border-radius: 5px;
@@ -672,7 +713,11 @@ footer {
 }
 
 #answerrow li:nth-of-type(6) {
-    margin-left: 10px;
+    margin-left: 12px;
+}
+
+#answerrow li:nth-of-type(7) {
+    margin-left: 12px;
 }
 
 #answerrow .slide h5 {
