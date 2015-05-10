@@ -4,6 +4,10 @@
     <h2>Spanish Verb Conjugator</h2>
     <form>
         <div class="intro" ng-show="showIntroduction">
+            <p>Welcome to the <strong>verb conjugator</strong>!</p>
+            <br />
+            <hr />
+            <br />
             <h3>What verb tense would you like to be tested on?</h3>
             <p>
                 <input type="radio" ng-model="verbTense" value="present" /> Present
@@ -33,6 +37,8 @@
                 <input type="radio" ng-model="timerTime" value="45" /> 45
                 <input type="radio" ng-model="timerTime" value="60" /> 60
             </p>
+            <br />
+            <hr />
             <div class="buttons">
                 <button ng-click="continue()">go</button>
             </div>

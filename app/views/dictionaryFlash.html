@@ -3,16 +3,20 @@
 <div id="dc-container">
     <h2>Spanish Vocabulary Flashcard</h2>
 
-    <div class="categories">
+    <div class="intro" ng-show="showIntroduction">
         <p>Welcome to the <strong>Vocabulary Flashcard</strong>! To use the flashcard, select a category from the dropdown menu below. The selection will create an alphabetical list for the category selected. Click on the black side, which shows the english translation of the spanish word, to flip the card to the spanish translation and image. Click on the white, spanish side to move to black side of the next card.</p>
-        <form>
-            <label>select a category: </label> <select name="wordCategory" ng-model="wordCategory" ng-click="getWords(0)">
-                <option ng-repeat="category in categoryList">{{ category }}</option>
-            </select>
-        </form>
+        <br />
+        <hr />
+        <br />
+        <button ng-click="continue()">go</button>
     </div>
 
-    <div class="dictionary-card">
+    <div class="dictionary-card" ng-show="showCard">
+        <form>
+            <label>select a category: </label> <select name="wordCategory" ng-model="wordCategory" ng-click="getWords(0)">
+            <option ng-repeat="category in categoryList">{{ category }}</option>
+        </select>
+        </form>
         <div class="card" flip-me="flipToggle">
             <div class="face front">
                 <h1>{{ translation }}</h1>
@@ -24,7 +28,7 @@
         </div>
     </div>
 
-    <div class="button">
+    <div class="button" ng-show="showCard">
         <button ng-click="clearCard()">reset card</button>
     </div>
 

@@ -4,6 +4,8 @@
 (function() {
     var DictionaryCardController = function ($scope, $state, dictionaryFactory) {
         $scope.dictionaryList = [];
+        $scope.showIntroduction = true;
+        $scope.showCard = false;
         $scope.index = 1;
 
         dictionaryFactory.getDictionary()
@@ -69,6 +71,11 @@
 
                 function hasNumber(word) {
                     return /\d/.test(word);
+                };
+
+                $scope.continue = function() {
+                    $scope.showIntroduction = false;
+                    $scope.showCard = true;
                 };
 
                 $scope.getCategories();

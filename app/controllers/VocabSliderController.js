@@ -176,7 +176,6 @@
 
         getCards();
 
-
         $scope.continue = function() {
             if ($scope.numberSets != 0) {
                 $scope.showIntroduction = false;

@@ -9,6 +9,10 @@ body {
     background: rgba(236, 240, 241, 0.75);
 }
 
+strong {
+    text-transform: uppercase;
+}
+
 header {
     clear: both;
     margin: 0;
@@ -397,27 +401,76 @@ footer {
     text-align: center;
 }
 
-#dc-container .categories {
-    margin: 0;
+#dc-container .intro {
+    width: 600px;
+    margin: 0 auto;
     margin-bottom: 30px;
-    padding: 0;
     text-align: center;
-}
-
-#dc-container .categories select {
-    font-size: 115%;
-}
-
-#dc-container .categories p {
-    text-align: justify;
-    font-size: 100%;
+    padding: 0;
     background: #3498DB;
-    padding: 15px;
     color: #FFF;
-    margin-bottom: 40px;
     -webkit-box-shadow: 11px 11px 0px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 11px 11px 0px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 11px 11px 0px 0px rgba(50, 50, 50, 0.75);
+}
+
+#dc-container .intro select {
+    font-size: 115%;
+}
+
+#dc-container form {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    width: 100%;
+}
+
+#dc-container .intro p {
+    text-align: justify;
+    font-size: 100%;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#dc-container .intro hr {
+    border: none;
+    border-bottom: 1px #FFF solid;
+    width: 100%;
+}
+
+#dc-container button {
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100px;
+    text-transform: uppercase;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 90%;
+    background: #3FC380;
+    color: #FFF;
+    border: none;
+}
+
+#dc-container .button button {
+    width: 125px;
+    padding: 10px;
+    text-transform: uppercase;
+    background: #8b0000;
+    border: none;
+    color: #FFF;
+    text-transform: uppercase;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 90%;
 }
 
 #dc-container .dictionary-card {
@@ -975,6 +1028,9 @@ footer {
 
 #vc-container .intro p:nth-of-type(1) {
     margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
 }
 
 #vc-container h1 {
@@ -1069,7 +1125,7 @@ footer {
     width: 100%;
     clear: both;
     margin: 0;
-    margin-top: 60px;
+    margin-top: 30px;
     padding: 0;
     text-align: center;
 }
@@ -1181,6 +1237,12 @@ footer {
     -webkit-box-shadow: 11px 11px 0px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 11px 11px 0px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 11px 11px 0px 0px rgba(50, 50, 50, 0.75);
+}
+
+#ws-container .intro p:nth-of-type(1) {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
 }
 
 #ws-container .intro hr {
@@ -1298,11 +1360,17 @@ footer {
     padding-top: 30px;
     padding-bottom: 10px;
     background: #4183D7;
-    width: 500px;
+    width: 600px;
     color: #FFF;
     -webkit-box-shadow: 11px 11px 0px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 11px 11px 0px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 11px 11px 0px 0px rgba(50, 50, 50, 0.75);
+}
+
+#wc-container .intro p:nth-of-type(1) {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
 }
 
 #wc-container .intro hr {
@@ -1372,7 +1440,7 @@ footer {
 }
 
 #wc-container div button {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     padding: 10px 15px;
     background: #8b0000;
     color: #FFF;

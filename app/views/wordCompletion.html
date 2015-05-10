@@ -4,6 +4,10 @@
     <h2>Spanish Word Completion</h2>
     <form>
         <div class="intro" ng-show="showIntroduction">
+            <p>Welcome to <strong>Word Completion</strong>! Place your cursor in the text boxes with the question marks (?) and type the letter of your choice. Once all the letters are in place, click the "ANSWER" button. The number of correct answers and questions answered will update and a new word will appear, up to the number of questions you selected. If you want, you can time yourself on answering each question, if you're cocky! Enjoy!</p>
+            <br />
+            <hr />
+            <br />
             <h3>How many questions would you like?</h3>
             <p>
                 <input type="radio" ng-model="numberQuestions" value="5" /> 5
@@ -23,6 +27,8 @@
                 <input type="radio" ng-model="timerTime" value="45" /> 45
                 <input type="radio" ng-model="timerTime" value="60" /> 60
             </p>
+            <br />
+            <hr />
             <br />
             <p class="buttons">
                 <button ng-click="continue()">go</button>
