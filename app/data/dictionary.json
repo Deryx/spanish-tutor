@@ -660,10 +660,10 @@
       "category" : "animals",
       "words" : [
         {
-          "word" : "Los animales",
+          "word" : "animales",
           "translation" : "animals",
-          "gender" : "",
-          "image" : ""
+          "gender" : "mpl",
+          "image" : "images/animals.png"
         },
         {
           "word" : "perro",
@@ -1815,7 +1815,7 @@
           "image": "images/washer.png"
         },
         {
-          "word": "secadora ",
+          "word": "secadora",
           "translation": "dryer",
           "gender": "f",
           "image": "images/dryer.png"
@@ -2059,6 +2059,197 @@
           "translation": "pool",
           "gender": "f",
           "image": "images/swimming-pool.png"
+        }
+      ]
+    },
+    {
+      "category": "people",
+      "words": [
+        {
+          "word": "hombre",
+          "translation": "man",
+          "gender": "m",
+          "image": "images/man.png"
+        },
+        {
+          "word": "mujer",
+          "translation": "woman",
+          "gender": "f",
+          "image": "images/woman.png"
+        },
+        {
+          "word": "muchacha",
+          "translation": "girl",
+          "gender": "f",
+          "image": "images/girl.png"
+        },
+        {
+          "word": "muchacho",
+          "translation": "boy",
+          "gender": "m",
+          "image": "images/boy.png"
+        },
+        {
+          "word": "señor",
+          "translation": "sir",
+          "gender": "m",
+          "image": "images/man.png"
+        },
+        {
+          "word": "señora",
+          "translation": "madam",
+          "gender": "f",
+          "image": "images/woman.png"
+        },
+        {
+          "word": "señorita",
+          "translation": "miss",
+          "gender": "f",
+          "image": "images/senorita.png"
+        },
+        {
+          "word": "amigo",
+          "translation": "friend, male",
+          "gender": "m",
+          "image": "images/friends-mail.png"
+        },
+        {
+          "word": "amiga",
+          "translation": "friend, female",
+          "gender": "f",
+          "image": "images/friends-female.png"
+        },
+        {
+          "word": "policía",
+          "translation": "police",
+          "gender": "f",
+          "image": "images/policeman.png"
+        },
+        {
+          "word": "maestro",
+          "translation": "teacher",
+          "gender": "m",
+          "image": "images/teacher.png"
+        },
+        {
+          "word": "abogado",
+          "translation": "lawyer",
+          "gender": "m",
+          "image": "images/law.png"
+        },
+        {
+          "word": "jefe",
+          "translation": "boss",
+          "gender": "m",
+          "image": "images/boss.png"
+        },
+        {
+          "word": "profesor",
+          "translation": "professor",
+          "gender": "m",
+          "image": "images/professor.png"
+        },
+        {
+          "word": "estudiante",
+          "translation": "student",
+          "gender": "m",
+          "image": "images/student.png"
+        },
+        {
+          "word": "doctor",
+          "translation": "doctor 1",
+          "gender": "m",
+          "image": "images/doctor.png"
+        },
+        {
+          "word": "médico",
+          "translation": "doctor 2",
+          "gender": "m",
+          "image": "images/doctor.png"
+        },
+        {
+          "word": "rey",
+          "translation": "king",
+          "gender": "m",
+          "image": "images/king.png"
+        },
+        {
+          "word": "reina",
+          "translation": "queen",
+          "gender": "f",
+          "image": "images/queen.png"
+        },
+        {
+          "word": "secretaria",
+          "translation": "secretary",
+          "gender": "f",
+          "image": "images/secretary.png"
+        },
+        {
+          "word": "autor",
+          "translation": "author",
+          "gender": "m",
+          "image": "images/author.png"
+        },
+        {
+          "word": "poeta",
+          "translation": "poet",
+          "gender": "m",
+          "image": "images/poetry.png"
+        },
+        {
+          "word": "soldado",
+          "translation": "soldier",
+          "gender": "m",
+          "image": "images/solider.png"
+        },
+        {
+          "word": "actor",
+          "translation": "actor",
+          "gender": "m",
+          "image": "images/actor.png"
+        },
+        {
+          "word": "pintor",
+          "translation": "painter",
+          "gender": "m",
+          "image": "images/painter.png"
+        },
+        {
+          "word": "carpintero",
+          "translation": "carpenter",
+          "gender": "m",
+          "image": "images/carpenter.png"
+        },
+        {
+          "word": "panadero",
+          "translation": "baker",
+          "gender": "m",
+          "image": "images/baker.png"
+        },
+        {
+          "word": "cajero",
+          "translation": "cashier",
+          "gender": "m",
+          "image": "images/cashier.png"
+        },
+        {
+          "word": "atleta",
+          "translation": "athlete",
+          "gender": "m",
+          "image": "images/athlete.png"
+        },
+        {
+          "word": "cocinero",
+          "translation": "chef",
+          "gender": "m",
+          "image": "images/chef.png"
+        },
+        {
+          "word": "enfermera",
+          "translation": "nurse",
+          "gender": "f",
+          "image": "images/nurse.png"
         }
       ]
     }
