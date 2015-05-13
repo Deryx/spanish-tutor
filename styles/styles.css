@@ -436,7 +436,7 @@ footer {
 
 #dc-container .intro hr {
     border: none;
-    border-bottom: 1px #FFF solid;
+    border-bottom: 1px #FFF dotted;
     width: 100%;
 }
 
@@ -608,7 +608,7 @@ footer {
 
 #vs-container hr {
     border: none;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px dotted #FFF;
     width: 100%;
 }
 
@@ -641,7 +641,7 @@ footer {
     padding: 10px;
     margin: 0 auto;
     margin-bottom: 30px;
-    width: 100px;
+    width: 125px;
     text-transform: uppercase;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -652,6 +652,10 @@ footer {
     background: #3FC380;
     color: #FFF;
     border: none;
+}
+
+#vs-container .buttons button:nth-of-type(2) {
+    background: #8b0000;
 }
 
 #wordrow {
@@ -737,7 +741,7 @@ footer {
 
 #answerrow .slide {
     text-align: center;
-    margin-left: 6px;
+    margin-left: 4px;
     margin-top: 25px;
     width: 151px;
     -moz-border-radius: 5px;
@@ -750,27 +754,27 @@ footer {
 }
 
 #answerrow li:nth-of-type(2) {
-    margin-left: 12px;
+    margin-left: 10px;
 }
 
 #answerrow li:nth-of-type(3) {
-    margin-left: 12px;
+    margin-left: 10px;
 }
 
 #answerrow li:nth-of-type(4) {
-    margin-left: 12px;
+    margin-left: 10px;
 }
 
 #answerrow li:nth-of-type(5) {
-    margin-left: 12px;
+    margin-left: 10px;
 }
 
 #answerrow li:nth-of-type(6) {
-    margin-left: 12px;
+    margin-left: 10px;
 }
 
 #answerrow li:nth-of-type(7) {
-    margin-left: 12px;
+    margin-left: 10px;
 }
 
 #answerrow .slide h5 {
@@ -844,7 +848,7 @@ footer {
 #vq-container hr {
     border: none;
     width: 100%;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px dotted #FFF;
 }
 
 #vq-container .intro h3 {
@@ -1020,12 +1024,6 @@ footer {
     box-shadow: 11px 11px 0px 0px rgba(50, 50, 50, 0.75);
 }
 
-#vc-container .intro hr {
-    border: none;
-    border-bottom: 1px solid #FFF;
-    width: 100%;
-}
-
 #vc-container .intro p:nth-of-type(1) {
     margin-top: 20px;
     margin-left: 25px;
@@ -1033,6 +1031,11 @@ footer {
     text-align: justify;
 }
 
+#vc-container hr {
+    border: none;
+    border-bottom: 1px dotted #FFF;
+    width: 100%;
+}
 #vc-container h1 {
     margin-top: 10%;
     text-align: center;
@@ -1247,7 +1250,7 @@ footer {
 
 #ws-container .intro hr {
     border: none;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px dotted #FFF;
     width: 100%;
 }
 
@@ -1375,7 +1378,7 @@ footer {
 
 #wc-container .intro hr {
     border: none;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px dotted #FFF;
     width: 100%;
 }
 
@@ -1460,7 +1463,7 @@ footer {
     border: none;
 }
 
-#dq-timer, #ws-timer, #wc-timer, #vc-timer {
+#dq-timer, #ws-timer, #wc-timer, #vc-timer, #vs-timer {
      background: #FFF;
      color: #8b0000;
      width: 50px;

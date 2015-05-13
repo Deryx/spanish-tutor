@@ -33,8 +33,9 @@
             <button ng-click="continue()">go</button>
         </p>
     </div>
+
+    <div id="vs-timer" ng-show="showTimer">{{ timerTime }}</div>
     <div id="wordrow" class="animated slideInLeft" ng-if="showCards">
-        <div id="vs-timer" ng-show="showTimer">{{ timerTime }}</div>
         <div class="card">
             <h3>{{ translation1 }}</h3>
             <img src='{{ image1 }}' />
@@ -71,5 +72,8 @@
         </ul>
     </div>
     <p class="results" ng-if="showCards">{{ results }}</p>
-    <p ng-if="showCards"><button ng-click="newCards()">new cards</button></p>
+    <p class="buttons" ng-if="showCards">
+        <button ng-click="newCards()">new cards</button>
+        <button ng-click="reset()">reset</button>
+    </p>
 </div>

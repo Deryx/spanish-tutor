@@ -7,6 +7,9 @@
         $scope.showCards = false;
         $scope.showAnswers = false;
         $scope.numberSets = 0;
+        $scope.showTimer = false;
+        $scope.originalTime = $scope.timerTime;
+        $scope.index = 0;
 
         function getCards() {
             dictionaryFactory.getDictionary()
@@ -147,7 +150,7 @@
                         }
                     });
                 });
-        }
+        };
 
         function countdown() {
             seconds = document.getElementById('vs-timer').innerHTML;
@@ -157,7 +160,7 @@
                 getCards();
                 var vstimer = document.getElementById('vs-timer');
                 vstimer.innerHTML = $scope.originalTime;
-                if ($scope.index < $scope.numberQuestions) {
+                if ($scope.index < $scope.numberSets) {
                     countdown();
                     $scope.index++;
                 }
@@ -165,7 +168,7 @@
             }
 
             seconds--;
-            temp = document.getElementById('ws-timer');
+            temp = document.getElementById('vs-timer');
             temp.innerHTML = seconds;
             timeoutMyOswego = setTimeout(countdown, 1000);
         }
@@ -174,30 +177,35 @@
             return /\d/.test(word);
         }
 
-        getCards();
-
         $scope.continue = function() {
             if ($scope.numberSets != 0) {
                 $scope.showIntroduction = false;
                 $scope.showCards = true;
+
+                getCards();
 
                 if ($scope.timerTime != undefined && $scope.timerTime > 0) {
                     $scope.showTimer = true;
                     $scope.originalTime = $scope.timerTime;
                     countdown();
                 }
-                getCards();
             }
         };
 
         $scope.newCards = function() {
             var vstimer = document.getElementById('vs-timer');
             vstimer.innerHTML = $scope.originalTime;
-            if ($scope.index < $scope.numberQuestions) {
+            if ($scope.index < $scope.numberSets) {
+                $scope.showIntroduction = false;
+                $scope.showCards = true;
                 getCards();
 
                 $scope.index++;
             }
+        }
+
+        $scope.reset = function() {
+            $state.go($state.$current, null, { reload: true});
         }
     };
 
