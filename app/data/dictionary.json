@@ -663,7 +663,7 @@
           "word" : "animales",
           "translation" : "animals",
           "gender" : "mpl",
-          "image" : ""
+          "image" : "images/animals.png"
         },
         {
           "word" : "perro",
@@ -2093,35 +2093,35 @@
           "word": "señor",
           "translation": "sir",
           "gender": "m",
-          "image": ""
+          "image": "images/man.png"
         },
         {
           "word": "señora",
           "translation": "madam",
           "gender": "f",
-          "image": ""
+          "image": "images/woman.png"
         },
         {
           "word": "señorita",
           "translation": "miss",
           "gender": "f",
-          "image": ""
+          "image": "images/senorita.png"
         },
         {
           "word": "amigo",
           "translation": "friend, male",
           "gender": "m",
-          "image": ""
+          "image": "images/friends-male.png"
         },
         {
           "word": "amiga",
           "translation": "friend, female",
           "gender": "f",
-          "image": ""
+          "image": "images/friends-female.png"
         },
         {
           "word": "policía",
-          "translation": "police officer",
+          "translation": "police",
           "gender": "f",
           "image": "images/policeman.png"
         },
@@ -2135,25 +2135,25 @@
           "word": "abogado",
           "translation": "lawyer",
           "gender": "m",
-          "image": ""
+          "image": "images/law.png"
         },
         {
           "word": "jefe",
           "translation": "boss",
           "gender": "m",
-          "image": ""
+          "image": "images/boss.png"
         },
         {
           "word": "profesor",
           "translation": "professor",
           "gender": "m",
-          "image": ""
+          "image": "images/professor.png"
         },
         {
           "word": "estudiante",
           "translation": "student",
           "gender": "m",
-          "image": ""
+          "image": "images/student.png"
         },
         {
           "word": "doctor",
@@ -2183,73 +2183,73 @@
           "word": "secretaria",
           "translation": "secretary",
           "gender": "f",
-          "image": ""
+          "image": "images/secretary.png"
         },
         {
           "word": "autor",
           "translation": "author",
           "gender": "m",
-          "image": ""
+          "image": "images/author.png"
         },
         {
           "word": "poeta",
           "translation": "poet",
           "gender": "m",
-          "image": ""
+          "image": "images/poetry.png"
         },
         {
           "word": "soldado",
           "translation": "soldier",
           "gender": "m",
-          "image": "images/solider.png"
+          "image": "images/soldier.png"
         },
         {
           "word": "actor",
           "translation": "actor",
           "gender": "m",
-          "image": ""
+          "image": "images/actor.png"
         },
         {
           "word": "pintor",
           "translation": "painter",
           "gender": "m",
-          "image": ""
+          "image": "images/painter.png"
         },
         {
           "word": "carpintero",
           "translation": "carpenter",
           "gender": "m",
-          "image": ""
+          "image": "images/carpenter.png"
         },
         {
           "word": "panadero",
           "translation": "baker",
           "gender": "m",
-          "image": ""
+          "image": "images/baker.png"
         },
         {
           "word": "cajero",
           "translation": "cashier",
           "gender": "m",
-          "image": ""
+          "image": "images/cashier.png"
         },
         {
           "word": "atleta",
           "translation": "athlete",
           "gender": "m",
-          "image": ""
+          "image": "images/athlete.png"
         },
         {
           "word": "cocinero",
-          "translation": "cook, chef",
+          "translation": "chef",
           "gender": "m",
-          "image": ""
+          "image": "images/chef.png"
         },
         {
           "word": "enfermera",
           "translation": "nurse",
           "gender": "f",
-          "image": ""
+          "image": "images/nurse.png"
         }
       ]
     }
