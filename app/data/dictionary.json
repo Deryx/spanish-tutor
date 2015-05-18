@@ -2059,6 +2059,12 @@
           "translation": "pool",
           "gender": "f",
           "image": "images/swimming-pool.png"
+        },
+        {
+          "word": "cuna",
+          "translation": "crib",
+          "gender": "f",
+          "image": "images/crib.png"
         }
       ]
     },
@@ -2250,6 +2256,412 @@
           "translation": "nurse",
           "gender": "f",
           "image": "images/nurse.png"
+        }
+      ]
+    },
+    {
+      "category": "adjectives",
+      "words": [
+        {
+          "word": "viejo/a",
+          "translation": "old",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "joven",
+          "translation": "young",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "bonito/a",
+          "translation": "pretty 1",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "bueno/a",
+          "translation": "good",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "mismo/a",
+          "translation": "same",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "mayor",
+          "translation": "bigger, older",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "nuevo/a",
+          "translation": "new",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "feo/a",
+          "translation": "ugly",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "mejor",
+          "translation": "better",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "posible",
+          "translation": "possible",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "importante",
+          "translation": "important",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "positivo/a",
+          "translation": "positive",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "solo/a",
+          "translation": "alone",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "fuerte",
+          "translation": "strong",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "suficiente",
+          "translation": "sufficient",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "pobre",
+          "translation": "poor",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "rico/a",
+          "translation": "rich",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "natural",
+          "translation": "natural",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "reciente",
+          "translation": "recent",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "histórico/a",
+          "translation": "historical",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "inteligente",
+          "translation": "intelligent",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "tradicional",
+          "translation": "traditional",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "siguiente",
+          "translation": "following",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "simple",
+          "translation": "simple",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "profesional",
+          "translation": "professional",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "distinto/a",
+          "translation": "distinct",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "seguro/a",
+          "translation": "secure",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "capaz",
+          "translation": "capable",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "principale",
+          "translation": "principal",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "diferente",
+          "translation": "different",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "necesario/a",
+          "translation": "necessary",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "público/a",
+          "translation": "public",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "populares",
+          "translation": "popular",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "duro/a",
+          "translation": "hard",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "menor",
+          "translation": "minor",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "primero/a",
+          "translation": "first",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "claro/a",
+          "translation": "clear",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "malo/a",
+          "translation": "bad",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "peor",
+          "translation": "worse",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "justo/a",
+          "translation": "fair",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "plano/a",
+          "translation": "flat",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "barato/a",
+          "translation": "cheap",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "cierto/a",
+          "translation": "true",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "caro/a",
+          "translation": "expensive",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "llano/a",
+          "translation": "plain",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "grande",
+          "translation": "large",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "pequeño/a",
+          "translation": "pretty 1",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "largo/a",
+          "translation": "long",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "alto/a",
+          "translation": "tall",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "bonito/a",
+          "translation": "pretty 1",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "corto/a",
+          "translation": "short",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "bajo/a",
+          "translation": "low",
+          "gender": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "category": "prepositions",
+      "words": [
+        {
+          "word": "sin",
+          "translation": "without",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "con",
+          "translation": "with",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "a",
+          "translation": "to",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "contra",
+          "translation": "against",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "entre",
+          "translation": "between",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "para",
+          "translation": "for",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "por",
+          "translation": "by",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "en",
+          "translation": "in",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "de",
+          "translation": "of",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "del",
+          "translation": "of the",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "sobre",
+          "translation": "above",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "abajo",
+          "translation": "under",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "cerca",
+          "translation": "near",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "acerca",
+          "translation": "about",
+          "gender": "",
+          "image": ""
         }
       ]
     }

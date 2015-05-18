@@ -7,6 +7,7 @@
         $scope.showIntroduction = true;
         $scope.showCard = false;
         $scope.index = 1;
+        $scope.hasImage = true;
 
         dictionaryFactory.getDictionary()
             .success(function (data) {
@@ -47,6 +48,11 @@
 
                     expression = "$..[?(@.translation=='" + $scope.dictionaryList.words[index] + "')]..image";
                     $scope.image = $scope.dictionaryList.words[index].image;
+                    if ($scope.image == "") {
+                        $scope.hasImage = false;
+                    } else {
+                        $scope.hasImage = true;
+                    }
 
                     if (hasNumber($scope.dictionaryList[$scope.index])) {
                         $scope.dictionaryList[index] = $scope.dictionaryList[0].substr(0, word.length - 2);

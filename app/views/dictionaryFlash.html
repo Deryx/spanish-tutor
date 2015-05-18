@@ -22,8 +22,13 @@
                 <h1>{{ translation }}</h1>
             </div>
             <div class="face back" ng-click="newCard()">
-                <h1>{{ word }}</h1>
-                <img src='{{ image }}' />
+                <div class="no-image" ng-if="!hasImage">
+                    <h1>{{ word }}</h1>
+                </div>
+                <div class="has-image" ng-if="hasImage">
+                    <h1>{{ word }}</h1>
+                    <img src='{{ image }}' />
+                </div>
             </div>
         </div>
     </div>
