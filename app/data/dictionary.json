@@ -2573,6 +2573,36 @@
           "translation": "low",
           "gender": "",
           "image": ""
+        },
+        {
+          "word": "dificil",
+          "translation": "difficult",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "fácil",
+          "translation": "easy",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "gordo/a",
+          "translation": "fat",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "flaco/a",
+          "translation": "skinny",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "cercano/a",
+          "translation": "near",
+          "gender": "",
+          "image": ""
         }
       ]
     },
@@ -2647,7 +2677,7 @@
         },
         {
           "word": "abajo",
-          "translation": "under",
+          "translation": "down",
           "gender": "",
           "image": ""
         },
@@ -2660,6 +2690,18 @@
         {
           "word": "acerca",
           "translation": "about",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "debajo",
+          "translation": "under",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "encima de",
+          "translation": "over",
           "gender": "",
           "image": ""
         }
