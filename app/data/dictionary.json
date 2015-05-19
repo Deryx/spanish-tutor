@@ -2603,6 +2603,90 @@
           "translation": "near",
           "gender": "",
           "image": ""
+        },
+        {
+          "word": "débil",
+          "translation": "weak",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "limpio/a",
+          "translation": "clean",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "sucio/a",
+          "translation": "dirty",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "frío/a",
+          "translation": "cold",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "caliente",
+          "translation": "hot",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "picante",
+          "translation": "spicy",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "soso/a",
+          "translation": "bland",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "ciego/a",
+          "translation": "blind",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "enfermo/a",
+          "translation": "ill",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "sano/a",
+          "translation": "healthy",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "aburrido/a",
+          "translation": "boring",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "feliz",
+          "translation": "happy",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "triste",
+          "translation": "sad",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "deprimido/a",
+          "translation": "depressed",
+          "gender": "",
+          "image": ""
         }
       ]
     },
@@ -2702,6 +2786,71 @@
         {
           "word": "encima de",
           "translation": "over",
+          "gender": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "category": "conjunctions",
+      "words": [
+        {
+          "word": "y",
+          "translation": "and",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "o",
+          "translation": "or",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "si",
+          "translation": "if",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "ni",
+          "translation": "nor",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "pero",
+          "translation": "but",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "when",
+          "translation": "and",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "cuando",
+          "translation": "when",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "mientras",
+          "translation": "while",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "porque",
+          "translation": "because",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "que",
+          "translation": "that",
           "gender": "",
           "image": ""
         }
