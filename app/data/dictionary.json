@@ -1622,6 +1622,12 @@
           "translation": "corn 2",
           "gender": "m",
           "image": "images/corn.png"
+        },
+        {
+          "word": "aceite",
+          "translation": "oil",
+          "gender": "m",
+          "image": ""
         }
       ]
     },
