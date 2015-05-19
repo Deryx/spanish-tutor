@@ -653,6 +653,30 @@
           "translation": "brain",
           "gender": "m",
           "image": "images/brain.png"
+        },
+        {
+          "word": "puño",
+          "translation": "fist",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "pulgar",
+          "translation": "thumb",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "frente",
+          "translation": "forehead",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "ceja",
+          "translation": "eyebrow",
+          "gender": "m",
+          "image": ""
         }
       ]
     },
@@ -1053,18 +1077,6 @@
           "translation": "week",
           "gender": "f",
           "image": "images/week.png"
-        },
-        {
-          "word": "lluvia",
-          "translation": "rain",
-          "gender": "f",
-          "image": "images/rain.png"
-        },
-        {
-          "word": "nieve",
-          "translation": "snow",
-          "gender": "f",
-          "image": "images/snow.png"
         }
       ]
     },
@@ -2852,6 +2864,197 @@
           "word": "que",
           "translation": "that",
           "gender": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "category": "nature",
+      "words": [
+        {
+          "word": "naturaleza",
+          "translation": "nature",
+          "gender": "",
+          "image": ""
+        },
+        {
+          "word": "lluvia",
+          "translation": "rain",
+          "gender": "f",
+          "image": "images/rain.png"
+        },
+        {
+          "word": "nieve",
+          "translation": "snow",
+          "gender": "f",
+          "image": "images/snow.png"
+        },
+        {
+          "word": "sol",
+          "translation": "sun",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "árbol",
+          "translation": "tree",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "montaña",
+          "translation": "mountain",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "colina",
+          "translation": "hill",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "césped",
+          "translation": "lawn",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "flor",
+          "translation": "flower",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "playa",
+          "translation": "beach",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "oro",
+          "translation": "gold",
+          "gender": "m",
+          "image": "images/snow.png"
+        },
+        {
+          "word": "plata",
+          "translation": "silver",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "parque",
+          "translation": "park",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "madera",
+          "translation": "woods",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "nube",
+          "translation": "cloud",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "niebla",
+          "translation": "fog",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "hoja",
+          "translation": "leaf",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "roca",
+          "translation": "rock 1",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "piedra",
+          "translation": "rock 2",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "hierba",
+          "translation": "grass 1",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "pasto",
+          "translation": "pasture",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "río",
+          "translation": "river",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "océano",
+          "translation": "ocean",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "viento",
+          "translation": "wind",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "campamento",
+          "translation": "camp",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "estanque",
+          "translation": "pond",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "charco",
+          "translation": "puddle",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "arbusto",
+          "translation": "bush",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "rama",
+          "translation": "branch",
+          "gender": "f",
+          "image": ""
+        },
+        {
+          "word": "lago",
+          "translation": "lake",
+          "gender": "m",
+          "image": ""
+        },
+        {
+          "word": "isla",
+          "translation": "isla",
+          "gender": "f",
           "image": ""
         }
       ]
