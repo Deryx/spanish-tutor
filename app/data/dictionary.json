@@ -2923,49 +2923,49 @@
           "word": "césped",
           "translation": "lawn",
           "gender": "m",
-          "image": ""
+          "image": "images/lawn.png"
         },
         {
           "word": "flor",
           "translation": "flower",
           "gender": "f",
-          "image": ""
+          "image": "images/flower.png"
         },
         {
           "word": "playa",
           "translation": "beach",
           "gender": "f",
-          "image": ""
+          "image": "images/beach.png"
         },
         {
           "word": "oro",
           "translation": "gold",
           "gender": "m",
-          "image": "images/snow.png"
+          "image": "images/gold.png"
         },
         {
           "word": "plata",
           "translation": "silver",
           "gender": "f",
-          "image": ""
+          "image": "images/silver.png"
         },
         {
           "word": "parque",
           "translation": "park",
           "gender": "m",
-          "image": ""
+          "image": "images/park.png"
         },
         {
           "word": "madera",
           "translation": "woods",
           "gender": "f",
-          "image": ""
+          "image": "images/woods.png"
         },
         {
           "word": "nube",
           "translation": "cloud",
           "gender": "f",
-          "image": ""
+          "image": "images/cloud.png"
         },
         {
           "word": "niebla",
@@ -2977,7 +2977,7 @@
           "word": "hoja",
           "translation": "leaf",
           "gender": "f",
-          "image": ""
+          "image": "images/leaf.png"
         },
         {
           "word": "roca",
@@ -3007,37 +3007,37 @@
           "word": "río",
           "translation": "river",
           "gender": "m",
-          "image": ""
+          "image": "images/river.png"
         },
         {
           "word": "océano",
           "translation": "ocean",
           "gender": "m",
-          "image": ""
+          "image": "images/ocean.png"
         },
         {
           "word": "viento",
           "translation": "wind",
           "gender": "m",
-          "image": ""
+          "image": "images/wind.png"
         },
         {
           "word": "campamento",
           "translation": "camp",
           "gender": "m",
-          "image": ""
+          "image": "images/camp.png"
         },
         {
           "word": "estanque",
           "translation": "pond",
           "gender": "m",
-          "image": ""
+          "image": "images/pond.png"
         },
         {
           "word": "charco",
           "translation": "puddle",
           "gender": "m",
-          "image": ""
+          "image": "images/puddle.png"
         },
         {
           "word": "arbusto",
@@ -3059,9 +3059,21 @@
         },
         {
           "word": "isla",
-          "translation": "isla",
+          "translation": "island",
           "gender": "f",
-          "image": ""
+          "image": "images/island.png"
+        },
+        {
+          "word": "relámpago",
+          "translation": "lightning",
+          "gender": "m",
+          "image": "images/lightning.png"
+        },
+        {
+          "word": "bosque",
+          "translation": "forest",
+          "gender": "m",
+          "image": "images/forest.png"
         }
       ]
     }
