@@ -2899,25 +2899,25 @@
           "word": "sol",
           "translation": "sun",
           "gender": "m",
-          "image": ""
+          "image": "images/sun.png"
         },
         {
           "word": "árbol",
           "translation": "tree",
           "gender": "m",
-          "image": ""
+          "image": "images/tree.png"
         },
         {
           "word": "montaña",
           "translation": "mountain",
           "gender": "f",
-          "image": ""
+          "image": "images/mountain.png"
         },
         {
           "word": "colina",
           "translation": "hill",
           "gender": "f",
-          "image": ""
+          "image": "images/hill.png"
         },
         {
           "word": "césped",
@@ -2971,7 +2971,7 @@
           "word": "niebla",
           "translation": "fog",
           "gender": "f",
-          "image": ""
+          "image": "images/fog.png"
         },
         {
           "word": "hoja",
@@ -2983,25 +2983,25 @@
           "word": "roca",
           "translation": "rock 1",
           "gender": "f",
-          "image": ""
+          "image": "images/rock.png"
         },
         {
           "word": "piedra",
           "translation": "rock 2",
           "gender": "f",
-          "image": ""
+          "image": "images/rock.png"
         },
         {
           "word": "hierba",
           "translation": "grass 1",
           "gender": "f",
-          "image": ""
+          "image": "images/grass.png"
         },
         {
           "word": "pasto",
           "translation": "pasture",
           "gender": "m",
-          "image": ""
+          "image": "images/pasture.png"
         },
         {
           "word": "río",
@@ -3043,19 +3043,19 @@
           "word": "arbusto",
           "translation": "bush",
           "gender": "m",
-          "image": ""
+          "image": "images/bush.png"
         },
         {
           "word": "rama",
           "translation": "branch",
           "gender": "f",
-          "image": ""
+          "image": "images/tree-branch.png"
         },
         {
           "word": "lago",
           "translation": "lake",
           "gender": "m",
-          "image": ""
+          "image": "images/lake.png"
         },
         {
           "word": "isla",
