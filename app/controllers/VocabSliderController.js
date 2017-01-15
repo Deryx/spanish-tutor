@@ -2,7 +2,7 @@
  * Created by dscott on 3/5/2015.
  */
 (function() {
-    var VocabSliderController = function ($scope, $state, dictionaryFactory) {
+    var VocabSliderController = function ($scope, $state, dictionaryFactory, timerFactory) {
         $scope.showIntroduction = true;
         $scope.showCards = false;
         $scope.showAnswers = false;
@@ -152,27 +152,6 @@
                 });
         };
 
-        function countdown() {
-            seconds = document.getElementById('vs-timer').innerHTML;
-            seconds = parseInt(seconds, 10);
-
-            if (seconds == 0) {
-                getCards();
-                var vstimer = document.getElementById('vs-timer');
-                vstimer.innerHTML = $scope.originalTime;
-                if ($scope.index < $scope.numberSets) {
-                    countdown();
-                    $scope.index++;
-                }
-                return;
-            }
-
-            seconds--;
-            temp = document.getElementById('vs-timer');
-            temp.innerHTML = seconds;
-            timeoutMyOswego = setTimeout(countdown, 1000);
-        }
-
         function hasNumber(word) {
             return /\d/.test(word);
         }
@@ -187,7 +166,7 @@
                 if ($scope.timerTime != undefined && $scope.timerTime > 0) {
                     $scope.showTimer = true;
                     $scope.originalTime = $scope.timerTime;
-                    countdown();
+                    timerFactory.getTimer( 'vs-timer', $scope.originalTime);
                 }
             }
         };
@@ -209,7 +188,7 @@
         }
     };
 
-    VocabSliderController.$inject = ['$scope', '$state', 'dictionaryFactory'];
+    VocabSliderController.$inject = ['$scope', '$state', 'dictionaryFactory', 'timerFactory'];
 
     angular.module('spanishApp')
         .controller('VocabSliderController', VocabSliderController);
