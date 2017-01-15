@@ -47,24 +47,6 @@
                 });
         }
 
-        function countdown() {
-            seconds = document.getElementById('vc-timer').innerHTML;
-            seconds = parseInt(seconds, 10);
-
-            if (seconds == 0) {
-                nextQuestion();
-                var vctimer = document.getElementById('vc-timer');
-                vctimer.innerHTML = $scope.originalTime;
-                countdown();
-                return;
-            }
-
-            seconds--;
-            temp = document.getElementById('vc-timer');
-            temp.innerHTML = seconds;
-            timeoutMyOswego = setTimeout(countdown, 1000);
-        }
-
         function nextQuestion() {
             if ($scope.index < $scope.numberQuestions) {
                 getVerb();
@@ -101,7 +83,7 @@
             if ($scope.timerTime != undefined && $scope.timerTime > 0) {
                 $scope.showTimer = true;
                 $scope.originalTime = $scope.timerTime;
-                countdown();
+                timerFactory.getTimer( 'vc-timer', $scope.originalTime);
             }
             getVerb();
         };
