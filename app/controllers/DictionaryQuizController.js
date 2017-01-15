@@ -2,7 +2,7 @@
  * Created by dscott on 3/10/2015.
  */
 (function() {
-    var DictionaryQuizController = function ($scope, $state, dictionaryFactory) {
+    var DictionaryQuizController = function ($scope, $state, dictionaryFactory, timerFactory) {
 
         $scope.numberQuestions = 0;
         $scope.numberCorrect = 0;
@@ -86,27 +86,6 @@
                 })
         };
 
-        function countdown() {
-            seconds = document.getElementById('dq-timer').innerHTML;
-            seconds = parseInt(seconds, 10);
-
-            if (seconds == 0) {
-                getQuestion();
-                var dqtimer = document.getElementById('dq-timer');
-                dqtimer.innerHTML = $scope.originalTime;
-                if ($scope.index < $scope.numberQuestions) {
-                    countdown();
-                    $scope.index++;
-                }
-                return;
-            }
-
-            seconds--;
-            temp = document.getElementById('dq-timer');
-            temp.innerHTML = seconds;
-            timeoutMyOswego = setTimeout(countdown, 1000);
-        }
-
         $scope.continue = function() {
             if ($scope.numberQuestions != 0) {
                 $scope.showIntroduction = false;
@@ -115,14 +94,14 @@
                 if ($scope.timerTime != undefined && $scope.timerTime > 0) {
                     $scope.showTimer = true;
                     $scope.originalTime = $scope.timerTime;
-                    countdown();
+                    timerFactory.getTimer( 'dq-timer', $scope.originalTime);
                 }
                 getQuestion();
             }
         };
 
         $scope.submit = function() {
-            var dqtimer = document.getElementById('dq-timer');
+            dqtimer = document.getElementById('dq-timer');
             dqtimer.innerHTML = $scope.originalTime;
             if ($scope.index < $scope.numberQuestions) {
                 $scope.newCard = false;
@@ -143,7 +122,7 @@
         }
     }
 
-    DictionaryQuizController.$inject = ['$scope', '$state', 'dictionaryFactory'];
+    DictionaryQuizController.$inject = ['$scope', '$state', 'dictionaryFactory', 'timerFactory'];
 
     angular.module('spanishApp')
         .controller('DictionaryQuizController', DictionaryQuizController);
