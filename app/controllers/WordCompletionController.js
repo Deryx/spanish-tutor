@@ -2,7 +2,7 @@
  * Created by dscott on 3/18/2015.
  */
 (function() {
-    var WordCompletionController = function ($scope, $state, dictionaryFactory) {
+    var WordCompletionController = function ($scope, $state, dictionaryFactory, timerFactory) {
 
         $scope.numberQuestions = 0;
         $scope.wordLength = 0;
@@ -77,27 +77,6 @@
             return /\d/.test(word);
         }
 
-        function countdown() {
-            seconds = document.getElementById('wc-timer').innerHTML;
-            seconds = parseInt(seconds, 10);
-
-            if (seconds == 0) {
-                getWord();
-                var wctimer = document.getElementById('wc-timer');
-                wctimer.innerHTML = $scope.originalTime;
-                if ($scope.index < $scope.numberQuestions) {
-                    countdown();
-                    $scope.index++;
-                }
-                return;
-            }
-
-            seconds--;
-            temp = document.getElementById('wc-timer');
-            temp.innerHTML = seconds;
-            timeoutMyOswego = setTimeout(countdown, 1000);
-        }
-
         $scope.continue = function() {
             if ($scope.numberQuestions != 0) {
                 $scope.showIntroduction = false;
@@ -106,7 +85,7 @@
                 if ($scope.timerTime != undefined && $scope.timerTime > 0) {
                     $scope.showTimer = true;
                     $scope.originalTime = $scope.timerTime;
-                    countdown();
+                    timerFactory.getTimer( 'wc-timer', $scope.originalTime);
                 }
                 getWord();
             }
@@ -123,7 +102,7 @@
         }
     }
 
-    WordCompletionController.$inject = ['$scope', '$state', 'dictionaryFactory'];
+    WordCompletionController.$inject = ['$scope', '$state', 'dictionaryFactory', 'timerFactory'];
 
     angular.module('spanishApp')
         .controller('WordCompletionController', WordCompletionController);
