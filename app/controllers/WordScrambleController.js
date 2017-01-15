@@ -2,7 +2,7 @@
  * Created by dscott on 3/18/2015.
  */
 (function() {
-    var WordScrambleController = function ($scope, $state, dictionaryFactory) {
+    var WordScrambleController = function ($scope, $state, dictionaryFactory, timerFactory) {
 
         $scope.numberQuestions = 0;
         $scope.wordLength = 0;
@@ -117,27 +117,6 @@
             }
         };
 
-        function countdown() {
-            seconds = document.getElementById('ws-timer').innerHTML;
-            seconds = parseInt(seconds, 10);
-
-            if (seconds == 0) {
-                getWord();
-                var wstimer = document.getElementById('ws-timer');
-                wstimer.innerHTML = $scope.originalTime;
-                if ($scope.index < $scope.numberQuestions) {
-                    countdown();
-                    $scope.index++;
-                }
-                return;
-            }
-
-            seconds--;
-            temp = document.getElementById('ws-timer');
-            temp.innerHTML = seconds;
-            timeoutMyOswego = setTimeout(countdown, 1000);
-        }
-
         function hasNumber(word) {
             return /\d/.test(word);
         }
@@ -150,7 +129,7 @@
                 if ($scope.timerTime != undefined && $scope.timerTime > 0) {
                     $scope.showTimer = true;
                     $scope.originalTime = $scope.timerTime;
-                    countdown();
+                    timerFactory.getTimer( 'ws-timer', $scope.originalTime);
                 }
                 getWord();
             }
@@ -167,7 +146,7 @@
         }
     };
 
-    WordScrambleController.$inject = ['$scope', '$state', 'dictionaryFactory'];
+    WordScrambleController.$inject = ['$scope', '$state', 'dictionaryFactory', 'timerFactory'];
 
     angular.module('spanishApp')
         .controller('WordScrambleController', WordScrambleController);
